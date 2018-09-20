@@ -45,6 +45,7 @@ permalink: /people/
 
 <h3>Alumni</h3>
 <dl style="font-size:0.7rem;">
+<li>Ming Tai Ha</li>
 <li>Ole Weidner (LEGO, Denmark)</li>
 <li>Franklin Bettencourt</li>
 <li>Alessio Angius</li>
