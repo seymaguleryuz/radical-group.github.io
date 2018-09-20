@@ -5,6 +5,7 @@ This is the repository for our [RADICAL page](http://radical.rutgers.edu/). We
 use Jekyll to run our Github page. We welcome other people to contribute to our 
 site not just lab members. Feel free to fork and create pull-requests!
 
+This site is based on a clone of [KordingLab.github.io](https://github.com/KordingLab/KordingLab.github.io)
 
 ## Run the page locally
 
@@ -70,7 +71,7 @@ In order to include a Github link do at the end of the file:
 <a href="https://github.com/project/repo"><i class="fa fa-github"></i> repo name</a><br>
 ```
 
-In order to add a project to the webpage, create a branch named `project/<pub-filename>` 
+In order to add a project to the webpage, create a branch named `project/<proj-filename>` 
 and create a pull request towards master under the `radical-cybertools` repo. As 
 soon as the request is merged GitHub will render the page.
 
