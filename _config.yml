@@ -1,0 +1,73 @@
+# Basic
+name:               "RADICAL lab"
+title:              "Research in Advanced Distributed Cyberinfrastructure and Applications Laboratory"
+description:        "this is a page for RADICAL"
+
+
+# URL
+url:                http://radical-group.github.io
+baseurl:
+#baseurl:            "" #For Root Domain
+permalink:          /:year/:month/:day/:title.html
+
+# Markdown
+markdown:           kramdown
+
+# Highlighter
+highlighter:        rouge
+
+# Navigation
+nav:
+  - name:           "home"
+    href:           "/"
+  - name:           "people"
+    href:           "/people"
+  - name:           "publications"
+    href:           "/publications"
+  - name:           "projects"
+    href:           "/projects"
+  - name:           "blog"
+    href:           "/blog"
+
+# Sass
+sass:
+  style:            :compressed
+
+# Scopes
+defaults:
+  -
+    scope:
+      path:         ""
+      type:         "pages"
+    values:
+      layout:       "page"
+  -
+    scope:
+      path:         ""
+      type:         "projects"
+    values:
+      layout:       "projects"
+  -
+    scope:
+      path:         ""
+      type:         "people"
+    values:
+      layout:       "profile"
+  -
+    scope:
+      path:         ""
+      type:         "publications"
+    values:
+      layout:       "projects"
+
+
+collections:
+  people:
+    output: true
+    permalink: /:collection/:title/index.html
+  projects:
+    output: true
+    permalink: /:collection/:title/index.html
+  publications:
+    output: true
+    permalink: /:collection/:title/index.html
