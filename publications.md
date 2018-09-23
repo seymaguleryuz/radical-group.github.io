@@ -58,8 +58,8 @@ permalink: /publications/
 {% if pub.type contains item and date contains year %}
 <div class="list-item-pub">
 <p class="list-post-title" align="left">
-<a class="name" href="{{ site.baseurl }}{{ pub.url }}"> <dl style="font-size:0.7rem;"><li> 
-{{ pub.title }}<br>{{ pub.author }}<br>{{ pub.venue }}</li></dl></a>
+<dl style="font-size:0.7rem;"><li><a class="name" href="{{ site.baseurl }}{{ pub.url }}">
+{{ pub.title }}<br>{{ pub.author }}<br>{{ pub.venue }}</a><br><a href="{{ pub.paperurl }}">[Paper URL]</a></li></dl>
 </p>
 </div>
 {% endif %}
@@ -72,8 +72,8 @@ permalink: /publications/
 {% if pub.type contains item %}
 <div class="list-item-pub">
 <p class="list-post-title" align="left">
-<a class="name" href="{{ site.baseurl }}{{ pub.url }}"> <dl style="font-size:0.7rem;"><li> 
-{{ pub.title }}<br>{{ pub.author }}<br>{{ pub.venue }}</li></dl></a><a href="{{ pub.paperurl }}">[Paper URL]</a>
+<dl style="font-size:0.7rem;"><li><a class="name" href="{{ site.baseurl }}{{ pub.url }}">
+{{ pub.title }}<br>{{ pub.author }}<br>{{ pub.venue }}</a><br><a href="{{ pub.paperurl }}">[Paper URL]</a></li></dl>
 </p>
 </div>
 {% endif %}

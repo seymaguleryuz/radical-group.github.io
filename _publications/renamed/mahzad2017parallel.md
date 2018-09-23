@@ -1,11 +1,12 @@
 ---
 title: "Parallel Analysis in MDAnalysis using the Dask Parallel Computing Library"
 collection: publications
-permalink: /publications/mahzad2017scipy
+permalink: /publications/mahzad2017parallel
 type: pub
 date: 2017-12-25
 author: "Mahzad Khoshlessan, Ioannis Paraskevakos, Shantenu Jha and Oliver Beckstein"
 venue: "Proceedings of the 15th Python in Science Conference. (SCIPY 2017)"
+paperurl: http://conference.scipy.org/proceedings/scipy2017/pdfs/mahzad_khoslessan.pdf
 ---
 
 ## Abstract

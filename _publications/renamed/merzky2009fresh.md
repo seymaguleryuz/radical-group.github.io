@@ -1,7 +1,7 @@
 ---
-title: "{A Fresh Perspective on Developing and Executing DAG-Based Distributed Applications: A Case-Study of SAGA-Based Montage}"
+title: "A Fresh Perspective on Developing and Executing DAG-Based Distributed Applications: A Case-Study of SAGA-Based Montage"
 collection: publications
-permalink: /publications/merzky-fresh
+permalink: /publications/merzky2009fresh
 type: pub
 date: 2009-12-25
 author: "Andre Merzky, Katerina Stamou, Shantenu Jha and Daniel S. Katz"
