@@ -6,7 +6,7 @@ type: pub
 date: 2018-05-25
 author: "Balasubramanian, Vivek, Matteo Turilli, Weiming Hu, Matthieu Lefebvre, Wenjie Lei, Guido Cervone, Jeroen Tromp and Shantenu Jha"
 venue: "32nd IEEE International Parallel and Distributed Processing Symposium"
-paperurl: 'https://arxiv.org/pdf/1710.08491.pdf'
+paperurl: https://arxiv.org/pdf/1710.08491.pdf
 ---
 
 ## Abstract:
@@ -27,6 +27,5 @@ tolerance. We discuss novel computational capabilities that EnTK enables and the
 scientific advantages arising thereof. We propose EnTK as an important addition
 to the suite of tools in support of production scientific computing.
 
-venue: '32nd IEEE International Parallel and Distributed Processing Symposium,
-2018'
-paperurl: 'https://arxiv.org/pdf/1710.08491.pdf'
+**Venue**: 32nd IEEE International Parallel and Distributed Processing Symposium,2018,
+[Paper URL]('https://arxiv.org/pdf/1710.08491.pdf)
