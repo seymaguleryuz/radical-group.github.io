@@ -56,15 +56,12 @@ permalink: /publications/
 {% for pub in pub_sorted reversed %}
 {% assign date = pub.date | date_to_long_string %}
 {% if pub.type contains item and date contains year %}
-<div class="list-item-pub">
-<p class="list-post-title" align="left">
-<dl style="font-size:0.7rem;"><li><a class="name" href="{{ site.baseurl }}{{ pub.url }}">
+<div class="list-item-pub"><p class="list-post-title" align="left"><dl style="font-size:0.7rem;"><li><a class="name" href="{{ site.baseurl }}{{ pub.url }}">
 {{ pub.title }}<br>{{ pub.author }}<br>{{ pub.venue }}</a><br>
 {% if pub.paperurl %} 
-<a href="{{ pub.paperurl }}">[Paper URL]</a></li></dl>
+<a href="{{ pub.paperurl }}">[Paper URL]</a>
 {% endif %}
-</p>
-</div>
+</li></dl></p></div>
 {% endif %}
 {% endfor %}
 </div>
@@ -77,8 +74,7 @@ permalink: /publications/
 <p class="list-post-title" align="left">
 <dl style="font-size:0.7rem;"><li><a class="name" href="{{ site.baseurl }}{{ pub.url }}">
 {{ pub.title }}<br>{{ pub.author }}<br>{{ pub.venue }}</a><br><a href="{{ pub.paperurl }}">[Paper URL]</a></li></dl>
-</p>
-</div>
+</p></div>
 {% endif %}
 {% endfor %}
 </div>
