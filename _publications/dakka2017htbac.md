@@ -6,6 +6,7 @@ type: pub
 date: 2017-11-25
 author: "Jumana Dakka, Matteo Turilli, David W Wright, Stefan J Zasada, Vivek Balasubramanian, Shunzhou Wan, Peter V Coveney and Shantenu Jha"
 venue: "Computational Approaches for Cancer Workshop at SuperComputing (SC 2017)"
+paperurl: http://arxiv.org/abs/1712.09168
 ---
 [Paper URL](http://arxiv.org/abs/1712.09168)
 

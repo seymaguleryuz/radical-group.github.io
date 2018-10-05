@@ -42,6 +42,7 @@ date: 2018-08-15
 type: pub
 author: "Ioannis Paraskevakos, Andre Luckow, Mahzad Khoshlessan, George Chantzialexiou, Thomas E. Cheatham, Oliver Beckstein, Geoffrey C. Fox and Shantenu Jha"
 venue: "47th International Conference on Parallel Processing (ICPP 2018)"
+paperurl: http://somethingsomething
 ---
 ```
 
