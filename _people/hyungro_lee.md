@@ -4,7 +4,7 @@ collection: people
 avatar: hyungro.jpg
 joined: 2018
 position: researcher
-permalink: /people/lee212
+permalink: /people/hyungro_lee
 ---
 
 <img width="300" src="{{site.baseurl}}/images/people/{{page.avatar}}" data-action="zoom">
