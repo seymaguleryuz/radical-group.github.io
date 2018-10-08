@@ -2,16 +2,22 @@
 title: "RADICAL-Pilot"
 collection: projects
 permalink: /projects/rp
+abstract: "RADICAL-Pilot (RP) is a flexible Pilot System that provides a simple
+and scalable approach for executing many concurrent simulations clusters and
+grids. RP is written in Python and is deployable into user space. It allows
+user-level control of HPC resources and supports a wide range of application
+types. It is built on top of the *Simple API for Grid Applications"
+(RADICAL-SAGA), a high-level, easy-to-use API for accessing distributed
+resources. RP thus works on a variety of backends such as PBS, LSF, Slurm etc."
 ---
 
-RADICAL-Pilot (RP) is a flexible Pilot System that provides a simple and an
-scalable approach for executing many concurrent simulations and their data
-requirements on clusters, grids, and clouds.  RP is written in Python and is
-easily deployable into user space. It allows user-level control of Pilots and
-supports a wide range of application types. It is built on top of The Simple API
-for Grid Applications (RADICAL-SAGA), a high-level, easy-to-use API for
-accessing distributed resources. RP thus works on a variety of backends such as
-PBS, SGE, Amazon EC2, etc.
+RADICAL-Pilot (RP) is a flexible Pilot System that provides a simple
+and scalable approach for executing many concurrent simulations clusters and
+grids.  RP is written in Python and is deployable into user space. It allows
+user-level control of HPC resources and supports a wide range of application
+types. It is built on top of the *Simple API for Grid Applications"
+(RADICAL-SAGA), a high-level, easy-to-use API for accessing distributed
+resources. RP thus works on a variety of backends such as PBS, LSF, Slurm etc.
 
 Join the [mailinglist](https://groups.google.com/d/forum/radical-pilot-users)
 for information on releases and supported use cases.
@@ -24,10 +30,11 @@ for information on releases and supported use cases.
 
   **Versatile:** The sky’s the limit as far as applications are concerned.
   With use cases ranging from molecular dynamics to astrophysics, many projects
-  can benefit from the use of RADICAL-Pilot.
+  can benefit from using RADICAL-Pilot.
 
   **Easy-to-use:** RADICAL-Pilot allows its users to submit tasks to a variety
-  of HPC machines using only a single, straightforward API.
+  of HPC machines using only a single, straightforward API.  It is deployed in
+  user space, and does not system support nor additional permissions.
 
   **Fast:** Submit all your tasks via only one job using RADICAL-Pilot,
   avoiding unnecessary batch scheduling times and significantly reducing
