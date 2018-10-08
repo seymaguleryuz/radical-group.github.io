@@ -20,14 +20,16 @@ highlighter:        rouge
 nav:
   - name:           "home"
     href:           "/"
+  - name:           "about"
+    href:           "/about"
+  - name:           "news"
+    href:           "/news"
   - name:           "people"
     href:           "/people"
   - name:           "publications"
     href:           "/publications"
   - name:           "projects"
     href:           "/projects"
-  - name:           "blog"
-    href:           "/blog"
 
 # Sass
 sass:
@@ -59,6 +61,12 @@ defaults:
       type:         "publications"
     values:
       layout:       "projects"
+  -
+    scope:
+      path:         ""
+      type:         "news"
+    values:
+      layout:       "post"
 
 
 collections:
@@ -69,5 +77,8 @@ collections:
     output: true
     permalink: /:collection/:title/index.html
   publications:
+    output: true
+    permalink: /:collection/:title/index.html
+  news:
     output: true
     permalink: /:collection/:title/index.html
