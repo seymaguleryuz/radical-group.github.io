@@ -6,7 +6,7 @@ abstract: "RADICAL-Pilot (RP) is a flexible Pilot System that provides a simple
 and scalable approach for executing many concurrent simulations clusters and
 grids. RP is written in Python and is deployable into user space. It allows
 user-level control of HPC resources and supports a wide range of application
-types. It is built on top of the *Simple API for Grid Applications"
+types. It is built on top of the Simple API for Grid Applications
 (RADICAL-SAGA), a high-level, easy-to-use API for accessing distributed
 resources. RP thus works on a variety of backends such as PBS, LSF, Slurm etc."
 ---
@@ -15,7 +15,7 @@ RADICAL-Pilot (RP) is a flexible Pilot System that provides a simple
 and scalable approach for executing many concurrent simulations clusters and
 grids.  RP is written in Python and is deployable into user space. It allows
 user-level control of HPC resources and supports a wide range of application
-types. It is built on top of the *Simple API for Grid Applications"
+types. It is built on top of the *Simple API for Grid Applications*
 (RADICAL-SAGA), a high-level, easy-to-use API for accessing distributed
 resources. RP thus works on a variety of backends such as PBS, LSF, Slurm etc.
 
