@@ -37,24 +37,13 @@ body {
 }
 
 a {
-  outline: none;
+  color: #268bd2;
   text-decoration: none;
-}
 
-a:link {
-  color: #467E99;
-}
-
-a:visited {
-  color: #993300;
-}
-
-a:focus {
-  text-decoration: underline;
-}
-
-a:hover {
-  text-decoration: underline;
+  &:hover,
+  &:focus {
+    text-decoration: underline;
+  }
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -149,6 +138,7 @@ ol {
 
 dl {
   font-family: "Open Sans", "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-color: #515151;
   font-size: 1.0rem;
   list-style: square;
   padding-left: 0;
@@ -335,11 +325,20 @@ tbody tr:nth-child(odd) th {
 
   &-title {
     font-weight: 300;
+
+    a {
+      color: #333;
+
+      &:hover,
+      &:focus {
+        text-decoration: none;
+      }
     }
 
     span {
       color: #ddd;
     }
+
   }
 
   &-title--small {
@@ -347,6 +346,15 @@ tbody tr:nth-child(odd) th {
     font-size: .75rem;
     font-weight: 600;
     text-transform: uppercase;
+
+    a {
+      color: #333;
+
+      &:hover,
+      &:focus {
+        text-decoration: none;
+      }
+    }
   }
 
   .masthead-nav {
@@ -394,12 +402,26 @@ tbody tr:nth-child(odd) th {
 .list {
   &-post-title {
     margin-bottom: .25rem;
-  }
 
+    a {
+      color: #333;
+
+      &:hover,
+      &:focus {
+        text-decoration: none;
+      }
+    }
+  }
   &-post-date {
     margin-bottom: 1rem;
     font-size: .75rem;
     text-transform: uppercase;
+  }
+}
+
+.projects-list {
+  a {
+    color: #333;
   }
 }
 
