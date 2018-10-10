@@ -58,14 +58,11 @@ permalink: /publications/
 {% if pub.type contains item and date contains year %}
 <div class="list-item-pub">
     <p class="list-post-title" align="left">
-        <dl style="font-size:0.7rem;">
-            <li>
-                {{ pub.author }}. <a class="name" href="{{ site.baseurl }}{{ pub.url }}">{{ pub.title }}</a>, {{ pub.venue }}.<br>
-                {% if pub.paperurl %} 
-                <a href="{{ pub.paperurl }}">[Paper URL]</a>
-                {% endif %}
-            </li>
-        </dl>
+        <em>{{ pub.title }}</em>. {{ pub.author }}. {{ pub.venue }}.<br>
+        <a class="name" href="{{ site.baseurl }}{{ pub.url }}">[Abstract]</a>
+        {% if pub.paperurl %} 
+        <a href="{{ pub.paperurl }}">[Paper]</a>
+        {% endif %}
     </p>
 </div>
 {% endif %}
