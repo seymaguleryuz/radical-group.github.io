@@ -73,14 +73,14 @@ In order to include a Github link do at the end of the file:
 ```
 
 In order to add a project to the webpage, create a branch named `project/<proj-filename>` 
-and create a pull request towards master under the `radical-cybertools` repo. As 
+and create a pull request towards master. As 
 soon as the request is merged GitHub will render the page.
 
 ## Add yourself
 
 You can add yourself to the page in `_people` folder. Create a file 
 `<firstname>_<lastname>.md` in the folder. We require few line of header before 
-    you start writing your own page. See the following for the header
+you start writing your own page. See the following for the header
 
 ```
 ---
@@ -98,6 +98,24 @@ bring your photo from `images/people` folder and display it on the people page.
 As lab position, you can choose: `'researcher'`, `'phd'`, `'ms'`, `'undergrad'`, 
 `'visiting'`.
 
-To add yourself, create a branch named `people/<first-filename>` and create a pull 
-request towards master under the `radical-cybertools` repo. As soon as the request 
+To add yourself, create a branch named `people/<first-lastname>` and create a pull 
+request towards master. As soon as the request 
 is merged GitHub will render the page.
+
+## Add news
+
+It's very easy to add a news post. All the posts are located in `_news` folder.
+Create a file `<date>_<newsname>.md`, e.g. `2018_10_8_webpage.md` in the folder.
+The posts automatically get arranged by date. Each post can be written in markdown
+format. The following headers are required: `title`, `categories`, and `date`.
+An example is shown below:
+
+```
+---
+title: New webpage
+categories: news
+date: 2018-10-08
+---
+```
+To add news, create a branch named `news/<date>_<newsname>` and create a pull 
+request towards master. As soon as the request is merged GitHub will render the page.
