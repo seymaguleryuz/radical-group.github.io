@@ -2,6 +2,7 @@
 name: "Andre Merzky"
 collection: people
 position: researcher
+avatar: andre_merzky.jpg
 joined: 2008
 permalink: /people/andre_merzky
 ---
