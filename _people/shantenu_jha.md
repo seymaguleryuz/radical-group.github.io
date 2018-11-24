@@ -12,7 +12,7 @@ permalink: /people/shantenu-jha
 
 <i class="fa fa-envelope-o"></i>  `shantenu.jha@rutgers.edu`<br>
 <i class="fa fa-building"></i> CoRE 705 <br>
-<i class="fa fa-bar-chart"></i> [google scholar] (https://scholar.google.com/citations?hl=en&user=vUhIJQMAAAAJ&view_op=list_works&sortby=pubdate) <br>
+<i class="fa fa-bar-chart"></i> [google scholar](https://scholar.google.com/citations?hl=en&user=vUhIJQMAAAAJ&view_op=list_works&sortby=pubdate) <br>
 <hr>
 
 ### Bio
