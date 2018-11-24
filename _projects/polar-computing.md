@@ -7,7 +7,7 @@ Network was tasked with analyzing opportunities and barriers in the uptake of
 high-performance & distributed computing for polar science. Specifically the
 charge of the RCN was to identify opportunities for and barriers to greater
 uptake of High-Performance and Distributed Cyberinfrastructure by polar
-sciences, 
+sciences,"
 
 ---
 
