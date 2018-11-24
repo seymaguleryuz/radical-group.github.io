@@ -5,13 +5,9 @@ permalink: /projects/polar-computing
 abstract: "Led by the RADICAL Lab the NSF funded Polar Computing Research Coordination
 Network was tasked with analyzing opportunities and barriers in the uptake of
 high-performance & distributed computing for polar science. Specifically the
-charge of the RCN was to: (i) Identify opportunities for and barriers to greater
+charge of the RCN was to identify opportunities for and barriers to greater
 uptake of High-Performance and Distributed Cyberinfrastructure by polar
-sciences, (ii) How to ensure that plans and design for new and existing
-NSF-funded cyberinfrastructure efforts are cognizant of the needs of the Polar
-Science community, and (iii) Understand how best to educate a new generation of
-polar scientists in the skills needed to realize the opportunities and potential
-of HPDC."
+sciences, 
 
 ---
 
