@@ -5,6 +5,7 @@ permalink: /projects/rct
 abstract: "An abstractions-based suite of software modules designed to support
 scalable, interoperable and sustainable science on a range of high-performance
 and distributed computing infrastructure."
+status: active
 ---
 
 RADICAL Cybertools (RCT) are an abstractions-based suite of software modules
