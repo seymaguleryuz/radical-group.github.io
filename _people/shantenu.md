@@ -3,7 +3,7 @@ name: "Shantenu Jha"
 collection: people
 avatar: shantenu.jpg
 position: pi
-permalink: /people/shantenu-jha
+permalink: /shantenu
 ---
 
 <img width="300" src="{{site.baseurl}}/images/people/{{page.avatar}}" data-action="zoom">
