@@ -10,10 +10,7 @@ This project brings together an interdisciplinary team of cyber-infrastructure
 and domain scientists to develop the [RADICAL Ensemble Toolkit
 (EnTK)](https://github.com/radical-cybertools/radical.entk). EnTK enhances the
 ability of scientists to effectively and efficiently study natural hazards and
-renewable energy. The use of EnTK on high performance computing resources like
-[Cheyenne](https://www2.cisl.ucar.edu/resources/computational-systems/cheyenne/cheyenne),
-[Titan](https://www.olcf.ornl.gov/olcf-resources/compute-systems/titan/)and
-[Summit](https://www.olcf.ornl.gov/olcf-resources/compute-systems/summit/),
+renewable energy. The use of EnTK on high performance computing resources
 supports novel “ensemble-based” methods at scales not currently possible.
 
 <a href="https://github.com/radical-collaboration/hpc-workflows"><i class="fa fa-github"></i> Power of Many Github Repository</a><br>
