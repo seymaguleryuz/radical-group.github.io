@@ -6,17 +6,15 @@ abstract: "An extensible toolkit to run iterative, coupled molecular simulation 
 computing systems"
 ---
 
-ExTASY assembles an international team to provide a step-change in the
-sampling of the conformational space of macromolecular systems. Specifically,
-ExTASY is a lightweight software toolkit that supports ensemble-based
-simulations and their seamless integration with dynamic analysis capabilities
-and ultra-large time step integration methods. ExTASY is extensible to other
-community software components via well-designed and standard interfaces. This
-toolkit enables fast sampling of the conformational dynamics of stable
-proteins, a prerequisite for the accurate prediction of thermodynamic
-parameters and biological functions. It also allows tackling systems like
-intrinsically disordered proteins, which can be beyond the reach of classical
-structural biology.
+The Extensible Toolkit for Advanced Sampling and AnalYsis (ExTASY) is a
+lightweight software toolkit that supports ensemble-based simulations and
+their seamless integration with dynamic analysis capabilities and ultra-large
+time step integration methods. ExTASY enables fast sampling of the
+conformational dynamics of stable proteins, a prerequisite for the accurate
+prediction of thermodynamic parameters and biological functions. It also
+allows tackling systems like intrinsically disordered proteins, which can be
+beyond the reach of classical structural biology. ExTASY is extensible to
+other community software components via well-designed and standard interfaces.
 
 <a href="https://bitbucket.org/extasy-project/extasy-workflows"><i class="fa fa-bitbucket"></i> ExTASY Bitbucket Repository</a><br>
 <a href="https://nsf.gov/awardsearch/showAward?AWD_ID=1265929"><i class="fa fa-nsf"></i>NSF Award</a><br>
