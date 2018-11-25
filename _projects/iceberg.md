@@ -49,4 +49,4 @@ geoscience needs of the polar community, (4) transfer these tools to the larger
 non-polar community.
 
 <a href="https://github.com/iceberg-project"><i class="fa fa-github"></i> ICEBERG Github Repositories</a><br>
-<a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=1443054&HistoricalAwards=false"><i class="fa fa-nsf"></i>NSF Award</a><br>
+<a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=1740595"><i class="fa fa-nsf"></i>NSF Award</a><br>
