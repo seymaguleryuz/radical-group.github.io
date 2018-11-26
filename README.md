@@ -64,6 +64,7 @@ title: "Extensible Tools for Advanced Sampling and analYsis (ExTASY)"
 collection: projects
 permalink: /projects/extasy
 abstract: A single sentence that makes sense
+status: active
 ---
 ```
 
@@ -71,7 +72,7 @@ In order to include a Github link do at the end of the file:
 ```
 <a href="https://github.com/project/repo"><i class="fa fa-github"></i> repo name</a><br>
 ```
-
+As status selecte either `active` or `past` and the project will be placed to the correct entry.
 In order to add a project to the webpage, create a branch named `project/<proj-filename>` 
 and create a pull request towards master. As 
 soon as the request is merged GitHub will render the page.

@@ -6,6 +6,7 @@ abstract: "A generic ensemble programming and execution system used to simulate
 and analyze (1) climatic models to predict solar energy distribution and (2)
 seismic wave data to understand the formation and constituents of the earth's
 crust"
+status: active
 ---
 
 The study of hazards and renewable energy are paramount for the development and
