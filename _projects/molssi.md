@@ -3,6 +3,7 @@ title: "Molecular Sciences Sustainable Software Institute (MolSSI)"
 collection: projects
 permalink: /projects/molssi
 abstract: "The Molecular Sciences Software Institute serves as a nexus for science, education, and cooperation serving the worldwide community of computational molecular scientists – a broad field including of biomolecular simulation, quantum chemistry, and materials science."
+status: active
 ---
 
 The Molecular Sciences Software Institute serves as a nexus for science,
