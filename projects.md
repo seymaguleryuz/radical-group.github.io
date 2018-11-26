@@ -12,7 +12,7 @@ Here you can find currently active and past research projects the Lab was involv
 <div class="pos_header">
  {% if item == 'active' %}
 <h3>Active Projects</h3>
- {% elsif item == 'past' %}
+ {% elsif item == 'inactive' %}
 <h3>Past Projects</h3>
 {% endif %}
 </div>
