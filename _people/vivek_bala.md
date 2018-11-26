@@ -7,6 +7,8 @@ position: phd
 permalink: /people/vivekb
 ---
 
+<img width="300" src="{{site.baseurl}}/images/people/{{page.avatar}}" data-action="zoom">
+
 ### Contact
 
 <a href="https://github.com/vivek-bala"><i class="fa fa-github"></i> Vivek Balasubramanian</a><br>
@@ -15,8 +17,6 @@ permalink: /people/vivekb
 <i class="fa fa-bar-chart"></i> [Google Scholar](https://scholar.google.com/citations?user=FWkMEzQAAAAJ&hl=en) <br>
 
 ### Bio
-
-<img width="300" src="{{site.baseurl}}/images/people/{{page.avatar}}" data-action="zoom">
 
 Vivek is a fourth year (2014) PhD student at Rutgers University. He pursued his
 Master’s in Computer Engineering at Rutgers and has been working with the
