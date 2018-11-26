@@ -6,7 +6,7 @@ permalink: /projects/
 
 ## Projects
 
-Here you can find currently active and past research projects the Lab was involved with:
+Current and past research projects of the Lab.
 
 {% for item in proj_array %}
 <div class="pos_header">
