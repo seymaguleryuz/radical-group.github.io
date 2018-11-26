@@ -28,4 +28,4 @@ scientific advantages arising thereof. We propose EnTK as an important addition
 to the suite of tools in support of production scientific computing.
 
 **Venue**: 32nd IEEE International Parallel and Distributed Processing Symposium,2018,
-[Paper URL]('https://ieeexplore.ieee.org/document/8425207)
+[Paper URL](https://ieeexplore.ieee.org/document/8425207)
