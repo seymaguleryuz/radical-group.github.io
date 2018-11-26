@@ -4,6 +4,7 @@ collection: projects
 permalink: /projects/power_of_many
 abstract: "A generic ensemble programming and execution system used to simulate
 and analyze climatic models and seismic wave data."
+status: active
 ---
 
 This project brings together an interdisciplinary team of cyber-infrastructure
