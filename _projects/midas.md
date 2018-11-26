@@ -12,7 +12,7 @@ science and engineering applications. MIDAS provides a scalable runtime system a
 appropriate resource management abstractions enabling [SPIDAL](http://www.spidal.org) 
 libraries. In addition, MIDAS provides the underlying resource management 
 middleware and heterogeneous infrastructure access layer to support 
-streaming based applications on High Performance Computing resources.
+streaming-based applications on High Performance Computing resources.
 
 
 
