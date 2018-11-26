@@ -11,9 +11,9 @@ Here you can find currently active and past research projects the Lab was involv
 {% for item in proj_array %}
 <div class="pos_header">
  {% if item == 'active' %}
-<h3>Active Projects</h3>
+<h3>Current Projects</h3>
  {% elsif item == 'inactive' %}
-<h3>Inactive Projects</h3>
+<h3>Past Projects</h3>
 {% endif %}
 </div>
 
