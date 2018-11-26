@@ -11,9 +11,9 @@ Current and past research projects of the Lab.
 {% for item in proj_array %}
 <div class="pos_header">
  {% if item == 'active' %}
-<h3>Current Projects</h3>
+<h3>Current</h3>
  {% elsif item == 'inactive' %}
-<h3>Past Projects</h3>
+<h3>Past</h3>
 {% endif %}
 </div>
 
