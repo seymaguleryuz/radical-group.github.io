@@ -9,6 +9,7 @@ user-level control of HPC resources and supports a wide range of application
 types. It is built on top of the Simple API for Grid Applications
 (RADICAL-SAGA), a high-level, easy-to-use API for accessing distributed
 resources. RP thus works on a variety of backends such as PBS, LSF, Slurm etc."
+status: active
 ---
 
 RADICAL-Pilot (RP) is a flexible Pilot System that provides a simple

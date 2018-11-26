@@ -4,6 +4,7 @@ collection: projects
 permalink: /projects/extasy
 abstract: "An extensible toolkit to run iterative, coupled molecular simulation and analysis kernels on high performance
 computing systems"
+status: active
 ---
 
 An international team consisting of Cecilia Clementi(Rice University), Mauro

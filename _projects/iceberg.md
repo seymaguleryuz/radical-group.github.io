@@ -3,6 +3,7 @@ title: "Imagery Cyberinfrastructure and Extensible Building-Blocks to Enhance Re
 collection: projects
 permalink: /projects/iceberg
 abstract: "ICEBERG is an extensible system for coupling open-source image analysis tools with the use of high performance and distributed computing (HPDC) for imagery-enabled geoscience research."
+status: active
 ---
 
 Satellite imagery is rapidly transforming the way we see the planet, including 
