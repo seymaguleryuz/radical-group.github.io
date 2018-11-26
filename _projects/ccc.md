@@ -5,7 +5,7 @@ permalink: /projects/CCC
 abstract: "The Campus Compute Cooperative (CCC) Project is a high-risk, novel,
 distributed computing exemplar project to demonstrate and investigate new ways
 of federating campus computing capabilities"
-
+status: active
 ---
 
 This project elaborates a plan to construct the Campus Compute Cooperative
