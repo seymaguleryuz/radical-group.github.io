@@ -7,6 +7,15 @@ position: phd
 permalink: /people/vivekb
 ---
 
+### Contact
+
+<a href="https://github.com/vivek-bala"><i class="fa fa-github"></i> Vivek Balasubramanian</a><br>
+<a href=""><i class="fa fa-linkedin"></i> [Linkedin](https://www.linkedin.com/in/vivekanandan-balasubramanian-284a1663/) <br>
+<i class="fa fa-envelope-o"></i>  `vivek.balasubramanian@rutgers.edu`<br>
+<i class="fa fa-bar-chart"></i> [Google Scholar](https://scholar.google.com/citations?user=FWkMEzQAAAAJ&hl=en) <br>
+
+### Bio
+
 <img width="300" src="{{site.baseurl}}/images/people/{{page.avatar}}" data-action="zoom">
 
 Vivek is a fourth year (2014) PhD student at Rutgers University. He pursued his
@@ -19,9 +28,3 @@ principles,
 
 
 <hr>
-
-### Contact
-<a href="https://github.com/vivek-bala"><i class="fa fa-github"></i> Vivek Balasubramanian</a><br>
-<a href=""><i class="fa fa-linkedin"></i> [Linkedin](https://www.linkedin.com/in/vivekanandan-balasubramanian-284a1663/) <br>
-<i class="fa fa-envelope-o"></i>  `vivek.balasubramanian@rutgers.edu`<br>
-<i class="fa fa-bar-chart"></i> [Google Scholar](https://scholar.google.com/citations?user=FWkMEzQAAAAJ&hl=en) <br>
