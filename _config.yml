@@ -16,6 +16,12 @@ markdown:           kramdown
 # Highlighter
 highlighter:        rouge
 
+plugins:
+  - jekyll-redirect-from
+
+whitelist:
+  - jekyll-redirect-from
+
 # Navigation
 nav:
   - name:           "home"
