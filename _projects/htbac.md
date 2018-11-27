@@ -3,6 +3,7 @@ title: "High-Throughput Binding Affinity Calculations (HTBAC)"
 collection: projects
 permalink: /projects/htbac
 abstract: HTBAC enables rapid, accurate, scalable and reliable free energy-based binding affinity calculations.
+status: active
 ---
 
 Resistance to chemotherapy and molecularly targeted therapies is a major factor in limiting the effectiveness of cancer therapies. In many cases resistance can be linked to genetic changes in target proteins, either pre-existing or evolutionarily selected during treatment. Key to overcoming this challenge is the understanding of the molecular determinants of drug binding. The key physical parameters determining drug effectiveness are the binding free energy and the residence time of a ligand. Using molecular simulation we can gain insights into both of these quantities, which can inform both stratified or personal treatment regimes and drug development. 

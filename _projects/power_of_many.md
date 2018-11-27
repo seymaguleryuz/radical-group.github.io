@@ -12,6 +12,7 @@ and domain scientists to develop the [RADICAL Ensemble Toolkit
 (EnTK)](https://github.com/radical-cybertools/radical.entk). EnTK enhances the
 ability of scientists to effectively and efficiently study natural hazards and
 renewable energy. The use of EnTK on high performance computing resources
+B
 supports novel “ensemble-based” methods at scales not currently possible.
 
 <a href="https://github.com/radical-collaboration/hpc-workflows"><i class="fa fa-github"></i> Power of Many Github Repository</a><br>

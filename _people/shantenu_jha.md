@@ -4,13 +4,14 @@ collection: people
 avatar: shantenu.jpg
 position: pi
 permalink: /people/shantenu-jha
+redirect_from: "/shantenu.html"
 ---
 
 <img width="300" src="{{site.baseurl}}/images/people/{{page.avatar}}" data-action="zoom">
 
 ### Contact
 
-<i class="fa fa-envelope-o"></i>  `shantenu.jha@rutgers.edu`<br>
+<i class="fa fa-envelope-o"></i> `shantenu.jha@rutgers.edu`<br>
 <i class="fa fa-building"></i> CoRE 705 <br>
 <i class="fa fa-bar-chart"></i> [google scholar](https://scholar.google.com/citations?hl=en&user=vUhIJQMAAAAJ&view_op=list_works&sortby=pubdate) <br>
 <hr>
