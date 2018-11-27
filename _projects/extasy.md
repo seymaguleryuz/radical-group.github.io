@@ -3,7 +3,7 @@ title: "Extensible Tools for Advanced Sampling and analYsis (ExTASY)"
 collection: projects
 permalink: /projects/extasy
 abstract: "An extensible toolkit to run iterative, coupled molecular simulation and analysis kernels on high performance
-computing systems"
+computing systems."
 status: active
 ---
 
