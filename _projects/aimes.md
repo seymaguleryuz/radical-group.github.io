@@ -2,7 +2,8 @@
 title: "Abstractions and Integrated Middleware for Extreme-Scale Science (AIMES)"
 collection: projects
 permalink: /projects/aimes
-abstract: "Enable extreme-scale distributed computing via dynamic federation of heterogeneous computing infrastructures."
+abstract: "Enabling extreme-scale distributed computing via dynamic federation
+of heterogeneous computing infrastructures." 
 status: inactive
 ---
 
