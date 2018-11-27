@@ -1,5 +1,5 @@
 ---
-title: "SCALE-MS: Scalable Adaptive Large Ensembles of Molecular Simulations"
+title: "Scalable Adaptive Large Ensembles of Molecular Simulations (SCALE-MS)"
 collection: projects
 permalink: /projects/scalems
 abstract: "Developing computing tools to simplify the process of writing algorithms that use large collections of molecular simulations to simulate the long timescales needed for scientific and industrial understanding."
