@@ -25,3 +25,4 @@ whole-brain voxel level) for identifying patients with schizophrenia.
 ---
 
 [Paper URL](https://arxiv.org/abs/1712.00512)
+**Venue**: Machine Learning for Health Workshop at Neural Information Processing Systems (NIPS 2017), Long Beach, California
