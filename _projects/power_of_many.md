@@ -1,5 +1,5 @@
 ---
-title: "The Power of Many: Ensemble Toolkit for Earth Sciences"
+title: "The Power of Many - Ensemble Toolkit for Earth Sciences"
 collection: projects
 permalink: /projects/power_of_many
 abstract: "Enabling ensemble programming for simulating and analyzing climatic models and seismic wave data."
