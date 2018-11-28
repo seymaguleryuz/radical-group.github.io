@@ -17,6 +17,7 @@ Here is a brief install guidelines for Ubuntu.
 ```bash
 sudo gem install jekyll
 sudo gem install rouge
+sudo gem install jekyll-redirect-from
 jekyll serve
 ```
 
