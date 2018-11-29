@@ -5,7 +5,7 @@ permalink: /publications/balasubramanian2018adaptive
 type: pub
 date: 2018-10-27
 author: "Vivek Balasubramanian, Travis Jensen, Matteo Turilli, Peter Kasson, Michael Shirts and Shantenu Jha"
-venue: "33rd IEEE International Parallel and Distributed Processing Symposium (pending decision)"
+venue: "Arxiv"
 paperurl: https://arxiv.org/abs/1804.04736
 ---
 
@@ -30,5 +30,5 @@ implement two high-level adaptive algorithms: expanded ensemble and Markov
 state modeling. We highlight scientific advantages enabled by the novel
 capabilities of our approach and implementation on three distinct platforms.
 
-**Venue**: 33rd IEEE International Parallel and Distributed Processing Symposium,2019,
+**Venue**: Arxiv
 [Paper URL](https://arxiv.org/abs/1804.04736)
