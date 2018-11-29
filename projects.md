@@ -6,7 +6,7 @@ permalink: /projects/
 
 ## Projects
 
-Current and past research projects of the Lab.
+RADICAL engages in computing research to enable advances in cyberinfrastructure design and development. RADICAL contributes to address a diverse set of scientific problems at scale, ranging from biomolecular sciences to earth sciences and high-energy physics.
 
 {% for item in proj_array %}
 <div class="pos_header">

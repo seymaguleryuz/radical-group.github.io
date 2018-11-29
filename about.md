@@ -22,13 +22,6 @@ provides a pathway to translate theoretical advances and conceptual abstractions
 into cyberinfrastructure developed as an engineered system which provides the 
 required balance of functionality, performance and usability.
 
-In addition to cyberinfrastructure research and development, RADICAL is engaged 
-in using advanced cyberinfrastructure to address a diverse set of challenging 
-science & engineering problems at scale, ranging from biomolecular sciences to 
-polar science and high-energy physics. The RADICAL team is also engaged in understanding 
-fundamental and advanced computing concepts to enable advances in scientific 
-computing at scale.
-
 ### Software Development
 We develop *RADICAL-SAGA* (in python) and *SAGA-based Pilot-Job (RADICAL-Pilot/BigJob)* 
 amongst other RADICAL Cybertools — a repertoire of  tools and capabilities that 
