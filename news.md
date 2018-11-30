@@ -3,7 +3,7 @@ title: News
 permalink: /news/
 ---
 
-{% assign news_sorted = (site.news | sort: 'date') | reverse %}
+{% assign news_sorted = site.news | sort: 'date' | reverse %}
 
 ### **News from the lab**
 
