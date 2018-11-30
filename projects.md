@@ -18,15 +18,17 @@ Current and past research projects of the Lab.
 </div>
 
 <div class="content list projects">
-  {% for post in site.projects %}
-     {% if post.status == item %}
-     <div class="list-item-projects">
-      <p align="justify" class="list-post-title">
-            <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>: {{ post.abstract }}<br>{{ post.grant_number }}<br>
-      </p>
-    </div>
-    {% endif %}
-  {% endfor %}
+	{% for post in site.projects %}
+  	{% if post.status == item %}
+	    <div class="list-item-projects">
+	    	<img src="../images/projects/{{post.logo}}" alt="Project image">
+	     	<span class="list-post-title" >
+	     		<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>: {{ post.abstract }}
+	     		<!-- <br>{{ post.grant_number }} -->
+	      </span>
+	    </div>
+  	{% endif %}
+	{% endfor %}
 </div>
 
 {% endfor %}
