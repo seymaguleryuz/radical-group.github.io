@@ -4,6 +4,7 @@ collection: people
 avatar: hyungro.jpg
 joined: 2018
 position: researcher
+title: "Research Associate"
 permalink: /people/hyungro_lee
 ---
 

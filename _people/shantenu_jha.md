@@ -3,6 +3,7 @@ name: "Shantenu Jha"
 collection: people
 avatar: shantenu.jpg
 position: pi
+title: "Associate Professor"
 permalink: /people/shantenu-jha
 redirect_from: "/shantenu.html"
 ---

@@ -2,6 +2,8 @@
 layout: default
 ---
 
+{% assign news_sorted = (site.news | sort: 'date') | reverse %}
+
 <div class='container'>
     <header class="masthead text-center">
 	<p align="right"><b>Welcome to RADICAL Thinking</b></p>
@@ -15,6 +17,20 @@ layout: default
     <span style="display: block; margin-bottom: 1em"></span>
     Department of Electrical and Computer Engineering at Rutgers, the State University of New Jersey<br>
     Rooms 705-707, 96 Frelinghuysen Rd, Piscataway Township, NJ 08854
+    
+    <span style="display: block; margin-bottom: 1em"></span>
+    <i><b>RECENT <a href="/news/">News</a></b></i>
+    <div class="content list">
+        {% for post in news_sorted %}
+            {% if forloop.index < 11 %}
+          <div class="list-item">
+          <p class="list-post-title">
+              <a href="{{ site.baseurl }}{{ post.url }}">- {{ post.title }}</a>:<small>{{ post.content | strip_html | truncatewords: 20 }}</small>
+              </p>
+          </div>
+            {% endif %}
+        {% endfor %}
+      </div>
     <span style="display: block; margin-bottom: 3em"></span>
     <a href="https://github.com/radical-cybertools"><i class="fa fa-github"></i> RADICAL</a>
     <a href="https://twitter.com/RCT_Rutgers"><i class="fa fa-twitter"></i> RCT</a>

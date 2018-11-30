@@ -5,6 +5,7 @@ position: ms
 avatar: george.jpg
 joined: 2016
 permalink: /people/georgeha
+title: "Master Student"
 ---
 
 <img width="300" src="{{site.baseurl}}/images/people/{{page.avatar}}" data-action="zoom">

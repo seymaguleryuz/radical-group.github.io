@@ -4,6 +4,7 @@ collection: people
 joined: 2016
 avatar: jumana.jpg
 position: phd
+title: "PhD Student"
 permalink: /people/jdakka
 ---
 
