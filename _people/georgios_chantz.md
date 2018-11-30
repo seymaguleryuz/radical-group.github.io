@@ -1,7 +1,7 @@
 ---
 name: "Georgios Chantzialexiou"
 collection: people
-position: phd
+position: ms
 avatar: george.jpg
 joined: 2016
 permalink: /people/georgeha

@@ -4,24 +4,44 @@ collection: people
 avatar: shantenu.jpg
 position: pi
 title: "Associate Professor"
-permalink: /people/shantenujha
+permalink: /people/shantenu-jha
+redirect_from: "/shantenu.html"
 ---
 
 <img width="300" src="{{site.baseurl}}/images/people/{{page.avatar}}" data-action="zoom">
 
 ### Contact
 
-<i class="fa fa-envelope-o"></i>  `shantenu.jha@rutgers.edu`<br>
+<i class="fa fa-envelope-o"></i> `shantenu.jha@rutgers.edu`<br>
 <i class="fa fa-building"></i> CoRE 705 <br>
-<i class="fa fa-bar-chart"></i> [google scholar](https://scholar.google.com/citations?user=vUhIJQMAAAAJ&hl=en&oi=ao) <br>
+<i class="fa fa-bar-chart"></i> [google scholar](https://scholar.google.com/citations?hl=en&user=vUhIJQMAAAAJ&view_op=list_works&sortby=pubdate) <br>
 <hr>
 
 ### Bio
 
-Shantenu is an Associate Professor at Rutgers University. He was appointed a Rutgers Chancellor’s Scholar in 2015. Before moving to Rutgers, he led Cyberinfrastructure Research and Development at the CCT at Louisiana State University; he was also a member of the Graduate Faculty in the School of Informatics at the University of Edinburgh (UK), and a Visiting Scientist at University College London.
+Shantenu is an Associate Professor of Computer Engineering at Rutgers
+University and the Chair of the Department (Center) for Data Driven Discovery
+at Brookhaven National Laboratory. He was appointed a Rutgers Chancellor’s
+Scholar in 2015. He has held visiting positions at the University of Edinburgh
+and UCL.
 
-His research interests lie at the triple point of Computing, Computational Science and Cyberinfrastructure.  Shantenu is the PI of  RADICAL and the lead investigator of RADICAL-Cybertools (including SAGA http://www.saga-project.org), which is a community standard and is part of the official middleware/software stack of most major Production Distributed Cyberinfrastructure — such as US NSF’s XSEDE and the European Grid Infrastructure. He hopes to play a part in the upcoming revolution at the interface of computing and health-science — global health and “personalized” medicine.
+Shantenu's research interests are at the intersection of high-performance
+distributed computing and computational & data-driven science. He is the PI of
+RADICAL Lab and the lead investigator of RADICAL-Cybertools project which are
+a suite of middleware building blocks used to support large-scale science and
+engineering applications. He is proud to play a part in the upcoming
+revolution at the interface of computing and health-science — global health
+and “personalized” medicine. He collaborates extensively with scientists from
+multiple domains -- including but not limited to Molecular Sciences, Earth
+Sciences and High-Energy Physics.
 
-Shantenu is a recipient of a NSF CAREER award and has won several prestigious awards at ACM/IEEE Supercomputing and the International Supercomputing Series. He was awarded a Rutgers Board of Trustees Fellowship for Scholarly Excellence.  His current research has been funded by multiple NSF awards and US Department of Energy (DoE); his work has also been funded by US National Institute for Health (NIH), and the UK EPSRC (OMII-UK project and Research theme at the e-Science Institute).
+Shantenu was the recipient of the inaugural Chancellor's Excellence in
+Research (2016) for his cyberinfrastructure contributions to computational
+science. He was also awarded a Rutgers Board of Trustees Fellowship for
+Scholarly Excellence (2014). He is a recipient of the NSF CAREER Award (2013)
+and several best paper prizes at SC'xy and ISC'xy. His current research has
+been funded by multiple NSF awards and US Department of Energy (DoE); his work
+has also been funded by US National Institute for Health (NIH), and the UK
+EPSRC.
 
 Jha seeks fearless and revolutionary young minds to join the RADICAL (thinking) group! Away from work, he tries middle-distance running and biking, tends to be an economics-junky, enjoys reading and writing random musings and tries to use his copious amounts of free time with a conscience.

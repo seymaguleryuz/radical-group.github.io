@@ -10,6 +10,14 @@ permalink: /people/iparask
 
 <img width="300" src="{{site.baseurl}}/images/people/{{page.avatar}}" data-action="zoom">
 
+### Contact
+
+<a href="https://github.com/iparask"><i class="fa fa-github"></i>Ioannis Paraskevakos</a><br>
+<i class="fa fa-envelope-o"></i>  `i.paraskev@rutgers.edu`<br>
+<i class="fa fa-building"></i> CoRE 707 <br>
+<i class="fa fa-bar-chart"></i> [google scholar](https://scholar.google.com/citations?user=vse6uzMAAAAJ&hl=en) <br>
+
+
 ### Bio
 
 I am a fifth year PhD student at Rutgers University and a member at RADICAL Lab.
@@ -41,10 +49,3 @@ Data Computing, IPDPS 2016](/publications/luckow2016hadoop)
 MDAnalysis using the Dask Parallel Computing Library”, SciPy Proceedings 2017](/publications/mahzad2017parallel)
 
 <hr>
-
-### Contact
-<a href="https://github.com/iparask"><i class="fa fa-github"></i>Ioannis Paraskevakos</a><br>
-<i class="fa fa-envelope-o"></i>  `i.paraskev@rutgers.edu`<br>
-<i class="fa fa-building"></i> CoRE 707 <br>
-<i class="fa fa-bar-chart"></i> [google scholar](https://scholar.google.com/citations?user=vse6uzMAAAAJ&hl=en) <br>
-

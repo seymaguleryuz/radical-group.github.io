@@ -3,7 +3,7 @@ title: Publications
 permalink: /publications/
 ---
 
-{% assign pub_sorted = (site.publications | sort: 'date') %}
+{% assign pub_sorted = site.publications | sort: 'date' %}
 {% assign pub_array = "pub|standard|draft" | split: "|" %}
 {% assign year_array = "2018|2017|2016|2015|2014|2013|2012|2011|2010|2009|2008|2007|2006|2005" | split: "|" %}
 

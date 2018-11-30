@@ -2,22 +2,31 @@
 title: Projects
 permalink: /projects/
 ---
+{% assign proj_array = "active|inactive" |split: "|" %}
 
 ## Projects
 
-Here you can find currently active and past research projects the Lab was involved with:
+Current and past research projects of the Lab.
 
-### Active Projects
+{% for item in proj_array %}
+<div class="pos_header">
+ {% if item == 'active' %}
+<h3>Current</h3>
+ {% elsif item == 'inactive' %}
+<h3>Past</h3>
+{% endif %}
+</div>
+
 <div class="content list projects">
   {% for post in site.projects %}
-    <div class="list-item-projects">
+     {% if post.status == item %}
+     <div class="list-item-projects">
       <p align="justify" class="list-post-title">
-        <dl>
-            <li><small><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>: {{ post.abstract }}<br>{{ post.grant_number }}</small></li>
-        </dl>
+            <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>: {{ post.abstract }}<br>{{ post.grant_number }}<br>
       </p>
     </div>
+    {% endif %}
   {% endfor %}
 </div>
 
-### Past projects
+{% endfor %}
