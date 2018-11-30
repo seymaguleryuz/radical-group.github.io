@@ -9,7 +9,7 @@ logo: ccc_logo.jpg
 
 <div class="project-description">
 	<figure>
-		<img src="../images/projects/ccc.jpeg" width="300">
+		<img src="../images/projects/ccc.jpg" width="300">
 		<figcaption>
 			<a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=1747813" style="float:left;display:inline-block;">
 				<i class="fas fa-award"></i> NSF Award
