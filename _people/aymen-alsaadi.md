@@ -5,6 +5,7 @@ position: ms
 avatar: aymen.jpg
 joined: 2018
 permalink: /people/aymen-alsaadi
+title: "Master Student"
 ---
 
 <img width="300" src="{{site.baseurl}}/images/people/{{page.avatar}}" data-action="zoom">

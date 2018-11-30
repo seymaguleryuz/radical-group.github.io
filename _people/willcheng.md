@@ -4,6 +4,7 @@ collection: people
 avatar: willcheng.png
 joined: 2017
 position: undergrad
+title: "Undergraduate Research Assistant"
 permalink: /people/willcheng
 ---
 

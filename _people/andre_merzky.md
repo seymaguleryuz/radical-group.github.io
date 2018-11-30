@@ -5,6 +5,7 @@ position: researcher
 avatar: andre_merzky.jpg
 joined: 2008
 permalink: /people/andre_merzky
+title: "Senior Research Programmer"
 ---
 
 Andre Merzky received his diploma in Physics in 1998 at the Humboldt University

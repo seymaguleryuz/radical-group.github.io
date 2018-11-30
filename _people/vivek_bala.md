@@ -4,6 +4,7 @@ collection: people
 avatar: vivek.jpg
 joined: 2012
 position: phd
+title: "PhD Candidate"
 permalink: /people/vivekb
 ---
 

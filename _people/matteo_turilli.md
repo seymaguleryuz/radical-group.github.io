@@ -4,6 +4,7 @@ collection: people
 avatar: matteo.jpg
 joined: 2007
 position: researcher
+title: "Research Assistant Professor"
 permalink: /people/mturilli
 ---
 
