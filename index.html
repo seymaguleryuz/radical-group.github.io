@@ -2,7 +2,7 @@
 layout: default
 ---
 
-{% assign news_sorted = (site.news | sort: 'date') | reverse %}
+{% assign news_sorted = site.news | sort: 'date' | reverse %}
 
 <div class='container'>
     <header class="masthead text-center">
