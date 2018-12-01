@@ -29,14 +29,15 @@ domain-specific scientific workflows.
 
 Matteo is the co-PI of the [http://radical.rutgers.edu/](Research in Advanced
 Distributed Cyberinfrastructure and Applications Laboratory (RADICAL)) and an
-investigator of the 
-[https://github.com/radical-cybertools](RADICAL-Cybertools). In this capacity,
-he led the design and development of 
-[https://github.com/radical-cybertools/radical.analytics](RADICAL-Analytics),
-contributed to design 
-[https://github.com/radical-cybertools/radical.pilot](RADICAL-Pilot), and
-supervised the design and development of the 
-[https://github.com/radical-cybertools/radical.entk](Ensemble Toolkit (EnTK)).
+investigator of the <a
+href="https://github.com/radical-cybertools">RADICAL-Cybertools</a>. In this
+capacity, he led the design and development of <a
+href="https://github.com/radical-cybertools/radical.analytics">RADICAL-Analytics</a>,
+contributed to design <a
+href="https://github.com/radical-cybertools/radical.pilot">RADICAL-Pilot</a>,
+and supervised the design and development of the <a
+href="https://github.com/radical-cybertools/radical.entk">Ensemble Toolkit
+(EnTK)</a>.
 
 Matteo is Senior Scientist for several projects funded by multiple NSF and US
 Department of Energy (DoE) awards. In this capacity, he contributes to support
