@@ -45,6 +45,6 @@ on each person who works in the lab (contact information, photos).
 
 ### Publications
 
-Visit our [publications page](http://radical.rutgers.edu/publication/). Feel 
+Visit our [publications page](http://radical.rutgers.edu/publications/). Feel 
 free to open [Github issues](https://github.com/radical-group/radical-group.github.io/issues) 
 if the links do not work.
