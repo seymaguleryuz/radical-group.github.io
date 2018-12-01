@@ -16,4 +16,4 @@ The efficacy of drug treatments depends on how tightly small molecules bind to t
 
 
 **Venue**: 2018 IEEE 14th International Conference on e-Science (e-Science),
-[Paper URL]('https://arxiv.org/abs/1801.01174.pdf')
+[Paper URL](https://arxiv.org/abs/1801.01174.pdf)
