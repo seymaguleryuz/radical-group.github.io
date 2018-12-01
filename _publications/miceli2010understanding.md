@@ -6,6 +6,6 @@ type: pub
 date: 2010-August-25
 author: "Chris Miceli, Michael Miceli, Bety Rodriguez-Milla and Shantenu Jha"
 venue: "Royal Society of London Philosophical Transactions Series A"
-paperurl: http://www.cct.lsu.edu/~sjha/select\_publications/saga_ptrsa10.pdf
+paperurl: http://www.cct.lsu.edu/~sjha/select_publications/saga_ptrsa10.pdf
 ---
-[Paper URL](http://www.cct.lsu.edu/~sjha/select\_publications/saga_ptrsa10.pdf)
+[Paper URL](http://www.cct.lsu.edu/~sjha/select_publications/saga_ptrsa10.pdf)
