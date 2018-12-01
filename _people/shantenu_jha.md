@@ -8,8 +8,6 @@ permalink: /people/shantenu-jha
 redirect_from: "/shantenu.html"
 ---
 
-<img width="300" src="{{site.baseurl}}/images/people/{{page.avatar}}" data-action="zoom">
-
 ### Contact
 
 <i class="fa fa-envelope-o"></i> `shantenu.jha@rutgers.edu`<br>

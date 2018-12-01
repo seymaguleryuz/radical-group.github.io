@@ -8,7 +8,7 @@ permalink: /people/georgeha
 title: "Master Student"
 ---
 
-<img width="300" src="{{site.baseurl}}/images/people/{{page.avatar}}" data-action="zoom">
+### Bio
 
 I am currently pursuing my PhD at RADICAL Lab with Professor Shantenu Jha as my advisor. Prior to joining Rutgers, I was an undergraduate student in Greece at National Technical University of Athens.
 

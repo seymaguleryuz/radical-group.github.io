@@ -8,8 +8,6 @@ title: "Researcher"
 permalink: /people/andre_luckow
 ---
 
-<img width="300" src="{{site.baseurl}}/images/people/{{page.avatar}}" data-action="zoom">
-
 ### Bio
 
 Andre Luckow is a researcher at Rutgers University, Clemson University and Ludwig Maximilian University Munich. His work focuses on interdisciplinary research and applications at the intersection of data infrastructure, data science, and machine learning for science and industry application. He is particularly interested in high performance and distributed computing focusing on system-level challenges related to data-intensive and machine learning applications, streaming, edge and cloud computing. He holds a PhD in the field of distributed computing from the University of Potsdam, Germany.

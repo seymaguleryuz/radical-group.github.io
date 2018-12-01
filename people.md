@@ -3,7 +3,7 @@ title: People
 permalink: /people/
 ---
 
-{% assign people_sorted = site.people | sort: 'joined' %}
+{% assign people_sorted = site.people|sort: 'joined' %}
 {% assign people_array = "pi|researcher|phd|ms|undergrad|visiting" | split: "|" %}
 
 
@@ -31,22 +31,22 @@ permalink: /people/
 <h3>Alumni</h3>
 <dl style="font-size:0.7rem;">
 <li>Ming Tai Ha</li>
-<li>Ole Weidner (LEGO, Denmark)</li>
+<li>Ole Weidner</li>
 <li>Franklin Bettencourt</li>
 <li>Alessio Angius</li>
 <li>Nivetha Balasamy</li>
 <li>Antons Treikalis</li>
 <li>Nikhil Shenoy</li>
-<li>Suvigya Tripathi (Intel)</li>
-<li>Dinesh Ganapathi (Avaya)</li>
+<li>Suvigya Tripathi</li>
+<li>Dinesh Ganapathi</li>
 <li>Vishal Shah</li>
-<li>Anjani Bhargavi (Neuroscience, USC)</li>
-<li>Abhinav Thota (Indiana University Research Technology Division)</li>
-<li>Pradeep Mantha (Berkeley Labs, now Salesforce)</li>
-<li>Sharath Maddineni (Google)</li>
+<li>Anjani Bhargavi</li>
+<li>Abhinav Thota</li>
+<li>Pradeep Mantha</li>
+<li>Sharath Maddineni</li>
 <li>Chris Miceli</li>
 <li>Michael Miceli</li>
-<li>Hartmut Kaiser (Senior Research Scientist at Louisiana State University)</li>
+<li>Hartmut Kaiser)</li>
 <li>Ashley Zebrowski</li>
-<li>Aikaterina Stamou (nowaPhD student in Zurich, after a brief stint in Industry)</li>
+<li>Aikaterina Stamou</li>
 </dl>

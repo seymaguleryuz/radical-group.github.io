@@ -2,13 +2,11 @@
 name: "Matteo Turilli"
 collection: people
 avatar: matteo.jpg
-joined: 2007
-position: researcher
+joined: 20012
+position: pi
 title: "Assistant Research Professor"
 permalink: /people/mturilli
 ---
-
-<img width="300" src="{{site.baseurl}}/images/people/{{page.avatar}}" data-action="zoom">
 
 ### Contact
 
