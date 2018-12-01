@@ -8,4 +8,4 @@ author: "Shantenu Jha, Hartmut Kaiser, Yaakoub El-Khamra and Ole Weidner"
 venue: "Proceedings of the Third IEEE International Conference on e-Science and Grid Computing"
 paperurl: https://ieeexplore.ieee.org/abstract/document/4426882
 ---
-[Paper URL](http://saga.cct.lsu.edu/publications/saga_cactus_escience.pdf)
+[Paper URL](https://ieeexplore.ieee.org/abstract/document/4426882)
