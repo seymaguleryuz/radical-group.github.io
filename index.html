@@ -2,12 +2,14 @@
 layout: default
 ---
 
+{% assign news_sorted = site.news | sort: 'date' | reverse %}
+
 <div class='container'>
     <header class="masthead text-center">
         <p style="text-align: right; font-weight: bold;">
             Welcome to RADICAL Thinking
         </p>
-        <img class='img-responsive center-block' src="/images/labmembers.jpg" />
+        <img class='img-responsive center-block' src="/images/labmembers.jpg" alt="RADICAL group photo"/>
         <span style="display: block; margin-bottom: 1em; font-weight: bold;">
             Cyberinfrastructure Research and Development
             <br> 
@@ -16,8 +18,25 @@ layout: default
         <span style="display: block; margin-bottom: 1em;">
             Department of Electrical and Computer Engineering at Rutgers, the State University of New Jersey
             <br>
-            Rooms 705-707, 96 Frelinghuysen Rd, Piscataway Township, NJ 08854
+            Rooms 705-707 and 713, 96 Frelinghuysen Rd, Piscataway Township, NJ 08854
         </span>
+        <span style="text-align: left; display: block; margin-bottom: 3em">
+            <p style="font-weight: bold;">
+                RECENT <a href="/news/">News</a>
+            </p>
+            <div class="content list">
+                {% for post in news_sorted %}
+                    {% if forloop.index < 11 %}
+                        <div class="list-item">
+                            <p class="list-post-title">
+                                <a href="{{ site.baseurl }}{{ post.url }}">- {{ post.title }}</a>:
+                                <small>{{ post.content | strip_html | truncatewords: 20 }}</small>
+                            </p>
+                        </div>
+                    {% endif %}
+                {% endfor %}
+          </div>
+        </span>  
         <span style="display: block; margin-bottom: 3em;">
             <a href="https://github.com/radical-cybertools" style="margin-right:1.5em;">
                 <i class="fab fa-github"></i> RADICAL CyberTools

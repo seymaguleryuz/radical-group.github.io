@@ -4,6 +4,7 @@ collection: people
 avatar: andre_luckow.jpg
 joined: 2009
 position: researcher
+title: "Researcher"
 permalink: /people/andre_luckow
 ---
 

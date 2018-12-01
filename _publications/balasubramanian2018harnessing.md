@@ -4,7 +4,7 @@ collection: publications
 permalink: /publications/balasubramanian2018harnessing
 type: pub
 date: 2018-05-25
-author: "Balasubramanian, Vivek, Matteo Turilli, Weiming Hu, Matthieu Lefebvre, Wenjie Lei, Guido Cervone, Jeroen Tromp and Shantenu Jha"
+author: "Vivek Balasubramanian, Matteo Turilli, Weiming Hu, Matthieu Lefebvre, Wenjie Lei, Guido Cervone, Jeroen Tromp and Shantenu Jha"
 venue: "32nd IEEE International Parallel and Distributed Processing Symposium"
 paperurl: https://ieeexplore.ieee.org/document/8425207
 ---

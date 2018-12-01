@@ -4,6 +4,7 @@ collection: people
 position: phd
 avatar: ioannis_par.jpg
 joined: 2014
+title: "PhD Candidate"
 permalink: /people/iparask
 ---
 

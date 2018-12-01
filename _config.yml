@@ -3,7 +3,6 @@ name:               "RADICAL lab"
 title:              "Research in Advanced Distributed Cyberinfrastructure and Applications Laboratory"
 description:        "this is a page for RADICAL"
 
-
 # URL
 url:                http://radical-group.github.io
 baseurl:
@@ -88,3 +87,8 @@ collections:
   news:
     output: true
     permalink: /:collection/:title/index.html
+
+# Travis bundles all gems in the vendor directory on its build servers, 
+# which Jekyll will mistakenly read and explode on.
+exclude:
+  - vendor

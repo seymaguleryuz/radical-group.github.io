@@ -18,6 +18,8 @@ Here is a brief install guidelines for Ubuntu.
 sudo gem install jekyll
 sudo gem install rouge
 sudo gem install jekyll-redirect-from
+sudo gem install bundler
+sudo gem install html-proofer
 jekyll serve
 ```
 

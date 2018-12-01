@@ -6,6 +6,6 @@ type: standard
 date: 2011-12-25
 author: "Daniel S. Katz, Shantenu Jha, Manish Parashar, Omer F. Rana and Jon Weissman"
 venue: ""
-paperurl: http://www.ci.uchicago.edu/research/papers/CI-TR-7-0811
+paperurl: https://arxiv.org/pdf/1208.2649.pdf
 ---
-[Paper URL](http://www.ci.uchicago.edu/research/papers/CI-TR-7-0811)
+[Paper URL](https://arxiv.org/pdf/1208.2649.pdf)

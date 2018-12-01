@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+set -e # halt script on error
+
+bundle exec jekyll build
+bundle exec htmlproofer ./_site              \
+  --assume-extension                         \
+  --check-html                               \
+  --http-status-ignore 999                   \
+  --url_ignore /https:\/\/scholar\.google\.com\/.*/,/http:\/\/iopscience\.iop\.org\/.*/
