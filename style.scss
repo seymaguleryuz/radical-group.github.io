@@ -471,6 +471,45 @@ tbody tr:nth-child(odd) th {
   padding-right: 1em;
 }
 
+.project-description {
+  overflow:auto;
+  text-align: justify;
+  text-justify: inter-character;
+}
+
+.project-description figure {
+  float:left;
+  vertical-align:top;
+  margin-right:15px;
+  margin-bottom: 20px;
+}
+
+.project-description figure ul {
+  font-size: 0.7rem;
+  list-style-type: disc;
+  list-style-position: inside;
+}
+
+.project-description figure li {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 2px
+}
+
+.list-item-projects {
+  // border: 3px solid #4CAF50;
+  padding: 5px;
+  overflow: auto;
+}
+
+.list-item-projects img {
+  float:left;
+  vertical-align:top;
+  margin-right:5px;
+  width:75px;
+  height:75px;
+}
+
 .list-post-title img {
   margin-bottom: 0.75em;
   margin-top: 1.25em;
