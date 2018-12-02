@@ -103,7 +103,6 @@ dd {
 }
 
 ul {
-  /*font-family: Helvetica, 'Ubuntu Mono';*/
   font-size: 0.8rem;
   list-style: inside circle;
   padding-left: 0;
@@ -498,7 +497,7 @@ tbody tr:nth-child(odd) th {
 // change font for navbar
 .navbar, .navbar-nav>li>a {
   background-color: white;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   text-transform: uppercase;
   font-weight: 400;
   font-size: 80%;
