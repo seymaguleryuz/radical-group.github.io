@@ -8,13 +8,11 @@ title: "PhD Student"
 permalink: /people/jdakka
 ---
 
-<img width="300" src="{{site.baseurl}}/images/people/{{page.avatar}}" data-action="zoom">
-
 ### Contact
 
- <i class="fa fa-envelope-o"></i> `jumana.dakka@rutgers.edu`<br>
- <i class="fa fa-building"></i> CoRE 707 <br>
- <hr>
+<i class="fa fa-envelope-o"></i> `jumana.dakka@rutgers.edu`<br>
+<i class="fa fa-building"></i> CoRE 707 <br>
+<hr>
 
 ### Bio
  

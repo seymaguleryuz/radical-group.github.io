@@ -8,8 +8,6 @@ title: "Research Associate"
 permalink: /people/hyungro_lee
 ---
 
-<img width="300" src="{{site.baseurl}}/images/people/{{page.avatar}}" data-action="zoom">
-
 ### Contact
 
 <i class="fa fa-envelope-o"></i>  `hyungro.lee@rutgers.edu`<br>
