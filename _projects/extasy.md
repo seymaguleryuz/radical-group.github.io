@@ -3,9 +3,9 @@ title: "Extensible Tools for Advanced Sampling and analYsis (ExTASY)"
 collection: projects
 permalink: /projects/extasy
 abstract: "Executing iterative, coupled molecular simulation and analysis kernels on high performance computing systems." 
-logo: extasy_logo.png
+logo: extasy_logo.jpg
 figure:
-  name: extasy.png
+  name: extasy.jpg
   width: 300
 repository: https://bitbucket.org/extasy-project/extasy-workflows
 grant:

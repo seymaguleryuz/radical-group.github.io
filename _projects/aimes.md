@@ -4,9 +4,9 @@ collection: projects
 permalink: /projects/aimes
 abstract: "Enabling extreme-scale distributed computing via dynamic federation
 of heterogeneous computing infrastructures." 
-logo: aimes_logo.png
+logo: aimes_logo.jpg
 figure:
-  name: aimes_logo.png
+  name: aimes.jpg
   width: 250
 grant:
   funder: DOE ASCR

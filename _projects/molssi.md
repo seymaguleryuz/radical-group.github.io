@@ -5,7 +5,7 @@ permalink: /projects/molssi
 abstract: "Enabling science, education, and cooperation to serve the worldwide community of computational molecular scientists."
 logo: molssi_logo.png
 figure:
-  name: molssi_main_logo.png
+  name: molssi.png
   width: 150
 website: https://molssi.org
 repository: https://github.com/MolSSI
