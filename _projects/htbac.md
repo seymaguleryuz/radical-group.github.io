@@ -6,7 +6,7 @@ abstract: "Enabling rapid, accurate, scalable and reliable free energy-based
 binding affinity calculations." 
 logo: htbac_logo.jpg
 figure:
-  name: htbac.png
+  name: htbac.jpg
   width: 400
 repository: https://github.com/radical-cybertools/htbac
 grant:

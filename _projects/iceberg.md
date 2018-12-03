@@ -5,7 +5,7 @@ permalink: /projects/iceberg
 abstract: "Coupling open-source image analysis tools with the use of high performance and distributed computing (HPDC) for imagery-enabled geoscience research." 
 logo: iceberg_logo.png
 figure:
-  name: iceberg_logo.png
+  name: iceberg.png
   width: 150
 website: https://iceberg-project.github.io/
 repository: https://github.com/iceberg-project

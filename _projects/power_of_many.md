@@ -5,7 +5,7 @@ permalink: /projects/power_of_many
 abstract: "Enabling ensemble programming for simulating and analyzing climatic models and seismic wave data."
 logo: pom_logo.jpg
 figure:
-  name: pom.png
+  name: pom.jpg
   width: 450
 repository: https://github.com/radical-collaboration/hpc-workflows
 grant:
