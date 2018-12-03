@@ -5,7 +5,9 @@ avatar: shantenu.jpg
 position: pi
 title: "Associate Professor"
 permalink: /people/shantenu-jha
-redirect_from: "/shantenu.html"
+redirect_from:
+  - "/shantenu.html"
+  - "people/shantenu-jha.html"
 ---
 
 ### Contact
