@@ -7,7 +7,7 @@ logo: midas_logo.png
 figure:
   name: midas.png
   width: 500
-repository: hhttps://github.com/radical-cybertools/midas
+repository: https://github.com/radical-cybertools/midas
 grant:
   funder: NSF
   number: 1443054
