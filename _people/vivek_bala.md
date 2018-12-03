@@ -11,7 +11,7 @@ permalink: /people/vivekb
 ### Contact
 
 <a href="https://github.com/vivek-bala"><i class="fa fa-github"></i> Vivek Balasubramanian</a><br>
-<a href=""><i class="fa fa-linkedin"></i> [Linkedin](https://www.linkedin.com/in/vivekanandan-balasubramanian-284a1663/) <br>
+<i class="fa fa-linkedin"></i> [Linkedin](https://www.linkedin.com/in/vivekanandan-balasubramanian-284a1663/) <br>
 <i class="fa fa-envelope-o"></i>  `vivek.balasubramanian@rutgers.edu`<br>
 <i class="fa fa-bar-chart"></i> [Google Scholar](https://scholar.google.com/citations?user=FWkMEzQAAAAJ&hl=en) <br>
 <hr>
@@ -25,6 +25,5 @@ RADICAL team since 2013.
 His research interests include software abstractions, frameworks for scientific
 applications, distributed computing, and component-based software engineering
 principles,
-
 
 <hr>

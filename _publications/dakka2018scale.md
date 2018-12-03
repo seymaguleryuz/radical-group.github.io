@@ -17,4 +17,4 @@ The efficacy of drug treatments depends on how tightly small molecules bind to t
 
 
 **Venue**: 2018 18th IEEE/ACM International Symposium on Cluster, Cloud and Grid Computing (CCGRID),
-[Paper URL]('https://ieeexplore.ieee.org/document/8411074')
+[Paper URL](https://ieeexplore.ieee.org/document/8411074)

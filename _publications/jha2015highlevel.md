@@ -6,6 +6,6 @@ type: standard
 date: 2015-12-25
 author: "Shantenu Jha and Peter M. Kasson"
 venue: ""
-paperurl: http://dx.doi.org/10.5281/zenodo.44377
+paperurl: https://core.ac.uk/download/pdf/30472240.pdf
 ---
-[Paper URL](http://dx.doi.org/10.5281/zenodo.44377)
+[Paper URL](https://core.ac.uk/download/pdf/30472240.pdf)

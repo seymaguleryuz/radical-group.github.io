@@ -8,4 +8,4 @@ author: "Shantenu Jha, Daniel S. Katz, Manish Parashar, Omer Rana and Jon B. Wei
 venue: "The 10th IEEE/ACM Conference on Grid Computing 2009, (Best Paper Award)"
 paperurl: http://www.cct.lsu.edu/~sjha/dpa_publications/dpa_grid2009.pdf
 ---
-[Paper URL]("http://www.cct.lsu.edu/~sjha/dpa_publications/dpa_grid2009.pdf")
+[Paper URL](http://www.cct.lsu.edu/~sjha/dpa_publications/dpa_grid2009.pdf)

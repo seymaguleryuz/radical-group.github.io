@@ -3,5 +3,45 @@ layout: default
 ---
 <div class="container content projects">
   <h1 class="page-title">{{ page.title }}</h1>
-  {{ content }}
+
+	<div class="project-description">
+			<figure>
+				{% if page.figure %}
+					<img src="../images/projects/{{page.figure.name}}" {% if page.figure.width %}width="{{page.figure.width}}"{% endif %}  alt="Project figure">
+				{% else %}
+					<img src="../images/projects/mgray_800x600.png" width="150" alt="Project figure">
+				{% endif %}
+				<figcaption>
+					{% if page.website %}
+						<a href="https://iceberg-project.github.io/">
+							<i class="fas fa-home"></i> Website
+						</a>
+						<br>
+					{% endif %}
+					{% if page.repository %}
+						<a href="https://github.com/iceberg-project">
+							{% if page.repository contains 'github' %}
+								<i class="fab fa-github"></i> GitHub
+							{% elsif page.repository contains 'bitbucket' %}
+								<i class="fab fa-bitbucket"></i> Bitbucket
+							{% else %}
+								<i class="fas fa-code-branch"></i> Repository
+							{% endif %}
+						</a>
+						<br>
+					{% endif %}
+
+					{% if page.grant %}
+						{% if page.grant.url %}
+							<a href="{{page.grant.url}}">
+								<i class="fas fa-award"></i> {{page.grant.funder}} Award {% if page.grant.number %}{{page.grant.number}}{% endif %}
+						</a>
+						{% else %}
+								<i class="fas fa-award"></i> {{page.grant.funder}} Award {% if page.grant.number %}{{page.grant.number}}{% endif %}
+						{% endif %}
+					{% endif %}
+				</figcaption>
+			</figure>
+	  {{ content }}
+	</div>
 </div>
