@@ -5,7 +5,6 @@ permalink: /publications/fox2015workshop
 type: standard
 date: 2015-12-25
 author: "Geoffrey Fox and Shantenu Jha and Lavanya Ramakrishnan"
-venue: ""
 paperurl: https://goo.gl/LaHWnq
 ---
 [Paper URL](https://goo.gl/LaHWnq)

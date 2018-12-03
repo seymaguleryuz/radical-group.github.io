@@ -5,7 +5,6 @@ permalink: /publications/luckow2018pilotstreaming
 type: draft
 date: 2018-01-26
 author: "Andre Luckow,  George Chantzialexiou and Shantenu Jha"
-venue: ""
 paperurl: https://arxiv.org/pdf/1801.08648.pdf
 ---
 
