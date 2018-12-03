@@ -8,7 +8,6 @@ figure:
   name: prcn.jpg
   width: 285
 website: http://polar.crc.nd.edu/
-repository: https://github.com/iceberg-project
 grant:
   funder: NSF
   number: 1541620
