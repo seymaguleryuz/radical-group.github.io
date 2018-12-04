@@ -80,7 +80,7 @@ p {
   font-family: "Open Sans", "Helvetica Neue", Helvetica;
   font-weight: 300;
   margin: 0 0 1rem;
-  font-size: 0.8rem;
+  font-size: 18px;
 }
 
 ul, ol, dl {
@@ -500,15 +500,19 @@ tbody tr:nth-child(odd) th {
 .list-item-projects {
   // border: 3px solid #4CAF50;
   padding: 5px;
+  margin-bottom: 15px;
   overflow: auto;
 }
 
 .list-item-projects img {
   float:left;
-  vertical-align:top;
-  margin-right:5px;
-  width:75px;
-  height:75px;
+  vertical-align: top;
+  width: 75px;
+  height: 75px;
+  display: block;
+  max-width: 100%;
+  margin: 0 7.5px 0px 0;
+  border-radius: 0;
 }
 
 .publications_list {
@@ -520,8 +524,12 @@ tbody tr:nth-child(odd) th {
   margin-top: 1.25em;
 }
 
-.list-post-title .name {
+.list-post-title {
+  font-family: "Open Sans", "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-display: fallback;
   font-size: 18px;
+  font-weight: 300;
+  display: table;
 }
 
 .list-item a:hover, .list-post-title:hover .name, .list-post-title .name:hover {
@@ -557,6 +565,15 @@ tbody tr:nth-child(odd) th {
   // fix menu scroll along x axis
   .navbar-nav {
     margin-right: 15px;
+  }
+
+  // fix wrapping text of projects
+  .list-post-title {
+    font-family: "Open Sans", "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-display: fallback;
+    font-size: 18px;
+    font-weight: 300;
+    display: initial;
   }
 }
 

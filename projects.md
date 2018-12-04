@@ -17,7 +17,7 @@ RADICAL engages in computing research to enable advances in cyberinfrastructure 
 {% endif %}
 </div>
 
-<div class="content list projects">
+<div>
 	{% for post in site.projects %}
   	{% if post.status == item %}
 	    <div class="list-item-projects">
@@ -27,7 +27,7 @@ RADICAL engages in computing research to enable advances in cyberinfrastructure 
         <img src="{{site.baseurl}}/images/projects/mgray_800x600.png alt="Project image">
         {% endif %}	    	
 	     	<span class="list-post-title" >
-	     		<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>: {{ post.abstract }}
+	     		<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}: </a>{{ post.abstract }}
 	     		<!-- <br>{{ post.grant_number }} -->
 	      </span>
 	    </div>
