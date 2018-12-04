@@ -1,5 +1,6 @@
 # RADICAL page
 
+[![Build Status](https://travis-ci.org/radical-group/radical-group.github.io.svg?branch=master)](https://travis-ci.org/radical-group/radical-group.github.io)
 
 This is the repository for our [RADICAL page](http://radical.rutgers.edu/). We 
 use Jekyll to run our Github page. We welcome other people to contribute to our 
