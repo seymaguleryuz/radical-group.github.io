@@ -56,7 +56,7 @@ permalink: /people/
   <li>Sharath Maddineni</li>
   <li>Chris Miceli</li>
   <li>Michael Miceli</li>
-  <li>Hartmut Kaiser)</li>
+  <li>Hartmut Kaiser</li>
   <li>Ashley Zebrowski</li>
   <li>Aikaterina Stamou</li>
 </ul>
