@@ -1,8 +1,8 @@
 ---
-title: "Fast fingerprinting & detection of materials using portable/hand-held devices and high performance computing for use in manufacturing and supply chain applications."
+title: "Fast fingerprinting & detection of materials using hand-held devices and high performance computing"
 collection: projects
 permalink: /projects/ffp
-abstract: "Provide an cutting-edge material analysis application which uses machine learning (ML) algorithms leveraging HPC to process data gathered from handheld infrared sensors"
+abstract: "Providing an application for cutting-edge material analysis which uses machine learning algorithms and high performance computing to process data gathered from hand-held infrared sensors."
 logo: ffp_logo.png
 figure:
   name: ffp.png
@@ -14,11 +14,5 @@ grant:
 status: active
 ---
 
-Material analysis is critical to enable the production of safe and quality goods 
-and today companies use cumbersome, time-consuming, and error-prone methods to 
-analyze materials using expensive analytical laboratories. 
-
-Our objective is to provide a cutting-edge material analysis application which 
-produces accurate, and near real-time readings. We use machine learning 
-(ML) algorithms leveraging HPC to process data gathered from handheld infrared 
+Material analysis is critical to enable the production of safe and high-quality goods. Today companies use cumbersome, time-consuming, and error-prone methods to analyze materials which require expensive analytical laboratories. We develop a software application to enable cutting-edge material analysis, producing accurate and near real-time readings. We use machine learning  algorithms and high performance computing to process data gathered from hand-held infrared 
 sensors.
