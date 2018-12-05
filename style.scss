@@ -473,7 +473,7 @@ tbody tr:nth-child(odd) th {
 }
 
 .project-description {
-  overflow:auto;
+  overflow: auto;
   text-align: justify;
   text-justify: inter-character;
 }
@@ -529,6 +529,8 @@ tbody tr:nth-child(odd) th {
   font-display: fallback;
   font-size: 18px;
   font-weight: 300;
+  text-align: justify; 
+  text-justify: inter-character;
   display: table;
 }
 
