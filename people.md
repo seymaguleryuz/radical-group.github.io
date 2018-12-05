@@ -7,12 +7,12 @@ permalink: /people/
 {%- assign people_array = "pi|researcher|phd|ms|undergrad|visiting" | split: "|" -%}
 
 
-<div class="content list people">
+<div class="content list people grid-container">
 {%- for item in people_array -%}
   {%- for profile in people_sorted -%}
     {%- if profile.position contains item -%}
     <div class="list-item-people">
-      <p class="list-post-title">
+      <p class="list-post-title" style="font-size: 16px;">
         {%- if profile.avatar -%}
         <a href="{{ site.baseurl }}{{ profile.url }}">
           <img width="200" src="{{site.baseurl}}/images/people/{{profile.avatar}}" alt="Photo of {{ profile.name }}">
