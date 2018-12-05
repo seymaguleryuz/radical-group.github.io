@@ -24,7 +24,7 @@ RADICAL engages in computing research to enable advances in cyberinfrastructure 
        {% if post.logo %}
         <img src="{{site.baseurl}}/images/projects/{{post.logo}}" alt="Project image">
         {% else %}
-        <img src="{{site.baseurl}}/images/projects/mgray_800x600.png alt="Project image">
+        <img src="{{site.baseurl}}/images/projects/mgray_800x600.png" alt="Project image">
         {% endif %}	    	
 	     	<span class="list-post-title" >
 	     		<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}: </a>{{ post.abstract }}
