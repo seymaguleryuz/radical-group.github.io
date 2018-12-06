@@ -8,5 +8,3 @@ author: "Mark Santcroos, Silvia Delgado Olabarriaga, Daniel S. Katz and Shantenu
 venue: "2012 IEEE 8th International Conference on E-Science"
 paperurl: https://ieeexplore.ieee.org/abstract/document/6404459/
 ---
-
-[Paper URL](https://ieeexplore.ieee.org/abstract/document/6404459/)

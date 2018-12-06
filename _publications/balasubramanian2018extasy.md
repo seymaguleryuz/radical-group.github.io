@@ -8,5 +8,3 @@ author: "V. Balasubramanian, I. Bethune, A. Shkurti, E. Breitmoser, E. Hruska, C
 venue: "2016 IEEE 12th International Conference on e-Science (e-Science)"
 paperurl: https://ieeexplore.ieee.org/document/7870921/
 ---
-
-[Paper URL](https://ieeexplore.ieee.org/document/7870921/)

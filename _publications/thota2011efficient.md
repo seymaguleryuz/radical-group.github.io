@@ -8,4 +8,3 @@ author: "Abhinav Thota and Andre Luckow and Shantenu Jha"
 venue: "Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences"
 paperurl: http://rsta.royalsocietypublishing.org/content/369/1949/3318.abstract
 ---
-[Paper URL](http://rsta.royalsocietypublishing.org/content/369/1949/3318.abstract)

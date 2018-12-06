@@ -8,4 +8,3 @@ author: "Joohyun Kim, Wei Huang, Sharath Maddineni, Fareed Aboul-ela and Shanten
 venue: "Concurrency and Computation: Practice and Experience"
 paperurl: http://onlinelibrary.wiley.com/doi/10.1002/cpe.1796/abstract
 ---
-[Paper URL](http://onlinelibrary.wiley.com/doi/10.1002/cpe.1796/abstract)

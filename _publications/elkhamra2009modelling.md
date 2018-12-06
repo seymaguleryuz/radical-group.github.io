@@ -8,4 +8,3 @@ author: "Yaakoub El-Khamra and Shantenu Jha"
 venue: "Microsoft Research eScience Workshop, Pittsburgh"
 paperurl: http://research.microsoft.com/en-us/UM/redmond/events/eScience2009/17863/lecture.htm
 ---
-[Paper URL](http://research.microsoft.com/en-us/UM/redmond/events/eScience2009/17863/lecture.htm)

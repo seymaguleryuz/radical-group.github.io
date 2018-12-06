@@ -8,4 +8,3 @@ author: "Andre Merzky, Ole Weidner and Shantenu Jha"
 venue: "Software-X"
 paperurl: http://dx.doi.org/10.1016/j.softx.2015.03.001
 ---
-[Paper URL](http://dx.doi.org/10.1016/j.softx.2015.03.001)

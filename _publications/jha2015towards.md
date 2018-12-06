@@ -7,4 +7,3 @@ date: 2015-12-25
 author: "Shantenu Jha"
 paperurl: https://zenodo.org/record/17909
 ---
-[Paper URL](https://zenodo.org/record/17909)

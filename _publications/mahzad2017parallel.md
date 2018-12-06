@@ -7,11 +7,7 @@ date: 2017-12-25
 author: "Mahzad Khoshlessan, Ioannis Paraskevakos, Shantenu Jha and Oliver Beckstein"
 venue: "Proceedings of the 15th Python in Science Conference. (SCIPY 2017)"
 paperurl: http://conference.scipy.org/proceedings/scipy2017/pdfs/mahzad_khoslessan.pdf
----
-
-## Abstract
-
-The analysis of biomolecular computer simulations has become a
+abstract: "The analysis of biomolecular computer simulations has become a
 challenge because the amount of output data is now routinely in the terabyte
 range. We evaluated if this challenge can be met by a parallel map-reduce
 approach with the Dask parallel computing library for task-graph based computing
@@ -30,13 +26,10 @@ in local per-core CPU-intensive decompression. Scaling was tested on a single
 node and multiple nodes on national and local supercomputing resources as well
 as typical workstations. Although very good strong scaling could be achieved for
 single nodes, good scaling across multiple nodes was hindered by the persistent
-occurrence of "stragglers", tasks that take much longer than all other tasks, and
+occurrence of \"stragglers\", tasks that take much longer than all other tasks, and
 whose ultimate cause could not be completely ascertained. In summary, we
 show that, due to the focus on high interoperability in the scientific Python eco
 system, it is straightforward to implement map-reduce with Dask in MDAnalysis
 and provide an in-depth analysis of the considerations to obtain good parallel
-performance on HPC resources.
-
+performance on HPC resources."
 ---
-
-[Paper URL](http://conference.scipy.org/proceedings/scipy2017/pdfs/mahzad_khoslessan.pdf)

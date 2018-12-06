@@ -8,5 +8,3 @@ author: "Mathijs Den Burger, Ceriel Jacobs, Thilo Kielmann, Andre Merzky, Ole We
 venue: "Proceedings of the 16th international Euro-Par conference on Parallel processing: Part I"
 paperurl: http://dl.acm.org/citation.cfm?id=1887695.1887739
 ---
-
-[Paper URL](http://dl.acm.org/citation.cfm?id=1887695.1887739)

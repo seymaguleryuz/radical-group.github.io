@@ -8,4 +8,3 @@ author: "Daniel S. Katz, Andre Merzky, Zhao Zhang and Shantenu Jha"
 venue: "Future Generation Computer Systems"
 paperurl: http://www.sciencedirect.com/science/article/pii/S0167739X15003143
 ---
-[Paper URL](http://www.sciencedirect.com/science/article/pii/S0167739X15003143)

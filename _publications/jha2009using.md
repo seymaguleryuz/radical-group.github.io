@@ -8,4 +8,3 @@ author: "Shantenu Jha, Andre Merzky and Geoffrey Fox"
 venue: "Concurrency and Computation: Practice and Experience"
 paperurl: http://www.ogf.org/OGF_Special_Issue/cloud-grid-saga.pdf
 ---
-[Paper URL](http://www.ogf.org/OGF_Special_Issue/cloud-grid-saga.pdf)

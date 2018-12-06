@@ -8,4 +8,3 @@ author: "Andre Luckow, Mark Santcroos, Andre Merzky, Ole Weidner, Pradeep Mantha
 venue: "IEEE 8th International Conference on e-Science"
 paperurl: http://dx.doi.org/10.1109/eScience.2012.6404423
 ---
-[Paper URL](http://dx.doi.org/10.1109/eScience.2012.6404423)

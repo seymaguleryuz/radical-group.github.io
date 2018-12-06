@@ -7,5 +7,3 @@ date: 2015-12-25
 author: "Andre Luckow, Ioannis Paraskevakos and Shantenu Jha"
 paperurl: http://arxiv.org/pdf/1501.05041v1.pdf
 ---
-
-[Paper URL](http://arxiv.org/pdf/1501.05041v1.pdf)

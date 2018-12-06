@@ -8,4 +8,3 @@ author: "Brian K. Radak, Melissa Romanus, Tai-Sung Lee, Haoyuan Chen, Ming Huang
 venue: "Journal of Chemical Theory and Computation"
 paperurl: http://dx.doi.org/10.1021/ct500776j
 ---
-[Paper URL](http://dx.doi.org/10.1021/ct500776j)
