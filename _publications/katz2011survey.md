@@ -7,4 +7,3 @@ date: 2011-12-25
 author: "Daniel S. Katz, Shantenu Jha, Manish Parashar, Omer F. Rana and Jon Weissman"
 paperurl: https://arxiv.org/pdf/1208.2649.pdf
 ---
-[Paper URL](https://arxiv.org/pdf/1208.2649.pdf)

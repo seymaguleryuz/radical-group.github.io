@@ -21,7 +21,7 @@ permalink: /projects/
 	{% for post in site.projects %}
   	{% if post.status == item %}
 	    <div class="list-item-projects">
-       {% if post.logo %}
+        {% if post.logo %}
         <img src="{{site.baseurl}}/images/projects/{{post.logo}}" alt="Project image">
         {% else %}
         <img src="{{site.baseurl}}/images/projects/mgray_800x600.png" alt="Project image">

@@ -8,83 +8,73 @@ permalink: /publications/
 {%- assign year_array = "2018|2017|2016|2015|2014|2013|2012|2011|2010|2009|2008|2007|2006|2005" | split: "|" -%}
 
 {%- for item in pub_array -%}
-<div class="pos_header">
 {%- if item == 'pub' -%}
-<h3>Publications</h3>
+<h1>Publications</h1>
 {%- elsif item == 'standard' -%}
-<h3>Standards, White Papers, Technical Reports</h3>
-{%- elsif item == 'draft' -%}
-<h3>Draft</h3>
+<h1>Standards, White Papers, Technical Reports</h1>
 {%- endif -%}
-</div>
+
 {%- if item == 'pub' -%}
 {%- for year in year_array -%}
-<div class="pos_header">
 {%- if year == '2018' -%}
-<h4 class="pub_year">2018</h4>
+<h2 class="pub-year">2018</h2>
 {%- elsif year == '2017' -%}
-<h4>2017</h4>
+<h2 class="pub-year">2017</h2>
 {%- elsif year == '2016' -%}
-<h4>2016</h4>
+<h2 class="pub-year">2016</h2>
 {%- elsif year == '2015' -%}
-<h4>2015</h4>
+<h2 class="pub-year">2015</h2>
 {%- elsif year == '2014' -%}
-<h4>2014</h4>
+<h2 class="pub-year">2014</h2>
 {%- elsif year == '2013' -%}
-<h4>2013</h4>
+<h2 class="pub-year">2013</h2>
 {%- elsif year == '2012' -%}
-<h4>2012</h4>
+<h2 class="pub-year">2012</h2>
 {%- elsif year == '2011' -%}
-<h4>2011</h4>
+<h2 class="pub-year">2011</h2>
 {%- elsif year == '2010' -%}
-<h4>2010</h4>
+<h2 class="pub-year">2010</h2>
 {%- elsif year == '2009' -%}
-<h4>2009</h4>
+<h2 class="pub-year">2009</h2>
 {%- elsif year == '2008' -%}
-<h4>2008</h4>
+<h2 class="pub-year">2008</h2>
 {%- elsif year == '2007' -%}
-<h4>2007</h4>
+<h2 class="pub-year">2007</h2>
 {%- elsif year == '2006' -%}
-<h4>2006</h4>
+<h2 class="pub-year">2006</h2>
 {%- elsif year == '2005' -%}
-<h4>2005</h4>
+<h2 class="pub-year">2005</h2>
 {%- endif -%}
-</div>
-<div class="content list people" align="left">
+
 {%- for pub in pub_sorted reversed -%}
 {%- assign date = pub.date | date_to_long_string -%}
 {%- if pub.type contains item and date contains year -%}
-<div class="list-item-pub">
-<p class="publications_list" align="left">
-<em>{{ pub.title }}</em>. {{ pub.author }}. {{ pub.venue }}.<br>
-<a href="{{ site.baseurl }}{{ pub.url }}">
-[Abstract]
-</a>
-{%- if pub.paperurl -%} 
-<a href="{{ pub.paperurl }}">
-[Paper]
-</a>
-{%- endif -%}
+<div class="pub-page-grid-container">
+<p class="pub-list-ref">
+<b>{{ pub.title }}</b>. {{ pub.author }}. <i>{{ pub.venue }}</i>.
+</p>
+<p class="pub-list-ref-links">
+{%- if pub.abstract -%}<a href="{{ site.baseurl }}{{ pub.url }}"><i class="fas fa-align-justify"></i> Abstract</a>{%- endif -%}
+{%- if pub.paperurl -%}<span><a href="{{ pub.paperurl }}"><i class="fas fa-file-alt"></i> Paper</a></span>{%- endif -%}
 </p>
 </div>
 {%- endif -%}
 {%- endfor -%}
-</div>
 {%- endfor -%}
 
 {%- else -%}
-<div class="content list people" align="left">
 {%- for pub in pub_sorted reversed -%}
 {%- if pub.type contains item -%}
-<div class="list-item-pub">
-<p class="publications_list" align="left">
-<em>{{ pub.title }}</em>. {{ pub.author }}. {{ pub.venue }}<br>
-<a href="{{ pub.paperurl }}">[Paper URL]</a>
+<div class="pub-page-grid-container">
+<p class="pub-list-ref">
+<b>{{ pub.title }}</b>. {{ pub.author }}. {% if pub.venue %}<i>{{ pub.venue }}</i>.{% endif %}
+</p>
+<p class="pub-list-ref-links">
+{%- if pub.abstract -%}<a href="{{ site.baseurl }}{{ pub.url }}"><i class="fas fa-align-justify"></i> Abstract</a>{%- endif -%}
+{%- if pub.paperurl -%}<a href="{{ pub.paperurl }}"><i class="fas fa-file-alt"></i> Paper</a>{%- endif -%}
 </p>
 </div>
 {%- endif -%}
 {%- endfor -%}
-</div>
 {%- endif -%}
-<hr>
 {%- endfor -%}

@@ -7,4 +7,3 @@ date: 2006-12-25
 author: "Shantenu Jha and Andre Merzky"
 paperurl: http://ogf.org/documents/GFD.71.pdf
 ---
-[Paper URL](http://ogf.org/documents/GFD.71.pdf)

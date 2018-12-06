@@ -8,4 +8,3 @@ author: "A Klimentov, P Buncic, K De, S Jha, T Maeno, R Mount, P Nilsson, D Oley
 venue: "Journal of Physics: Conference Series"
 paperurl: http://iopscience.iop.org/article/10.1088/1742-6596/608/1/012040/pdf
 ---
-[Paper URL](http://iopscience.iop.org/article/10.1088/1742-6596/608/1/012040/pdf)

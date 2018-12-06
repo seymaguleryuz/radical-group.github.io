@@ -7,4 +7,3 @@ date: 2015-12-25
 author: "Geoffrey Fox and Shantenu Jha and Lavanya Ramakrishnan"
 paperurl: https://goo.gl/LaHWnq
 ---
-[Paper URL](https://goo.gl/LaHWnq)

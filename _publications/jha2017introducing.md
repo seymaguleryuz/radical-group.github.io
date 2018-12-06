@@ -8,4 +8,3 @@ author: "Jha, Shantenu and Katz, Daniel S. and Luckow, Andre and Chue Hong , Nei
 venue: "Concurrency and Computation: Practice and Experience"
 paperurl: http://dx.doi.org/10.1002/cpe.4032
 ---
-[Paper URL](http://dx.doi.org/10.1002/cpe.4032)

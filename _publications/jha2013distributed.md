@@ -8,4 +8,3 @@ author: "Jha, Shantenu and Cole, Murray and Katz, Daniel S. and Parashar, Manish
 venue: "Concurrency and Computation: Practice and Experience"
 paperurl: http://dx.doi.org/10.1002/cpe.2897
 ---
-[Paper URL](http://dx.doi.org/10.1002/cpe.2897)

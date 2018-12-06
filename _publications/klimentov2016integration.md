@@ -8,4 +8,3 @@ author: "A. Klimentov, K. De, S. Jha, T. Maeno, R. Mashinistov, P. Nilsson,  A. 
 venue: "Journal of Physics: Conference Series, Volume 762 (2016), 012021, 17th International Workshop on Advanced Computing and Analysis Techniques in Physics Research (ACAT 2016, Valparaiso, Chile, 20160118, 20160122)"
 paperurl: http://iopscience.iop.org/article/10.1088/1742-6596/762/1/012021/pdf
 ---
-[Paper URL](http://iopscience.iop.org/article/10.1088/1742-6596/762/1/012021/pdf)

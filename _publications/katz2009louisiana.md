@@ -8,4 +8,3 @@ author: "Daniel S. Katz, Gabrielle Allen, R. Cortez, C. Cruz-Neira, R. Gottumukk
 venue: "Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences"
 paperurl: http://rsta.royalsocietypublishing.org/content/367/1897/2459.full.pdf
 ---
-[Paper URL](http://rsta.royalsocietypublishing.org/content/367/1897/2459.full.pdf)

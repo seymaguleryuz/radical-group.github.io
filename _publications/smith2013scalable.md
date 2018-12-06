@@ -8,4 +8,3 @@ author: "Jack Smith, Melissa Romanus, James Solow, Pradeep Kumar Mantha, Yaakoub
 venue: "Proceedings of the Conference on Extreme Science and Engineering Discovery Environment: Gateway to Discovery"
 paperurl: https://github.com/saga-project/radical.wp/raw/master/publications/pdf/2013-xsede-hthpc.pdf
 ---
-[Paper URL](https://github.com/saga-project/radical.wp/raw/master/publications/pdf/2013-xsede-hthpc.pdf)

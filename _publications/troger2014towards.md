@@ -8,4 +8,3 @@ author: "Peter Troger and Andre Merzky"
 venue: "Journal of Grid Computing"
 paperurl: http://link.springer.com/article/10.1007%2Fs10723-013-9275-2
 ---
-[Paper URL](http://link.springer.com/article/10.1007%2Fs10723-013-9275-2)

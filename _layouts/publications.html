@@ -2,6 +2,12 @@
 layout: default
 ---
 <div class="container content projects">
-  <h1 class="page-title">{{ page.title }}</h1>
-	  {{ content }}
+  <h1 class="pub-page-title">{{ page.title }}</h1>
+  <p class="pub-page-author">{{ page.author }}</p>
+  {%- if page.abstract -%}
+	<p class="pub-page-abstract">
+		{%- if page.paperurl -%}<a href="{{ page.paperurl }}"><i class="fas fa-file-alt"></i> Paper</a>{%- endif -%}
+		<strong>Abstract.</strong> {{ page.abstract | escape }}
+	<p>
+	{%- endif -%}
 </div>

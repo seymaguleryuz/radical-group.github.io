@@ -8,5 +8,3 @@ author: "Frank Loffler, Gabrielle Allen, Werner Benger, Andrei Hutanu, Shantenu 
 venue: "Proceedings of the 2011 TeraGrid Conference: Extreme Digital Discovery"
 paperurl: http://astrocompute.files.wordpress.com/2011/07/using-the-teragrid-to-teach-scientific-computing-1.pdf
 ---
-
-[Paper URL](http://astrocompute.files.wordpress.com/2011/07/using-the-teragrid-to-teach-scientific-computing-1.pdf)
