@@ -7,7 +7,7 @@ layout: default
   {%- if page.abstract -%}
 	<p class="pub-page-abstract">
 		{%- if page.paperurl -%}<a href="{{ page.paperurl }}"><i class="fas fa-file-alt"></i> Paper</a>{%- endif -%}
-		<strong>Abstract.</strong> {{ page.abstract }}
+		<strong>Abstract.</strong> {{ page.abstract | escape }}
 	<p>
 	{%- endif -%}
 </div>
