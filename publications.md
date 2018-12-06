@@ -54,8 +54,8 @@ permalink: /publications/
 <b>{{ pub.title }}</b>. {{ pub.author }}. <i>{{ pub.venue }}</i>.
 </p>
 <p class="pub-list-ref-links">
-{%- if pub.abstract -%}<a href="{{ site.baseurl }}{{ pub.url }}"><i class="fas fa-align-justify"></i> Abstract</a><br>{%- endif -%}
-{%- if pub.paperurl -%}<a href="{{ pub.paperurl }}"><i class="fas fa-file-alt"></i> Paper</a>{%- endif -%}
+{%- if pub.abstract -%}<a href="{{ site.baseurl }}{{ pub.url }}"><i class="fas fa-align-justify"></i> Abstract</a>{%- endif -%}
+{%- if pub.paperurl -%}<span><a href="{{ pub.paperurl }}"><i class="fas fa-file-alt"></i> Paper</a></span>{%- endif -%}
 </p>
 </div>
 {%- endif -%}
@@ -70,7 +70,7 @@ permalink: /publications/
 <b>{{ pub.title }}</b>. {{ pub.author }}. {% if pub.venue %}<i>{{ pub.venue }}</i>.{% endif %}
 </p>
 <p class="pub-list-ref-links">
-{%- if pub.abstract -%}<a href="{{ site.baseurl }}{{ pub.url }}"><i class="fas fa-align-justify"></i> Abstract</a><br>{%- endif -%}
+{%- if pub.abstract -%}<a href="{{ site.baseurl }}{{ pub.url }}"><i class="fas fa-align-justify"></i> Abstract</a>{%- endif -%}
 {%- if pub.paperurl -%}<a href="{{ pub.paperurl }}"><i class="fas fa-file-alt"></i> Paper</a>{%- endif -%}
 </p>
 </div>
