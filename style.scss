@@ -658,12 +658,15 @@ tbody tr:nth-child(odd) th {
   }
 
   .pub-list-ref-links {
-    display: flex;
     text-align: left;
     margin-bottom: 1em;
+    padding-right: 10px;
   }
 
+  .pub-list-ref-links a {
+    padding-right: 10px;
+  }  
   .pub-list-ref-links span {
-    padding: 0 8px;  
+    display: inline;
   }  
 }
