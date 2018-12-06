@@ -6,7 +6,7 @@ permalink: /projects/
 
 ## Projects
 
-RADICAL engages in computing research to enable advances in cyberinfrastructure design and development. RADICAL contributes to address a diverse set of scientific problems at scale, ranging from biomolecular sciences to earth sciences and high-energy physics.
+<p style="text-align: justify; text-justify: inter-character;"> RADICAL engages in computing research to enable advances in cyberinfrastructure design and development. RADICAL contributes to address a diverse set of scientific problems at scale, ranging from biomolecular sciences to earth sciences and high-energy physics.</p>
 
 {% for item in proj_array %}
 <div class="pos_header">
@@ -26,7 +26,7 @@ RADICAL engages in computing research to enable advances in cyberinfrastructure 
         {% else %}
         <img src="{{site.baseurl}}/images/projects/mgray_800x600.png" alt="Project image">
         {% endif %}	    	
-	     	<span class="list-post-title" >
+	     	<span class="list-post-title" style="text-align: justify; text-justify: inter-character;">
 	     		<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}: </a>{{ post.abstract }}
 	     		<!-- <br>{{ post.grant_number }} -->
 	      </span>
