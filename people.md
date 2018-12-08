@@ -39,7 +39,7 @@ permalink: /people/
 
 <h3>Alumni</h3>
 
-<ul class="two-columns">
+<ul class="alumni-columns">
   <li>Ming Tai Ha</li>
   <li>Ole Weidner</li>
   <li>Franklin Bettencourt</li>
