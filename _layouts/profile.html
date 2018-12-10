@@ -11,7 +11,7 @@ layout: default
 
 	{%- if page.contacts -%}
 	<div id="people-page-contacts">
-		{% if page.contacts.email %}<i class="fas fa-envelope"></i> {{ page.contacts.email }}<br>{% endif %}
+		{% if page.contacts.email %}<i class="fas fa-envelope"></i> <a href="mailto:{{ page.contacts.email }}">{{ page.contacts.email }}</a><br>{% endif %}
 		{% if page.contacts.office %}<i class="fas fa-building"></i> {{ page.contacts.office }}<br>{% endif %}
 		{% if page.contacts.scholar %}<a href="{{ page.contacts.scholar }}"><i class="fas fa-chart-bar"></i> Google Scholar</a><br>{% endif %}
 		{% if page.contacts.github %}<a href="{{ page.contacts.github }}"><i class="fab fa-github"></i> Github</a><br>{% endif %}
