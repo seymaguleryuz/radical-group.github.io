@@ -4,92 +4,90 @@ layout: default
 <div class="container content page">
 
   <h1 id="people-page-name">{{ page.name }}</h1>
+  <p id="people-page-title">{{ page.title }}</p>
+  <img src="{{site.baseurl}}/images/people/{{page.avatar}}" id="people-page-avatar" alt="{{page.name}} photo" width="300" data-action="zoom" />
 
-	<p id="people-page-title">{{ page.title }}</p>
-	
-	<img src="{{site.baseurl}}/images/people/{{page.avatar}}" id="people-page-avatar" alt="{{page.name}} photo" width="300" data-action="zoom" />
+  {%- if page.contacts -%}
+  <div id="people-page-contacts">
+    {% if page.contacts.email %}<i class="fas fa-envelope"></i> {{ page.contacts.email }}<br>{% endif %}
+    {% if page.contacts.office %}<i class="fas fa-building"></i> {{ page.contacts.office }}<br>{% endif %}
+    {% if page.contacts.scholar %}<a href="{{ page.contacts.scholar }}"><i class="fas fa-chart-bar"></i> Google Scholar</a><br>{% endif %}
+    {% if page.contacts.github %}<a href="{{ page.contacts.github }}"><i class="fab fa-github"></i> Github</a><br>{% endif %}
+    {% if page.contacts.linkedin %}<a href="{{ page.contacts.linkedin }}"><i class="fab fa-linkedin"></i> Linkedin Profile</a><br>{% endif %}
+  </div>
+  {%- endif -%}
 
-	{%- if page.contacts -%}
-	<div id="people-page-contacts">
-		{% if page.contacts.email %}<i class="fas fa-envelope"></i> <a href="mailto:{{ page.contacts.email }}">{{ page.contacts.email }}</a><br>{% endif %}
-		{% if page.contacts.office %}<i class="fas fa-building"></i> {{ page.contacts.office }}<br>{% endif %}
-		{% if page.contacts.scholar %}<a href="{{ page.contacts.scholar }}"><i class="fas fa-chart-bar"></i> Google Scholar</a><br>{% endif %}
-		{% if page.contacts.github %}<a href="{{ page.contacts.github }}"><i class="fab fa-github"></i> Github</a><br>{% endif %}
-		{% if page.contacts.linkedin %}<a href="{{ page.contacts.linkedin }}"><i class="fab fa-linkedin"></i> Linkedin Profile</a><br>{% endif %}
-	</div>
-	{%- endif -%}
+  <div id="people-page-bio" style="margin-bottom: 1rem">{{ page.content }}</div>
 
-	<div id="people-page-bio" style="margin-bottom: 1rem">{{ page.content }}</div>
+  {%- if page.projects -%}
+  <div class="people-page-projects">
+    <h2 style="-webkit-column-span: all; column-span: all;">Current projects</h2>
+    {%- for p_project in page.projects -%}
+    {%- for s_project in site.projects -%}
+    {%- if p_project.id == s_project.slug -%}
+    <div class="list-item-projects" style="-webkit-column-break-inside: avoid; page-break-inside: avoid; break-inside: avoid;">
+      {% if s_project.logo %}
+      <img src="{{site.baseurl}}/images/projects/{{s_project.logo}}" alt="Project image">
+      {% else %}
+      <img src="{{site.baseurl}}/images/projects/mgray_800x600.png" alt="Project image">
+      {% endif %}       
+      <span class="list-post-title" style="text-align: left;">
+        <a href="{{ site.baseurl }}{{ s_project.url }}">{{ s_project.title | truncate: 45 }}</a><br>
+        Role: {{ p_project.role }}
+      </span>
+    </div>
+    {%- endif -%}
+    {%- endfor -%}
+    {%- endfor -%}
+  </div>
+  {%- endif -%}
 
-	{%- if page.projects -%}
-	<div class="people-page-projects">
-		<h2 style="-webkit-column-span: all; column-span: all;">Current projects</h2>
-		{%- for p_project in page.projects -%}
-		{%- for s_project in site.projects -%}
-		{%- if p_project.id == s_project.slug -%}
-	    <div class="list-item-projects" style="-webkit-column-break-inside: avoid; page-break-inside: avoid; break-inside: avoid;">
-        {% if s_project.logo %}
-        <img src="{{site.baseurl}}/images/projects/{{s_project.logo}}" alt="Project image">
-        {% else %}
-        <img src="{{site.baseurl}}/images/projects/mgray_800x600.png" alt="Project image">
-        {% endif %}	    	
-	     	<span class="list-post-title" style="text-align: left;">
-	     		<a href="{{ site.baseurl }}{{ s_project.url }}">{{ s_project.title | truncate: 45 }}</a><br>
-	     		Role: {{ p_project.role }}
-	      </span>
-	    </div>
-		{%- endif -%}
-		{%- endfor -%}
-		{%- endfor -%}
-	</div>
-	{%- endif -%}
+  {%- if page.publications -%}
+  <div id="people-page-pub" style="margin-bottom: 1rem">
+    <h2>Selection of recent publications</h2>
+    {%- for pub in page.publications -%}
+    {%- for sitepub in site.publications -%}
+    {%- if pub.id == sitepub.slug -%}
+    <div class="pub-page-grid-container">
+      <p class="pub-list-ref">
+      {% if pub.cofirst %}(co-first author) {% endif %}{{ sitepub.author }}. <i>{{ sitepub.title }}</i>. {{ sitepub.venue }}.
+      </p>
+      <p class="pub-list-ref-links">
+      {%- if sitepub.abstract -%}<a href="{{ site.baseurl }}{{ sitepub.url }}"><i class="fas fa-align-justify"></i> Abstract</a>{%- endif -%}
+      {%- if sitepub.paperurl -%}<span><a href="{{ sitepub.paperurl }}"><i class="fas fa-file-alt"></i> Paper</a></span>{%- endif -%}
+      </p>
+    </div>
+    {%- endif -%}
+    {%- endfor -%}
+    {%- endfor -%}
+  </div>
+  {%- endif -%}
 
-	{%- if page.publications -%}
-	<div id="people-page-pub" style="margin-bottom: 1rem">
-		<h2>Selection of recent publications</h2>
-		{%- for pub in page.publications -%}
-		{%- for sitepub in site.publications -%}
-		{%- if pub.id == sitepub.slug -%}
-		<div class="pub-page-grid-container">
-			<p class="pub-list-ref">
-			{% if pub.cofirst %}(co-first author) {% endif %}{{ sitepub.author }}. "{{ sitepub.title }}". <i>{{ sitepub.venue }}</i>.
-			</p>
-			<p class="pub-list-ref-links">
-			{%- if sitepub.abstract -%}<a href="{{ site.baseurl }}{{ sitepub.url }}"><i class="fas fa-align-justify"></i> Abstract</a>{%- endif -%}
-			{%- if sitepub.paperurl -%}<span><a href="{{ sitepub.paperurl }}"><i class="fas fa-file-alt"></i> Paper</a></span>{%- endif -%}
-			</p>
-		</div>
-		{%- endif -%}
-		{%- endfor -%}
-		{%- endfor -%}
-	</div>
-	{%- endif -%}
-
-	{%- if page.students -%}
-	<div id="content list people grid-container" style="margin-bottom: 1rem">
-		<h2>Advised students</h2>
-		{%- for student in page.students -%}
-		{%- for people in site.people -%}
-		{%- if student == people.name -%}
-	    <div class="list-item-people">
-	      <p class="list-post-title" style="font-size: 16px;">
-	        {%- if people.avatar -%}
-	        <a href="{{ site.baseurl }}{{ people.url }}">
-	          <img width="200" src="{{site.baseurl}}/images/people/{{people.avatar}}" alt="Photo of {{ people.name }}">
-	        </a>
-	        {%- else -%}
-	        <a href="{{ site.baseurl }}{{ people.url }}">
-	          <img width="200" src="http://evansheline.com/wp-content/uploads/2011/02/facebook-Storm-Trooper.jpg" alt="Default avatar">
-	        </a>
-	        {%- endif -%}
-	        <a class="name" href="{{ site.baseurl }}{{ people.url }}">{{ people.name }}</a><br>
-	        {{ people.title }}
-	      </p>
-	    </div>
-	    {%- endif -%}
-		{%- endfor -%}
-		{%- endfor -%}
-	</div>
-	{%- endif -%}
+  {%- if page.students -%}
+  <div id="content list people grid-container" style="margin-bottom: 1rem">
+    <h2>Advised students</h2>
+    {%- for student in page.students -%}
+    {%- for people in site.people -%}
+    {%- if student == people.name -%}
+    <div class="list-item-people">
+      <p class="list-post-title" style="font-size: 16px;">
+      {%- if people.avatar -%}
+      <a href="{{ site.baseurl }}{{ people.url }}">
+        <img width="200" src="{{site.baseurl}}/images/people/{{people.avatar}}" alt="Photo of {{ people.name }}">
+      </a>
+      {%- else -%}
+      <a href="{{ site.baseurl }}{{ people.url }}">
+        <img width="200" src="http://evansheline.com/wp-content/uploads/2011/02/facebook-Storm-Trooper.jpg" alt="Default avatar">
+      </a>
+      {%- endif -%}
+      <a class="name" href="{{ site.baseurl }}{{ people.url }}">{{ people.name }}</a><br>
+      {{ people.title }}
+      </p>
+    </div>
+    {%- endif -%}
+    {%- endfor -%}
+    {%- endfor -%}
+  </div>
+  {%- endif -%}
 
 </div>
