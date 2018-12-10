@@ -28,14 +28,14 @@ nav:
     href:           "/"
   - name:           "about"
     href:           "/about"
-  - name:           "news"
-    href:           "/news"
   - name:           "people"
     href:           "/people"
   - name:           "publications"
     href:           "/publications"
   - name:           "projects"
     href:           "/projects"
+  - name:           "Blog"
+    href:           "/blog"
 
 # Sass
 sass:
@@ -70,7 +70,7 @@ defaults:
   -
     scope:
       path:         ""
-      type:         "news"
+      type:         "blog"
     values:
       layout:       "post"
 
@@ -85,7 +85,7 @@ collections:
   publications:
     output: true
     permalink: /:collection/:title/index.html
-  news:
+  blog:
     output: true
     permalink: /:collection/:title/index.html
 
