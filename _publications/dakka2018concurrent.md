@@ -1,7 +1,7 @@
 ---
 title: "Concurrent and Adaptive Extreme Scale Binding Free Energy Calculations"
 collection: publications
-permalink: /publications/dakka2017concurrent
+permalink: /publications/dakka2018concurrent
 type: pub
 date: 2018-06-18
 author: "Jumana Dakka, Kristof Farkas-Pall, Matteo Turilli, David W Wright, Peter V Coveney 

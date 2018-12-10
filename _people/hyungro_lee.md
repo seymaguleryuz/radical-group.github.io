@@ -6,15 +6,10 @@ joined: 2018
 position: researcher
 title: "Research Associate"
 permalink: /people/hyungro_lee
+contacts:
+  email: hyungro.lee@rutgers.edu
+  office: CoRE 707
 ---
-
-### Contact
-
-<i class="fa fa-envelope-o"></i>  `hyungro.lee@rutgers.edu`<br>
-<i class="fa fa-building"></i> CoRE 707 <br>
-<hr>
-
-### Bio
 
 Hyungro is an Research Associate at Rutgers University. Before moving
 to Rutgers, he was PhD candidate in Computer Science from the Indiana

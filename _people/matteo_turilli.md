@@ -6,24 +6,39 @@ joined: 2012
 position: pi
 title: "Assistant Research Professor"
 permalink: /people/mturilli
+contacts:
+  email: "matteo.turilli@rutgers.edu"
+  office: "CoRE 713"
+publications:
+  - id: dakka2018concurrent
+    cofirst: true
+  - id: balasubramanian2018harnessing
+    cofirst: true
+  - id: turilli2018building
+  - id: turilli2017comprehensive
+  - id: turilli2017evaluating
+projects:
+  - id: scalems
+    role: "Principal Investigator"
+  - id: rct
+    role: "Co-Principal Investigator"
+  - id: power_of_many
+    role: "Research Scientist"
+  - id: iceberg
+    role: "Research Scientist"
+  - id: htbac
+    role: "Research Scientist"
+  - id: bigpanda
+    role: "Research Scientist"
+  - id: sea_ice_level
+    role: "Research Scientist"
+students:
+  - "Vivek Balasubramanian"
+  - "Jumana Dakka"
+  - "Ioannis Paraskevakos"
+past_students:
+  - name: "Ming Tai Ha"
+    thesis: 
 ---
 
-### Contact
-
-<i class="fa fa-envelope-o"></i>  `matteo.turilli@rutgers.edu`<br>
-<i class="fa fa-building"></i> CoRE 713 <br>
-<hr>
-
-### Bio
-
-Matteo is an Assistant Research Professor at Rutgers University. Before moving to Rutgers, he was the Chair of the EGI-InSPIRE Task on Federation of Clouds and Senior Research Associate at the Oxford e-Research Centre, University of Oxford, UK.
-
-Matteo's research interests span several domains, including Distributed Computing, Formal Methods, and Computer Ethics. Currently, his research focuses on design and development of Cyberinfrastructures, including federation and selection of resources, and strategies for the execution of domain-specific scientific workflows.
-
-Matteo is the co-PI of the [Research in Advanced Distributed Cyberinfrastructure and Applications Laboratory (RADICAL)](http://radical.rutgers.edu/) and an investigator of the [RADICAL-Cybertools](https://github.com/radical-cybertools). In this capacity, he led the design and development of [RADICAL-Analytics](https://github.com/radical-cybertools/radical.analytics), contributed to design [RADICAL-Pilot](https://github.com/radical-cybertools/radical.pilot), and supervised the design and development of the [Ensemble Toolkit (EnTK)](https://github.com/radical-cybertools/radical.entk).
-
-Matteo is Senior Scientist for several projects funded by multiple NSF and US Department of Energy (DoE) awards. In this capacity, he contributes to support the research of diverse scientific domains, including earth and climate science, molecular dynamics, and a wide range of physics.
-
-Matteo supervises both Masters and PhD students, managing the day-to-day operations of RADICAL and of its software development projects. He welcomes applications from exceptionally driven, national and international students, willing to contribute to the field of Distributed Computing both with software development and foundational research.
-
-Away from work, Matteo enjoys cooking, photography and many outdoor activities including running, hiking and climbing.
+I am Assistant Research Professor at the department of [Electrical and Computer Engineering](https://www.ece.rutgers.edu/), Rutgers University. Before moving to Rutgers, I was the Chair of the [EGI Federated Cloud](https://wiki.egi.eu/wiki/EGI_Federated_Cloud) and Senior Research Associate at the [Oxford e-Research Centre (OeRC)](https://www.oerc.ox.ac.uk/), University of Oxford, UK. My research interests primarily concern bridging the gap between distributed and high performance computing, designing middleware for scientific cyberinfrastructures, and supporting domain-specific scientific workflows. I collaborate with several domain scientists to enable research in biological sciences, earth sciences, climate sciences and particle physics. For my research, I use production infrastructures like [OLCF](https://www.olcf.ornl.gov/olcf-resources/), [NCSA](http://www.ncsa.illinois.edu/), [NCAR](https://www2.cisl.ucar.edu/resources/resources-overview) and [XSEDE](https://www.xsede.org/), performing large-scale experiments on among the [biggest "supercomputers"](https://www.top500.org/) currently available. Highly motivated students with similar research interests and looking for joining a Master or PhD program are always welcome to get in contact.
