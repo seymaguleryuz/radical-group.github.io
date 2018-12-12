@@ -2,7 +2,7 @@
 layout: default
 ---
 
-{% assign news_sorted = site.news | sort: 'date' | reverse %}
+{% assign blogs_sorted = site.blog | sort: 'date' | reverse %}
 
 <div class='container'>
     <header class="masthead text-center">
@@ -20,12 +20,14 @@ layout: default
             <br>
             Rooms 705-707 and 713, 96 Frelinghuysen Rd, Piscataway Township, NJ 08854
         </span>
+        
+        <a class="twitter-timeline" href="https://twitter.com/LabRadical" data-widget-id="695051708246941697">Tweets by @LabRadical</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
         <span style="text-align: left; display: block; margin-bottom: 3em">
             <p style="font-weight: bold;">
-                RECENT <a href="/news/">News</a>
+                RECENT <a href="/blog/">Blog Posts</a>
             </p>
             <div class="content list">
-                {% for post in news_sorted %}
+                {% for post in blogs_sorted %}
                     {% if forloop.index < 11 %}
                         <div class="list-item">
                             <p class="list-post-title">
@@ -41,7 +43,7 @@ layout: default
             <a href="https://github.com/radical-cybertools" style="margin-right:1.5em;">
                 <i class="fab fa-github"></i> RADICAL CyberTools
             </a>
-            <a href="https://twitter.com/RCT_Rutgers"  style="margin-right:1.5em;">
+            <a href="https://twitter.com/LabRadical"  style="margin-right:1.5em;">
                 <i class="fab fa-twitter"></i> News</a>
             <a href="mailto:shantenu.jha@rutgers.edu">
                 <i class="fas fa-envelope"></i> shantenu.jha@rutgers.edu</a>
