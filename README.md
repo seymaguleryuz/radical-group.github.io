@@ -30,10 +30,14 @@ jekyll serve
 All the publications are located in `_publications` folder. Its arrangement is 
 based on type and they are sorted by date. Each publication can be written in 
 markdown format. You have to state headers before writing. These are: `title`, 
-`type`, `date`, `author` and `venue`. `type` can be `pub` for a published paper, 
-`draft` for a draft, and `standard` for standards, white papers and technical 
-reports. The file name should follow the format: Last name of the first author, 
-year of the publication, and first word of the title.
+`type`, `date`, `author` and `venue`. `type` can be `pub` for a published paper,
+and `standard` for standards, white papers and technical reports. The file name 
+should follow the format: Last name of the first author, year of the publication,
+and first word of the title.
+
+Papers that have been uploaded to Arxiv are considered publications. It is the 
+first authors responsibility to update hers/his papers entries with the most
+current information.
 
 For reference see the following paper header.
 
@@ -41,16 +45,17 @@ For reference see the following paper header.
 ---
 title: "Task-parallel Analysis of Molecular Dynamics Trajectories"
 collection: publications
-permalink: /publications/Paraskevakos2018Task
+permalink: /publications/paraskevakos2018task
 date: 2018-08-15
 type: pub
 author: "Ioannis Paraskevakos, Andre Luckow, Mahzad Khoshlessan, George Chantzialexiou, Thomas E. Cheatham, Oliver Beckstein, Geoffrey C. Fox and Shantenu Jha"
 venue: "47th International Conference on Parallel Processing (ICPP 2018)"
 paperurl: http://somethingsomething
+abstract: "Copy and paste the paper's abstract"
 ---
 ```
 
-This paper's filename is: `Paraskevakos2018Task.md`
+This paper's filename is: `paraskevakos2018task.md`
 
 In order to a publication to the webpage, create a branch named `publication/<pub-filename>` 
 and create a pull request towards master under the `radical-cybertools` repo. As 
@@ -69,13 +74,23 @@ collection: projects
 permalink: /projects/extasy
 abstract: A single sentence that makes sense
 status: active
+grant:
+    funder: NSF
+    number: 0000000
+    url: <points to NSF's project page>
 ---
 ```
 
-In order to include a Github link do at the end of the file:
+You can add additional information in you project such as:
 ```
-<a href="https://github.com/project/repo"><i class="fa fa-github"></i> repo name</a><br>
+repository: <repo url>
+logo: < a small jpg under images/projects>
+figure:
+    name: similar to the loge, but larger
+    width: how large to be in the webpage. Try to select a number that will make the image the same size as the ones already there
+website: The project's actual site
 ```
+
 As status selecte either `active` or `past` and the project will be placed to the correct entry.
 In order to add a project to the webpage, create a branch named `project/<proj-filename>` 
 and create a pull request towards master. As 
@@ -92,24 +107,41 @@ you start writing your own page. See the following for the header
 name: "Ioannis Paraskevakos"
 collection: people
 position: phd
-avatar: giannis.png
+avatar: ioannis_par.jpg
 joined: 2014
+title: "PhD Candidate"
 permalink: /people/iparask
+contacts:
+  email: "i.paraskev@rutgers.edu"
+  office: "CoRE 707"
 ---
+```
+
+Additional information can be add by including the following in the header:
+```
+contacts:
+  scholar: Your Google scholar page
+  github: Github profile URL
+  linkedin: Linkedin Profile URL
+publications:
+  - id: The filename of your publication, it should be lastname_year_word
+    cofirst: true if you are the second name but have the same contribution.
+  - id: mahzad2017parallel
+projects:
+  - id: as the filename of the project
+    role: Your role to the project
 ```
 
 If you don't have some of the information, just leave it blank. The avatar will 
 bring your photo from `images/people` folder and display it on the people page.
-As lab position, you can choose: `'researcher'`, `'phd'`, `'ms'`, `'undergrad'`, 
-`'visiting'`.
+As lab position, you can choose: `'researcher'`, `'phd'`, `'ms'`, `'undergrad'`.
 
 To add yourself, create a branch named `people/<first-lastname>` and create a pull 
-request towards master. As soon as the request 
-is merged GitHub will render the page.
+request towards master. As soon as the request is merged GitHub will render the page.
 
-## Add news
+## Add blog posts
 
-It's very easy to add a news post. All the posts are located in `_news` folder.
+It's very easy to add a Blog post. All the posts are located in `_blog` folder.
 Create a file `<date>_<newsname>.md`, e.g. `2018_10_8_webpage.md` in the folder.
 The posts automatically get arranged by date. Each post can be written in markdown
 format. The following headers are required: `title`, `categories`, and `date`.
@@ -118,9 +150,9 @@ An example is shown below:
 ```
 ---
 title: New webpage
-categories: news
+categories: blog
 date: 2018-10-08
 ---
 ```
-To add news, create a branch named `news/<date>_<newsname>` and create a pull 
+To add news, create a branch named `blog/<date>_<blogsname>` and create a pull 
 request towards master. As soon as the request is merged GitHub will render the page.
