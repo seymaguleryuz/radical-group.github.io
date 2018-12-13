@@ -165,7 +165,7 @@ example of a valid file name is: `ioannis_paraskevakos.md`.
 
 For reference, see the following project front matter:
 
-```
+```yaml
 ---
 name: "Ioannis Paraskevakos"
 collection: people
@@ -215,7 +215,7 @@ example of a valid file name is: `2018_10_8_webpage.md`.
 
 For reference, see the following project front matter:
 
-```
+```yaml
 ---
 title: New Look
 categories: news
