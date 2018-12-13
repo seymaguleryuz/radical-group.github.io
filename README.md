@@ -1,8 +1,14 @@
+
+
+
+
+
+
 # RADICAL page
 
 [![Build Status](https://travis-ci.org/radical-group/radical-group.github.io.svg?branch=master)](https://travis-ci.org/radical-group/radical-group.github.io)
 
-This is the repository for our [RADICAL page](http://radical.rutgers.edu/). We 
+This is the repository for our [RADICAL website](http://radical.rutgers.edu/). We 
 use Jekyll to run our Github page. We welcome other people to contribute to our 
 site not just lab members. Feel free to fork and create pull-requests!
 
@@ -61,12 +67,12 @@ For reference, see the following paper front matter:
 title: "Task-parallel Analysis of Molecular Dynamics Trajectories"
 collection: publications
 permalink: /publications/paraskevakos2018task
-type: pub
 date: 2018-08-15
+type: pub
 author: "Ioannis Paraskevakos, Andre Luckow, Mahzad Khoshlessan, George Chantzialexiou, Thomas E. Cheatham, Oliver Beckstein, Geoffrey C. Fox and Shantenu Jha"
 venue: "47th International Conference on Parallel Processing (ICPP 2018)"
-paperurl: http://somethingsomething
-abstract: "Copy and paste the paper's abstract"
+paperurl: https://dl.acm.org/citation.cfm?id=3225128
+abstract: "Abstract."
 ---
 ```
 
@@ -92,11 +98,13 @@ front matter contains both mandatory and optional variables:
 | permalink  | `projects/file_name` | mandatory | Jekyll-related. `file_name` must be the same given to the file with this front matter |
 | abstract.  | string               | mandatory | A *single* sentence that describes the project. See current [website](http://radical.rutgers.edu/projects/) for examples |
 | status     | `active`; `inactive` | mandatory | Ongoing projects are `active`, terminated projects are `inactive` |
-| grant      | {`funder`: string, `number`: string, `url`: URL} | optional | An collection with three keys. The whole collection and each of its key are optional |
+| grant      | {`funder`: string, `number`: string, `url`: URL} | optional | A collection with three keys. The whole collection and each of its keys are optional |
 | repository | URL.                 | optional | URL of the code repository of the project (e.g., github, bitbucket) |
 | logo       | `images/projects/file_name` | optional | Optional but almost mandatory :) 150x150px, possibly 144dpi |
 | figure     | {`name`: `images/projects/file_name`, `width`: int} | optional | Optional but almost mandatory :) max 1000x1000px, possibly 144dpi in compressed jpg. `width` is used in the project landing page. Try to select a number that makes the image to take up to 1/3 of the width of the landing page. |
 | website    | URL                  | optional | The official website of the project |
+
+The body of the file contains a one-paragraph description of the project.
 
 The name of the file in `_projects` has no mandatory formatting; just keep it
 short and descriptive of the project. An example of a descriptive and short
@@ -109,23 +117,21 @@ For reference, see the following project front matter:
 title: "Extensible Tools for Advanced Sampling and analYsis (ExTASY)"
 collection: projects
 permalink: /projects/extasy
-abstract: A *single* sentence that describes the project
+abstract: "Executing iterative, coupled molecular simulation and analysis kernels on high performance computing systems." 
+logo: extasy_logo.jpg
 status: active
-grant:
-    funder: NSF
-    number: 0000000
-    url: <points to NSF's project page>
-repository: <repo url>
-logo: < a small jpg under images/projects>
 figure:
-    name: similar to the loge, but larger
-    width: how large to be in the webpage. Try to select a number that will make the image the same size as the ones already there
-website: The project's actual site
-```
+  name: extasy.jpg
+  width: 300
+repository: https://bitbucket.org/extasy-project/extasy-workflows
+grant:
+  funder: NSF
+  number: 1265929
+  url: https://nsf.gov/awardsearch/showAward?AWD_ID=1265929
+---
 
-In order to add a project to the webpage, create a branch named `project/<proj-filename>` 
-and create a pull request towards master. As 
-soon as the request is merged GitHub will render the page.
+The Extensible Toolkit for Advanced Sampling and AnalYsis (ExTASY) is a lightweight software...
+```
 
 When adding a project to the website, create a branch named
 `publication/<proj-filename>` and add the logo and page images in
@@ -137,61 +143,94 @@ merged, GitHub will render the page on the official website.
 
 ## Add yourself
 
-You can add yourself to the page in `_people` folder. Create a file 
-`<firstname>_<lastname>.md` in the folder. We require few line of header before 
-you start writing your own page. See the following for the header
+All RADICAL member pages are located in the `_people` folder. Each file contains a
+single personal page and has a [front
+matter](https://jekyllrb.com/docs/front-matter/) and a body in the
+[markdown](https://daringfireball.net/projects/markdown/) and HTML format. The
+front matter contains both mandatory and optional variables:
+
+| Variable     | Value                | Category  | Description              |
+|--------------|----------------------|-----------|--------------------------|
+| name         | string               | mandatory | Title of the project     |
+| collection   | `projects`           | mandatory | Jekyll-related, has always the same value |
+| permalink    | `projects/file_name` | mandatory | Jekyll-related. `file_name` must be the same given to the file with this front matter |
+| position     | `undergrad`; `ms`; `phd`; `researcher`; `pi` | mandatory | Your position in the lab |
+| title        | string               | mandatory | Your title in the lab |
+| joined       | year                 | mandatory | The year you joined the lab |
+| avatar       | `file_name`.jpg | optional | Optional but almost mandatory :) square, possibly 144dpi, <1MB |
+| contacts     | {`email`: string, `office`: string, `scholar`: URL, `github`: URL, `linkedin`: URL} | optional | A collection of contact-related information. The whole collection and each of its keys are optional |
+| publications | {`id`: string, `cofirst`: true} | optional | The collection of your RADICAL publications. `id` must be the same as the name of the corresponding publication file in `_publications`; `cofirst` used only when you are a co-first author of the paper |
+| projects     | {`id`: string, `role`: string} | optional | The collection of RADICAL projects in which your are involved. `id` must be the same as the name of the corresponding project file in `_projects`; `role` indicates your official role in the project |
+| students     | [string] | optional | List of students name. Available if you are member of the Graduate School and advisor of one or more RADICAL students. |
+
+The body of the page can contain your brief bio or whatever else relates to
+your research and activity in the lab.
+
+The name of the file in `_people` must follow the format: firstname_lastname. An
+example of a valid file name is: `ioannis_paraskevakos.md`.
+
+For reference, see the following project front matter:
 
 ```
 ---
 name: "Ioannis Paraskevakos"
 collection: people
-position: phd
-avatar: ioannis_par.jpg
-joined: 2014
-title: "PhD Candidate"
 permalink: /people/iparask
+position: phd
+title: "PhD Candidate"
+joined: 2014
+avatar: ioannis_par.jpg
 contacts:
-  email: "i.paraskev@rutgers.edu"
   office: "CoRE 707"
----
-```
-
-Additional information can be add by including the following in the header:
-```
-contacts:
-  scholar: Your Google scholar page
-  github: Github profile URL
-  linkedin: Linkedin Profile URL
+  ...
 publications:
-  - id: The filename of your publication, it should be lastname_year_word
-    cofirst: true if you are the second name but have the same contribution.
-  - id: mahzad2017parallel
+  - id: paraskevakos2018task
+  ...
 projects:
-  - id: as the filename of the project
-    role: Your role to the project
+  - id: iceberg
+    role: Research Assistant
+  ...
+---
+
+I am a fifth year PhD student at ...
+
 ```
 
-If you don't have some of the information, just leave it blank. The avatar will 
-bring your photo from `images/people` folder and display it on the people page.
-As lab position, you can choose: `'researcher'`, `'phd'`, `'ms'`, `'undergrad'`.
+When adding yourself to the website, create a branch named
+`people/<first-lastname>` and add your photo to `images/people`. Create a pull
+request towards master of this repo. As soon as the request is merged, GitHub
+will render the page on the official website.
 
-To add yourself, create a branch named `people/<first-lastname>` and create a pull 
-request towards master. As soon as the request is merged GitHub will render the page.
+## Add a blog post
 
-## Add blog posts
+All blog posts are located in the `_blog` folder. Each file contains a single
+post and has a [front matter](https://jekyllrb.com/docs/front-matter/) and a
+body in the [markdown](https://daringfireball.net/projects/markdown/) and HTML
+format. The front matter contains the following mandatory variables:
 
-It's very easy to add a Blog post. All the posts are located in `_blog` folder.
-Create a file `<date>_<newsname>.md`, e.g. `2018_10_8_webpage.md` in the folder.
-The posts automatically get arranged by date. Each post can be written in markdown
-format. The following headers are required: `title`, `categories`, and `date`.
-An example is shown below:
+| Variable     | Value                | Category  | Description              |
+|--------------|----------------------|-----------|--------------------------|
+| title        | string               | mandatory | Title of the blog post   |
+| categories   | `blog`               | mandatory | Jekyll-related, has always the same value |
+| date         | year-month-day       | mandatory | The date of the post.    |
+
+The body of file contains your blog post.
+
+The name of the file in `_blog` must follow the format: year_month_day_title. An
+example of a valid file name is: `2018_10_8_webpage.md`.
+
+For reference, see the following project front matter:
 
 ```
 ---
-title: New webpage
-categories: blog
-date: 2018-10-08
+title: New Look
+categories: news
+date: 2018-11-06
 ---
+
+Our site continues to ...
 ```
-To add news, create a branch named `blog/<date>_<blogsname>` and create a pull 
-request towards master. As soon as the request is merged GitHub will render the page.
+
+When adding post to website, create a branch named `people/<date-blogname>`.
+Create a pull request towards master of this repository. As soon as the request is
+merged, GitHub will render the page on the official website.
