@@ -1,10 +1,4 @@
-
-
-
-
-
-
-# RADICAL page
+# RADICAL Website
 
 [![Build Status](https://travis-ci.org/radical-group/radical-group.github.io.svg?branch=master)](https://travis-ci.org/radical-group/radical-group.github.io)
 
@@ -14,12 +8,12 @@ site not just lab members. Feel free to fork and create pull-requests!
 
 This site is based on a clone of [KordingLab.github.io](https://github.com/KordingLab/KordingLab.github.io)
 
-## Run the page locally
+## Run the website locally
 
 To run locally, follow Jekyll's installation instructions [here](https://jekyllrb.com/). 
 Then run `jekyll serve` and you will be able to see the page at `localhost:4000`. 
 
-Here is a brief install guidelines for Ubuntu.
+Here is install guidelines for Ubuntu.
 
 ```bash
 sudo gem install jekyll
