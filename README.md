@@ -1,19 +1,19 @@
-# RADICAL page
+# RADICAL Website
 
 [![Build Status](https://travis-ci.org/radical-group/radical-group.github.io.svg?branch=master)](https://travis-ci.org/radical-group/radical-group.github.io)
 
-This is the repository for our [RADICAL page](http://radical.rutgers.edu/). We 
+This is the repository for our [RADICAL website](http://radical.rutgers.edu/). We 
 use Jekyll to run our Github page. We welcome other people to contribute to our 
 site not just lab members. Feel free to fork and create pull-requests!
 
 This site is based on a clone of [KordingLab.github.io](https://github.com/KordingLab/KordingLab.github.io)
 
-## Run the page locally
+## Run the website locally
 
 To run locally, follow Jekyll's installation instructions [here](https://jekyllrb.com/). 
 Then run `jekyll serve` and you will be able to see the page at `localhost:4000`. 
 
-Here is a brief install guidelines for Ubuntu.
+Here is install guidelines for Ubuntu.
 
 ```bash
 sudo gem install jekyll
@@ -24,103 +24,207 @@ sudo gem install html-proofer
 jekyll serve
 ```
 
+For macOS follow these [instructions](https://jekyllrb.com/docs/installation/macos/) 
+and then run `jekyll serve`.
 
-## Add publications
+## Add a publication
 
-All the publications are located in `_publications` folder. Its arrangement is 
-based on type and they are sorted by date. Each publication can be written in 
-markdown format. You have to state headers before writing. These are: `title`, 
-`type`, `date`, `author` and `venue`. `type` can be `pub` for a published paper, 
-`draft` for a draft, and `standard` for standards, white papers and technical 
-reports. The file name should follow the format: Last name of the first author, 
-year of the publication, and first word of the title.
+All publications are located in the `_publications` folder. Each file contains
+a single publication and has a [front
+matter](https://jekyllrb.com/docs/front-matter/) and no body. The front matter
+contains both mandatory and optional variables: 
 
-For reference see the following paper header.
+| Variable   | Value                    | Category  | Description              |
+|------------|--------------------------|-----------|--------------------------|
+| title      | string                   | mandatory | Title of the publication |
+| collection | `publications`           | mandatory | Jekyll-related, has always the same value |
+| permalink  | `publications/file_name` | mandatory | Jekyll-related. `file_name` must be the same given to the file with this front matter |
+| type       | `pub`; `standard`        | mandatory | `pub`, for a published paper, and `standard`, for standards, white papers and technical reports |
+| date       | year-month-day           | mandatory | Date of publication      |
+| author     | firt last,               | mandatory | Comma-separated list of authors |
+| venue      | string                   | mandatory | Proceedings, journal or archive of the publication |
+| paperurl   | URL                      | mandatory | Official URL of the publication |    
+| abstract   | string                   | optional  | Abstract of the publication. When added, a landing page for the publication is created with title, authors, abstract and links to the full paper |
 
-```
+The name of the file in `_publications` must follow the format: Last name of
+the first author, year of the publication, and first word of the title. An
+example of a valid file name for a publication is: paraskevakos2018task.md.
+
+Papers that have been uploaded to Arxiv are considered publications. It is the
+first author responsibility to update her/his paper with the most current
+information.
+
+For reference, see the following paper front matter:
+
+```yaml
 ---
 title: "Task-parallel Analysis of Molecular Dynamics Trajectories"
 collection: publications
-permalink: /publications/Paraskevakos2018Task
+permalink: /publications/paraskevakos2018task
 date: 2018-08-15
 type: pub
 author: "Ioannis Paraskevakos, Andre Luckow, Mahzad Khoshlessan, George Chantzialexiou, Thomas E. Cheatham, Oliver Beckstein, Geoffrey C. Fox and Shantenu Jha"
 venue: "47th International Conference on Parallel Processing (ICPP 2018)"
-paperurl: http://somethingsomething
+paperurl: https://dl.acm.org/citation.cfm?id=3225128
+abstract: "Abstract."
 ---
 ```
 
-This paper's filename is: `Paraskevakos2018Task.md`
+This paper's filename is: `paraskevakos2018task.md`
 
-In order to a publication to the webpage, create a branch named `publication/<pub-filename>` 
-and create a pull request towards master under the `radical-cybertools` repo. As 
-soon as the request is merged GitHub will render the page.
+When adding a publication to the webpage, create a branch named
+`publication/<pub-filename>` and create a pull request towards master of this
+repo. As soon as the request is merged, GitHub will render the page on the
+official website.
 
-## Add project
+## Add a project
 
-You can create a new project page in `_projects` folder. Create a file 
-`<projectname>.md` in the folder. The following header is required before 
-you start writing your own page. See the following for the header example
+All project pages are located in the `_projects` folder. Each file contains a
+single project and has a [front
+matter](https://jekyllrb.com/docs/front-matter/) and a body in the
+[markdown](https://daringfireball.net/projects/markdown/) and HTML format. The
+front matter contains both mandatory and optional variables:
 
-```
+| Variable   | Value                | Category  | Description              |
+|------------|----------------------|-----------|--------------------------|
+| title      | string               | mandatory | Title of the project     |
+| collection | `projects`           | mandatory | Jekyll-related, has always the same value |
+| permalink  | `projects/file_name` | mandatory | Jekyll-related. `file_name` must be the same given to the file with this front matter |
+| abstract.  | string               | mandatory | A *single* sentence that describes the project. See current [website](http://radical.rutgers.edu/projects/) for examples |
+| status     | `active`; `inactive` | mandatory | Ongoing projects are `active`, terminated projects are `inactive` |
+| grant      | {`funder`: string, `number`: string, `url`: URL} | optional | A collection with three keys. The whole collection and each of its keys are optional |
+| repository | URL.                 | optional | URL of the code repository of the project (e.g., github, bitbucket) |
+| logo       | `images/projects/file_name` | optional | Optional but almost mandatory :) 150x150px, possibly 144dpi |
+| figure     | {`name`: `images/projects/file_name`, `width`: int} | optional | Optional but almost mandatory :) max 1000x1000px, possibly 144dpi in compressed jpg. `width` is used in the project landing page. Try to select a number that makes the image to take up to 1/3 of the width of the landing page. |
+| website    | URL                  | optional | The official website of the project |
+
+The body of the file contains a one-paragraph description of the project.
+
+The name of the file in `_projects` has no mandatory formatting; just keep it
+short and descriptive of the project. An example of a descriptive and short
+project name is: `power-of-many.md`.
+
+For reference, see the following project front matter:
+
+```yaml
 ---
 title: "Extensible Tools for Advanced Sampling and analYsis (ExTASY)"
 collection: projects
 permalink: /projects/extasy
-abstract: A single sentence that makes sense
+abstract: "Executing iterative, coupled molecular simulation and analysis kernels on high performance computing systems." 
+logo: extasy_logo.jpg
 status: active
+figure:
+  name: extasy.jpg
+  width: 300
+repository: https://bitbucket.org/extasy-project/extasy-workflows
+grant:
+  funder: NSF
+  number: 1265929
+  url: https://nsf.gov/awardsearch/showAward?AWD_ID=1265929
 ---
+
+The Extensible Toolkit for Advanced Sampling and AnalYsis (ExTASY) is a lightweight software...
 ```
 
-In order to include a Github link do at the end of the file:
-```
-<a href="https://github.com/project/repo"><i class="fa fa-github"></i> repo name</a><br>
-```
-As status selecte either `active` or `past` and the project will be placed to the correct entry.
-In order to add a project to the webpage, create a branch named `project/<proj-filename>` 
-and create a pull request towards master. As 
-soon as the request is merged GitHub will render the page.
+When adding a project to the website, create a branch named
+`publication/<proj-filename>` and add the logo and page images in
+`images/projects`. You must upload three images with the following naming
+convention: `proj_name_original.jpg`; `proj_name_logo.jpg`; `proj_name.jpg`.
+Create a pull request towards master of this repo. As soon as the request is
+merged, GitHub will render the page on the official website.
+
 
 ## Add yourself
 
-You can add yourself to the page in `_people` folder. Create a file 
-`<firstname>_<lastname>.md` in the folder. We require few line of header before 
-you start writing your own page. See the following for the header
+All RADICAL member pages are located in the `_people` folder. Each file contains a
+single personal page and has a [front
+matter](https://jekyllrb.com/docs/front-matter/) and a body in the
+[markdown](https://daringfireball.net/projects/markdown/) and HTML format. The
+front matter contains both mandatory and optional variables:
 
-```
+| Variable     | Value                | Category  | Description              |
+|--------------|----------------------|-----------|--------------------------|
+| name         | string               | mandatory | Title of the project     |
+| collection   | `projects`           | mandatory | Jekyll-related, has always the same value |
+| permalink    | `projects/file_name` | mandatory | Jekyll-related. `file_name` must be the same given to the file with this front matter |
+| position     | `undergrad`; `ms`; `phd`; `researcher`; `pi` | mandatory | Your position in the lab |
+| title        | string               | mandatory | Your title in the lab |
+| joined       | year                 | mandatory | The year you joined the lab |
+| avatar       | `file_name`.jpg | optional | Optional but almost mandatory :) square, possibly 144dpi, <1MB |
+| contacts     | {`email`: string, `office`: string, `scholar`: URL, `github`: URL, `linkedin`: URL} | optional | A collection of contact-related information. The whole collection and each of its keys are optional |
+| publications | {`id`: string, `cofirst`: true} | optional | The collection of your RADICAL publications. `id` must be the same as the name of the corresponding publication file in `_publications`; `cofirst` used only when you are a co-first author of the paper |
+| projects     | {`id`: string, `role`: string} | optional | The collection of RADICAL projects in which your are involved. `id` must be the same as the name of the corresponding project file in `_projects`; `role` indicates your official role in the project |
+| students     | [string] | optional | List of students name. Available if you are member of the Graduate School and advisor of one or more RADICAL students. |
+
+The body of the page can contain your brief bio or whatever else relates to
+your research and activity in the lab.
+
+The name of the file in `_people` must follow the format: firstname_lastname. An
+example of a valid file name is: `ioannis_paraskevakos.md`.
+
+For reference, see the following project front matter:
+
+```yaml
 ---
 name: "Ioannis Paraskevakos"
 collection: people
-position: phd
-avatar: giannis.png
-joined: 2014
 permalink: /people/iparask
+position: phd
+title: "PhD Candidate"
+joined: 2014
+avatar: ioannis_par.jpg
+contacts:
+  office: "CoRE 707"
+  ...
+publications:
+  - id: paraskevakos2018task
+  ...
+projects:
+  - id: iceberg
+    role: Research Assistant
+  ...
 ---
+
+I am a fifth year PhD student at ...
+
 ```
 
-If you don't have some of the information, just leave it blank. The avatar will 
-bring your photo from `images/people` folder and display it on the people page.
-As lab position, you can choose: `'researcher'`, `'phd'`, `'ms'`, `'undergrad'`, 
-`'visiting'`.
+When adding yourself to the website, create a branch named
+`people/<first-lastname>` and add your photo to `images/people`. Create a pull
+request towards master of this repo. As soon as the request is merged, GitHub
+will render the page on the official website.
 
-To add yourself, create a branch named `people/<first-lastname>` and create a pull 
-request towards master. As soon as the request 
-is merged GitHub will render the page.
+## Add a blog post
 
-## Add news
+All blog posts are located in the `_blog` folder. Each file contains a single
+post and has a [front matter](https://jekyllrb.com/docs/front-matter/) and a
+body in the [markdown](https://daringfireball.net/projects/markdown/) and HTML
+format. The front matter contains the following mandatory variables:
 
-It's very easy to add a news post. All the posts are located in `_news` folder.
-Create a file `<date>_<newsname>.md`, e.g. `2018_10_8_webpage.md` in the folder.
-The posts automatically get arranged by date. Each post can be written in markdown
-format. The following headers are required: `title`, `categories`, and `date`.
-An example is shown below:
+| Variable     | Value                | Category  | Description              |
+|--------------|----------------------|-----------|--------------------------|
+| title        | string               | mandatory | Title of the blog post   |
+| categories   | `blog`               | mandatory | Jekyll-related, has always the same value |
+| date         | year-month-day       | mandatory | The date of the post.    |
 
-```
+The body of file contains your blog post.
+
+The name of the file in `_blog` must follow the format: year_month_day_title. An
+example of a valid file name is: `2018_10_8_webpage.md`.
+
+For reference, see the following project front matter:
+
+```yaml
 ---
-title: New webpage
+title: New Look
 categories: news
-date: 2018-10-08
+date: 2018-11-06
 ---
+
+Our site continues to ...
 ```
-To add news, create a branch named `news/<date>_<newsname>` and create a pull 
-request towards master. As soon as the request is merged GitHub will render the page.
+
+When adding post to website, create a branch named `people/<date-blogname>`.
+Create a pull request towards master of this repository. As soon as the request is
+merged, GitHub will render the page on the official website.
