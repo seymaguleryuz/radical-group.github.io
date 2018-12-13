@@ -729,3 +729,61 @@ tbody tr:nth-child(odd) th {
     column-gap: 0; 
   }  
 }
+
+.homepage {
+  .grid {
+    display: grid;
+    margin: 0 2rem;
+    grid-template-columns: 3fr 3fr 3fr;
+    grid-gap: 2rem 1rem;
+    grid-template-rows: auto auto auto auto;
+    grid-template-areas: 
+      "welcome welcome welcome"
+      "photo photo twitter"
+      "research development blog"
+      "footer footer footer";
+  }
+
+  .welcome {
+    grid-area: welcome;
+    h1 {
+      text-align: right; 
+      font-weight: bold;
+    }
+
+    p {
+      text-align: justify;
+      margin-bottom: 0;
+    }
+  }
+
+  .photo {
+    grid-area: photo;
+    p {
+      text-align: center;
+      font-size: 0.8rem;
+    }
+  }
+  
+  .twitter {
+    grid-area: twitter;
+  }
+  
+  .research {
+    grid-area: research;
+  }
+
+  .development {
+    grid-area: development;
+  }
+  
+  .blog {
+    grid-area: blog;    
+  }
+
+  .footer {
+    grid-area: footer;    
+  }
+
+}
+
