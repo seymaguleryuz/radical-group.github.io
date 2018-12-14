@@ -94,8 +94,8 @@ front matter contains both mandatory and optional variables:
 | status     | `active`; `inactive` | mandatory | Ongoing projects are `active`, terminated projects are `inactive` |
 | grant      | {`funder`: string, `number`: string, `url`: URL} | optional | A collection with three keys. The whole collection and each of its keys are optional |
 | repository | URL.                 | optional | URL of the code repository of the project (e.g., github, bitbucket) |
-| logo       | `images/projects/file_name` | optional | Optional but almost mandatory :) 150x150px, possibly 144dpi |
-| figure     | {`name`: `images/projects/file_name`, `width`: int} | optional | Optional but almost mandatory :) max 1000x1000px, possibly 144dpi in compressed jpg. `width` is used in the project landing page. Try to select a number that makes the image to take up to 1/3 of the width of the landing page. |
+| logo       | `file_name` | optional | Optional but almost mandatory :) 150x150px, possibly 144dpi |
+| figure     | {`name`: `file_name`, `width`: int} | optional | Optional but almost mandatory :) max 1000x1000px, possibly 144dpi in compressed jpg. `width` is used in the project landing page. Try to select a number that makes the image to take up to 1/3 of the width of the landing page. |
 | website    | URL                  | optional | The official website of the project |
 
 The body of the file contains a one-paragraph description of the project.
