@@ -313,7 +313,7 @@ tbody tr:nth-child(odd) th {
 }
 
 .container {
-  max-width: 40rem;
+  max-width: 52rem;
 //  padding: 2rem 1.5rem;
   margin-left:  auto;
   margin-right: auto;
@@ -733,56 +733,173 @@ tbody tr:nth-child(odd) th {
 .homepage {
   .grid {
     display: grid;
-    margin: 0 2rem;
-    grid-template-columns: 3fr 3fr 3fr;
+    margin: 0 0;
     grid-gap: 2rem 1rem;
-    grid-template-rows: auto auto auto auto;
+    grid-template-columns: 5fr 2.5fr 2.5fr 5fr;
+    grid-template-rows: 3rem 20rem 20rem auto;
     grid-template-areas: 
-      "welcome welcome welcome"
-      "photo photo twitter"
-      "research development blog"
-      "footer footer footer";
+      "spacer spacer spacer spacer"
+      "photo photo welcome welcome"
+      "research development development blog"
+      "address address address address";
+    font-size: 18px;
+    line-height: 27px;
+    h2 {
+      text-align: center;
+    }
+  }
+
+  .icon {
+    margin-bottom: 1rem;
+  }
+
+  .spacer {
+    grid-area: spacer;
   }
 
   .welcome {
     grid-area: welcome;
+    margin-left: 3.5rem;
     h1 {
-      text-align: right; 
+      text-align: left;
+      font-size: 2.5rem;
       font-weight: bold;
     }
 
     p {
-      text-align: justify;
+      text-align: left;
       margin-bottom: 0;
     }
   }
 
   .photo {
     grid-area: photo;
+    margin-right: 3.5rem;
     p {
       text-align: center;
-      font-size: 0.8rem;
     }
   }
   
   .twitter {
     grid-area: twitter;
+    h2 {
+      text-align: center;
+    }
   }
   
   .research {
     grid-area: research;
+    p {
+      text-align: left;
+      margin-bottom: 0;
+    }
   }
 
   .development {
     grid-area: development;
+    p {
+      text-align: left;
+      margin-bottom: 0;
+    }
   }
   
   .blog {
     grid-area: blog;    
+    p {
+      text-align: left;
+      margin-bottom: 0;
+    }
   }
 
   .footer {
-    grid-area: footer;    
+    grid-area: footer; 
+    text-align: center;
+    margin-bottom: 0;
+    grid-gap: 0 0;
+  }
+
+  .address {
+    grid-area: address;
+    text-align: center;
+    p {
+      font-size: 16px;
+      line-height: initial;
+    }
+  }
+
+  @media all and (max-width: 1025px) {
+    .grid {
+      grid-template-rows: 1rem 17rem 13rem auto;
+      grid-template-areas: 
+        "spacer spacer spacer spacer"
+        "photo photo welcome welcome"
+        "research research development development"
+        "blog blog blog blog"
+        "address address address address";
+      font-size: 16px;
+      line-height: 24px;
+    }
+
+    .welcome {
+      margin-left: 0;
+      h1 {
+        font-size: 2rem;
+      }
+
+      p {
+        text-align: left;
+        margin-bottom: 0;
+      }
+    }
+
+    .photo {
+      margin-right: 0;
+    }
+
+    .address {
+      p {
+        font-size: 14px;
+        line-height: initial;
+      }
+    }
+  }
+
+  @media all and (max-width: 376px) {
+    .grid {
+      grid-template-rows: auto auto auto auto auto auto;
+      grid-template-areas: 
+        "welcome welcome welcome welcome"
+        "photo photo photo photo"
+        "research research research research"
+        "development development development development"
+        "blog blog blog blog"
+        "address address address address";
+      font-size: initial;
+      line-height: initial;
+    }
+
+    .welcome {
+      margin-left: 0;
+      h1 {
+        font-size: 2rem;
+      }
+
+      p {
+        text-align: left;
+        margin-bottom: 0;
+      }
+    }
+
+    .photo {
+      margin-right: 0;
+    }
+
+    .address {
+      p {
+        font-size: 14px;
+        line-height: initial;
+      }
+    }
   }
 
 }

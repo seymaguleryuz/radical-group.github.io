@@ -7,76 +7,117 @@ layout: default
 <div class="container masthead text-center homepage">
 
     <div class="grid">
-    <!-- Welcome -->
-    <div class="welcome">
-        <h1>RADICAL Thinking</h1>
-        <p>
-            At the Research in Advanced Distributed Cyberinfrastructure and
-            Applications Laboratory (RADICAL) we work at the intersection of
-            computing, science, and cyberinfrastructure.
-        </p>
-    </div>
 
-    <!-- Image -->
-    <div class="photo">
-        <img class='img-responsive center-block' src="/images/labmembers_web.jpg" alt="RADICAL group photo"/>
-        <p>
-            Rooms 705-707, 713<br>
-            Computing Research & Education Building (CoRE)<br>
-            Department of Electrical and Computer Engineering (ECE)<br>
-            Rutgers, the State University of New Jersey<br>
-            96 Frelinghuysen Rd, Piscataway Township, NJ 08854
-        </p>
-    </div>
+        <!-- Spacer  -->
+        <div class="spacer"></div>
     
-    <!-- Twitter feed -->
-    <div class="twitter">
-        <a class="twitter-timeline" href="https://twitter.com/LabRadical" 
-            data-widget-id="695051708246941697"
-            data-height="425">
-            News by @LabRadical
-        </a> 
-        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-    </div>
-
-    <!-- Research -->
-    <div class="research">
-        <h2>Research</h2>
-    </div>
-    
-    <!-- Development -->
-    <div class="development">
-        <h2>Development</h2>
-    </div>
-    
-    <!-- Blog -->
-    <div class="blog">
-        <h2>Blog</h2>
-        <div class="content list">
-            {%- for post in blogs_sorted -%}
-            {%- if forloop.index < 11 -%}
-            <div class="list-item">
-                <p class="list-post-title">
-                    <a href="{{ site.baseurl }}{{ post.url }}">- {{ post.title }}</a>:
-                    <small>{{ post.content | strip_html | truncatewords: 20 }}</small>
-                </p>
-            </div>
-            {%- endif -%}
-            {%- endfor -%}
+        <!-- Image -->
+        <div class="photo">
+            <img class='img-responsive center-block' src="/images/labmembers_web.jpg" alt="RADICAL group photo"/>
         </div>
-    </div>  
 
-    <!-- Footer -->
-    <div class="footer">
-        <span style="display: block; margin-bottom: 3em;">
+        <!-- Welcome -->
+        <div class="welcome">
+            <h1>RADICAL Thinking</h1>
+            <p>
+                <b>R</b>esearch in <b>A</b>dvanced <b>DI</b>stributed <b>C</b>yber- infrastructure and <b>A</b>pplications <b>L</b>aboratory. Working at the intersection of computing and science to advance cyberinfrastructure tools.
+            </p>
+            <div style="text-align: left; margin-top: 1rem">
             <a href="https://github.com/radical-cybertools" style="margin-right:1.5em;">
-                <i class="fab fa-github"></i> RADICAL CyberTools
+                <i class="fab fa-github fa-2x"></i> 
             </a>
             <a href="https://twitter.com/LabRadical"  style="margin-right:1.5em;">
-                <i class="fab fa-twitter"></i> News</a>
+                <i class="fab fa-twitter fa-2x"></i> 
+            </a>
             <a href="mailto:shantenu.jha@rutgers.edu">
-                <i class="fas fa-envelope"></i> shantenu.jha@rutgers.edu</a>
-        </span>
-    </div>
+                <i class="fas fa-envelope fa-2x"></i> 
+            </a>
+            </div>
+        </div>
+    
+        <!-- Twitter feed -->
+        <!-- <div class="twitter" style="text-align: center;">
+            <a class="twitter-timeline" href="https://twitter.com/LabRadical" 
+                data-widget-id="695051708246941697"
+                data-height="425">
+            </a> 
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div> -->
+
+        <!-- Research -->
+        <div class="research">
+            <div class="icon">
+                <i class="fas fa-search fa-3x"> </i>
+            </div>
+            <h2>Research</h2>
+            <p>
+                We model the execution of multi-task applications to engineer cyber-infrastructures that balance functionality, performance and usability. We advance biological, climate, earth and physical sciences.
+            </p>
+            <div>
+                <a href="{{ site.baseurl }}/projects/"><i class="fas fa-info-circle fa-lg"></i></a>
+            </div>
+        </div>
+    
+        <!-- Development -->
+        <div class="development">
+            <div class="icon">
+                <i class="fas fa-building fa-3x"> </i>
+            </div>
+            <h2>Development</h2>
+            <p>
+                RADICAL CyberTools: a suite of Python modules that enable interoperability across HPC machines, high-throughput computing on HPC machines, and large-scale executions of ensemble-based applications.
+            </p>
+            <div>
+                <a href="{{ site.baseurl }}/projects/rct"><i class="fas fa-info-circle fa-lg"></i></a>
+            </div>
+        </div>
+    
+        <!-- Blog -->
+        <div class="blog">
+            <div class="icon">
+                <i class="fas fa-rss-square fa-3x"></i>
+            </div>
+            <h2>Blog</h2>
+            <div>
+                {%- for post in blogs_sorted -%}
+                {%- if forloop.index < 11 -%}
+                <div>
+                    <p>
+                        <a href="{{ site.baseurl }}{{ post.url }}">- {{ post.title }}</a>:
+                        {{ post.content | strip_html | truncatewords: 15 }}
+                    </p>
+                </div>
+                {%- endif -%}
+                {%- endfor -%}
+            </div>
+            <div>
+                <a href="{{ site.baseurl }}/blog/"><i class="fas fa-info-circle fa-lg"></i></a>
+            </div>
+        </div>  
+
+        <!-- Footer -->
+        <!-- <div class="footer">
+            <span style="display: block;">
+                <a href="https://github.com/radical-cybertools" style="margin-right:1.5em;">
+                    <i class="fab fa-github"></i> 
+                </a>
+                <a href="https://twitter.com/LabRadical"  style="margin-right:1.5em;">
+                    <i class="fab fa-twitter"></i> 
+                </a>
+                <a href="mailto:shantenu.jha@rutgers.edu">
+                    <i class="fas fa-envelope"></i> 
+                </a>
+            </span>
+        </div> -->
+
+        <!-- Address -->
+        <div class="address">
+            <p>
+                Rooms 705, 707, and 713, Computing Research & Education Building (CoRE)<br>
+                Department of Electrical and Computer Engineering (ECE), Rutgers University<br>
+                96 Frelinghuysen Rd, Piscataway Township, NJ 08854.
+            </p>
+        </div>
+
     </div>
 </div>

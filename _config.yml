@@ -1,7 +1,7 @@
 # Basic
-name:               "RADICAL lab"
-title:              "Research in Advanced Distributed Cyberinfrastructure and Applications Laboratory (RADICAL)"
-description:        "RADICAL lab website"
+name:               "RADICAL"
+title:              "Research in Advanced DIstributed Cyberinfrastructure and Applications Laboratory (RADICAL)"
+description:        "RADICAL website"
 
 # URL
 url:                http://radical-group.github.io
