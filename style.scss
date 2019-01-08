@@ -605,6 +605,15 @@ tbody tr:nth-child(odd) th {
   grid-gap: 50px;
 }
 
+@media(max-width: 38em){
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 50px;
+  }
+}
+
+
 .pub-page-title {
   text-align: center;
   margin-bottom: 0.6em;
