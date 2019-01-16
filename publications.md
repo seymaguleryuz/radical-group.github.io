@@ -5,7 +5,7 @@ permalink: /publications/
 
 {%- assign pub_sorted = site.publications | sort: 'date' -%}
 {%- assign pub_array = "pub|standard" | split: "|" -%}
-{%- assign year_array = "2018|2017|2016|2015|2014|2013|2012|2011|2010|2009|2008|2007|2006|2005" | split: "|" -%}
+{%- assign year_array = "2019|2018|2017|2016|2015|2014|2013|2012|2011|2010|2009|2008|2007|2006|2005" | split: "|" -%}
 
 {%- for item in pub_array -%}
 {%- if item == 'pub' -%}
@@ -16,7 +16,9 @@ permalink: /publications/
 
 {%- if item == 'pub' -%}
 {%- for year in year_array -%}
-{%- if year == '2018' -%}
+{%- if year == '2019' -%}
+<h2 class="pub-year">2019</h2>
+{%- elsif year == '2018' -%}
 <h2 class="pub-year">2018</h2>
 {%- elsif year == '2017' -%}
 <h2 class="pub-year">2017</h2>
