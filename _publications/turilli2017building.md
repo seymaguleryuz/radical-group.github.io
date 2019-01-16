@@ -7,4 +7,3 @@ date: 2017-12-25
 author: "Matteo Turilli, Andre Merzky and Shantenu Jha"
 paperurl: http://arxiv.org/abs/1609.03484
 ---
-[Paper URL](http://arxiv.org/abs/1609.03484)

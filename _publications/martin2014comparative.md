@@ -8,4 +8,3 @@ author: "Hugh S. C. Martin and Shantenu Jha and Peter V.Coveney"
 venue: "Computational Chemistry"
 paperurl: http://onlinelibrary.wiley.com/doi/10.1002/jcc.23572/abstract
 ---
-[Paper URL](http://onlinelibrary.wiley.com/doi/10.1002/jcc.23572/abstract)

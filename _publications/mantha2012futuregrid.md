@@ -7,5 +7,3 @@ date: 2012-12-25
 author: "Pradeep Kumar Mantha, Sivakarthik Natesan, Melissa Romanus, Sai Saripalli and Ashley Zebrowski"
 paperurl: https://raw.github.com/saga-project/radical.wp/master/publications/pdf/fgpc2012-project-45.pdf
 ---
-
-[Paper URL](https://raw.github.com/saga-project/radical.wp/master/publications/pdf/fgpc2012-project-45.pdf)

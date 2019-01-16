@@ -8,4 +8,3 @@ author: "Raoul Sirvent, Andre Merzky, Rosa M. Badia and Thilo Kielmann"
 venue: "CoreGRID Integration WorkShop"
 paperurl: http://www.cs.vu.nl/~kielmann/papers/gs-saga.pdf
 ---
-[Paper URL](http://www.cs.vu.nl/~kielmann/papers/gs-saga.pdf)

@@ -8,4 +8,3 @@ author: "Jay Jay Billings and Shantenu Jha"
 venue: "Proceedings of Open Source SuperComputing, Workshop at SC'17"
 paperurl: https://arxiv.org/abs/1710.06774
 ---
-[Paper URL](https://arxiv.org/abs/1710.06774)

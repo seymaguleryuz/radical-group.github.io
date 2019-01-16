@@ -313,12 +313,12 @@ tbody tr:nth-child(odd) th {
 }
 
 .container {
-  max-width: 40rem;
+  max-width: 52rem;
 //  padding: 2rem 1.5rem;
   margin-left:  auto;
   margin-right: auto;
 
-  @media (min-width: 40rem){
+  @media (min-width: 38rem){
 //    padding: 5rem 1rem;
   }
 }
@@ -473,7 +473,7 @@ tbody tr:nth-child(odd) th {
 }
 
 .project-description {
-  overflow:auto;
+  overflow: auto;
   text-align: justify;
   text-justify: inter-character;
 }
@@ -515,10 +515,6 @@ tbody tr:nth-child(odd) th {
   border-radius: 0;
 }
 
-.publications_list {
-  margin-bottom: 1em;
-}
-
 .list-post-title img {
   margin-bottom: 0.75em;
   margin-top: 1.25em;
@@ -529,6 +525,8 @@ tbody tr:nth-child(odd) th {
   font-display: fallback;
   font-size: 18px;
   font-weight: 300;
+  text-align: justify; 
+  text-justify: inter-character;
   display: table;
 }
 
@@ -556,7 +554,7 @@ tbody tr:nth-child(odd) th {
 }
 
 // fix menu bar spacing for mobile
-@media(max-width: 40em){
+@media(max-width: 38em){
   .navbar-nav>li>a {
     padding: 0.75em 0 0.5em 2.5em;
     font-size: 15px;
@@ -588,11 +586,11 @@ tbody tr:nth-child(odd) th {
   background-color: #FFF;
 }
 
-.pub_year h4 {
+.pub-year h4 {
   margin-bottom: 25px;
 }
 
-.two-columns {
+.alumni-columns {
   -webkit-column-count: 3;
   -moz-column-count: 3;
   column-count: 3;
@@ -605,5 +603,313 @@ tbody tr:nth-child(odd) th {
   display: grid;
   grid-template-columns: auto auto auto;
   grid-gap: 50px;
+}
+
+@media(max-width: 38em){
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 50px;
+  }
+}
+
+
+.pub-page-title {
+  text-align: center;
+  margin-bottom: 0.6em;
+}
+
+.pub-page-author {
+  text-align: center;
+  margin-bottom: 1.5rem; 
+}
+
+.pub-page-abstract {
+  text-align: justify;
+}
+
+.pub-page-abstract a {
+  float: right;
+  font-size: 1.4rem;
+  margin-left: 25px;
+}
+
+.pub-page-grid-container {
+  display: grid; 
+  grid-template-columns: 80% auto; 
+  grid-column-gap: 25px;
+}
+
+.pub-list-ref {
+  text-align: justify; 
+  grid-row-start: 1; 
+  grid-row-end: 3;
+  margin-bottom: 1em;
+}
+
+.pub-list-ref-links {
+  text-align: left;
+}  
+
+.pub-list-ref-links span {
+    // padding: 1px 8px;
+    display: table;
+}
+
+@media(max-width: 38em){
+  .pub-page-grid-container {
+    display: grid; 
+    grid-template-columns: auto; 
+    grid-template-rows: auto;   
+  }
+
+  .pub-list-ref {
+    text-align: justify; 
+    margin-bottom: 0;
+  }
+
+  .pub-list-ref-links {
+    text-align: left;
+    margin-bottom: 1em;
+    padding-right: 10px;
+  }
+
+  .pub-list-ref-links a {
+    padding-right: 10px;
+  }  
+  .pub-list-ref-links span {
+    display: inline;
+  }  
+}
+
+#people-page-name {
+  margin-bottom: 0.1rem;
+}
+
+#people-page-avatar {
+  float: right; 
+  margin-left: 25px
+}
+
+#people-page-title {
+  font-size: 1.1rem; 
+  border-bottom: solid; 
+  margin-bottom: 1rem;
+}
+
+#people-page-contacts {
+  margin-bottom: 1rem;
+  font-size: 18px;
+}
+
+#people-page-bio {
+  text-align: justify;
+}
+
+.people-page-projects {
+  -webkit-column-count: 2; 
+  -moz-column-count: 2; 
+  column-count: 2; 
+  -webkit-column-gap: 25px; 
+  -moz-column-gap: 25px; 
+  column-gap: 25px; 
+  margin-bottom: 1rem
+}
+
+@media(max-width: 38em){
+  #people-page-avatar {
+    display: block;
+    float: left; 
+    margin-left: 0;
+    margin-bottom: 0.1rem;
+  }
+
+  .people-page-contacts {
+    display: inline-block;
+    margin-bottom: 1rem
+  }
+
+  .people-page-projects {
+    -webkit-column-count: 1; 
+    -moz-column-count: 1; 
+    column-count: 1; 
+    -webkit-column-gap: 0; 
+    -moz-column-gap: 0; 
+    column-gap: 0; 
+  }  
+}
+
+.homepage {
+  .grid {
+    display: grid;
+    margin: 0 0;
+    grid-gap: 2rem 1rem;
+    grid-template-columns: 5fr 2.5fr 2.5fr 5fr;
+    grid-template-rows: 3rem 20rem 20rem auto;
+    grid-template-areas: 
+      "spacer spacer spacer spacer"
+      "photo photo welcome welcome"
+      "research development development blog"
+      "address address address address";
+    font-size: 18px;
+    line-height: 27px;
+    h2 {
+      text-align: center;
+    }
+  }
+
+  .icon {
+    margin-bottom: 1rem;
+  }
+
+  .spacer {
+    grid-area: spacer;
+  }
+
+  .welcome {
+    grid-area: welcome;
+    margin-left: 3.5rem;
+    h1 {
+      text-align: left;
+      font-size: 2.5rem;
+      font-weight: bold;
+    }
+
+    p {
+      text-align: left;
+      margin-bottom: 0;
+    }
+  }
+
+  .photo {
+    grid-area: photo;
+    margin-right: 3.5rem;
+    p {
+      text-align: center;
+    }
+  }
+  
+  .twitter {
+    grid-area: twitter;
+    h2 {
+      text-align: center;
+    }
+  }
+  
+  .research {
+    grid-area: research;
+    p {
+      text-align: left;
+      margin-bottom: 0;
+    }
+  }
+
+  .development {
+    grid-area: development;
+    p {
+      text-align: left;
+      margin-bottom: 0;
+    }
+  }
+  
+  .blog {
+    grid-area: blog;    
+    p {
+      text-align: left;
+      margin-bottom: 0;
+    }
+  }
+
+  .footer {
+    grid-area: footer; 
+    text-align: center;
+    margin-bottom: 0;
+    grid-gap: 0 0;
+  }
+
+  .address {
+    grid-area: address;
+    text-align: center;
+    p {
+      font-size: 16px;
+      line-height: initial;
+    }
+  }
+
+  @media all and (max-width: 1025px) {
+    .grid {
+      grid-template-rows: 1rem 17rem 13rem auto;
+      grid-template-areas: 
+        "spacer spacer spacer spacer"
+        "photo photo welcome welcome"
+        "research research development development"
+        "blog blog blog blog"
+        "address address address address";
+      font-size: 16px;
+      line-height: 24px;
+    }
+
+    .welcome {
+      margin-left: 0;
+      h1 {
+        font-size: 2rem;
+      }
+
+      p {
+        text-align: left;
+        margin-bottom: 0;
+      }
+    }
+
+    .photo {
+      margin-right: 0;
+    }
+
+    .address {
+      p {
+        font-size: 14px;
+        line-height: initial;
+      }
+    }
+  }
+
+  @media all and (max-width: 376px) {
+    .grid {
+      grid-template-rows: auto auto auto auto auto auto;
+      grid-template-areas: 
+        "welcome welcome welcome welcome"
+        "photo photo photo photo"
+        "research research research research"
+        "development development development development"
+        "blog blog blog blog"
+        "address address address address";
+      font-size: initial;
+      line-height: initial;
+    }
+
+    .welcome {
+      margin-left: 0;
+      h1 {
+        font-size: 2rem;
+      }
+
+      p {
+        text-align: left;
+        margin-bottom: 0;
+      }
+    }
+
+    .photo {
+      margin-right: 0;
+    }
+
+    .address {
+      p {
+        font-size: 14px;
+        line-height: initial;
+      }
+    }
+  }
+
 }
 

@@ -8,4 +8,3 @@ author: "Joohyun Kim and Sharath Maddineni and Shantenu Jha"
 venue: "Proceedings of the second international workshop on Emerging computational methods for the life sciences"
 paperurl: http://dl.acm.org/citation.cfm?id=1996027
 ---
-[Paper URL](http://dl.acm.org/citation.cfm?id=1996027)

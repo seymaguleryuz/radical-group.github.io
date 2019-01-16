@@ -8,4 +8,3 @@ author: "Tom Goodale, Shantenu Jha, Harmut Kaiser, Thilo Kielmann, Pascal Kleije
 venue: "Computational Methods in Science and Technology"
 paperurl: http://www.cs.vu.nl/~kielmann/papers/saga-cmst.pdf
 ---
-[Paper URL](http://www.cs.vu.nl/~kielmann/papers/saga-cmst.pdf)

@@ -8,4 +8,3 @@ author: "Andre Luckow, Shantenu Jha, Joohyun Kim, Andre Merzky and Bettina Schno
 venue: "Proceedings of the 2008 Fourth IEEE International Conference on eScience"
 paperurl: http://www.computer.org/portal/web/csdl/doi/10.1109/eScience.2008.20
 ---
-[Paper URL](http://www.computer.org/portal/web/csdl/doi/10.1109/eScience.2008.20)

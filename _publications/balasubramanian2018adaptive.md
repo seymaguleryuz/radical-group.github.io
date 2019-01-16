@@ -7,11 +7,7 @@ date: 2018-10-27
 author: "Vivek Balasubramanian, Travis Jensen, Matteo Turilli, Peter Kasson, Michael Shirts and Shantenu Jha"
 venue: "Arxiv"
 paperurl: https://arxiv.org/abs/1804.04736
----
-
-## Abstract:
-
-Recent advances in both theory and methods have created opportunities to
+abstract: "Recent advances in both theory and methods have created opportunities to
 simulate biomolecular processes more efficiently using adaptive ensemble
 simulations. Ensemble-based simulations are used widely to compute a number of
 individual simulation trajectories and analyze statistics across them. Adaptive
@@ -28,7 +24,5 @@ abstractions to support these operations. We characterize the overhead of
 supporting adaptive capabilties in the toolkit at production scale. We
 implement two high-level adaptive algorithms: expanded ensemble and Markov
 state modeling. We highlight scientific advantages enabled by the novel
-capabilities of our approach and implementation on three distinct platforms.
-
-**Venue**: Arxiv
-[Paper URL](https://arxiv.org/abs/1804.04736)
+capabilities of our approach and implementation on three distinct platforms."
+---

@@ -8,4 +8,3 @@ author: "Brian K. Radak, Melissa Romanus, Emilio Gallicchio, Tai-Sung Lee, Ole W
 venue: "Proceedings of the Conference on Extreme Science and Engineering Discovery Environment: Gateway to Discovery"
 paperurl: https://raw.githubusercontent.com/saga-project/radical.wp/master/publications/pdf/2013-xsede-cdi_draft.pdf
 ---
-[Paper URL](https://raw.githubusercontent.com/saga-project/radical.wp/master/publications/pdf/2013-xsede-cdi_draft.pdf)

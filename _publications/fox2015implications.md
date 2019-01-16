@@ -7,4 +7,3 @@ date: 2015-12-25
 author: "Geoffrey Fox and Shantenu Jha"
 paperurl: http://dsc.soic.indiana.edu/publications/WorkflowsandHPC-ABDS.pdf
 ---
-[Paper URL](http://dsc.soic.indiana.edu/publications/WorkflowsandHPC-ABDS.pdf)

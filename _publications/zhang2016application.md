@@ -8,4 +8,3 @@ author: "Zhao Zhang and Daniel S. Katz and Andre Merzky and Matteo Turilli and S
 venue: "The Journal of Open Source Software"
 paperurl: https://doi.org/10.21105/joss.00017
 ---
-[Paper URL](https://doi.org/10.21105/joss.00017)

@@ -8,16 +8,11 @@ permalink: /people/shantenu-jha
 redirect_from:
   - "/shantenu.html"
   - "people/shantenu-jha.html"
+contacts:
+  email: "shantenu.jha@rutgers.edu"
+  office: "CoRE 705"
+  scholar: "https://scholar.google.com/citations?hl=en&user=vUhIJQMAAAAJ&view_op=list_works&sortby=pubdate"
 ---
-
-### Contact
-
-<i class="fa fa-envelope-o"></i> `shantenu.jha@rutgers.edu`<br>
-<i class="fa fa-building"></i> CoRE 705 <br>
-<i class="fa fa-bar-chart"></i> [google scholar](https://scholar.google.com/citations?hl=en&user=vUhIJQMAAAAJ&view_op=list_works&sortby=pubdate) <br>
-<hr>
-
-### Bio
 
 Shantenu is an Associate Professor of Computer Engineering at Rutgers
 University and the Chair of the Department (Center) for Data Driven Discovery
@@ -44,4 +39,7 @@ been funded by multiple NSF awards and US Department of Energy (DoE); his work
 has also been funded by US National Institute for Health (NIH), and the UK
 EPSRC.
 
-Jha seeks fearless and revolutionary young minds to join the RADICAL (thinking) group! Away from work, he tries middle-distance running and biking, tends to be an economics-junky, enjoys reading and writing random musings and tries to use his copious amounts of free time with a conscience.
+Jha seeks fearless and revolutionary young minds to join the RADICAL
+(thinking) group! Away from work, he tries middle-distance running and biking,
+tends to be an economics-junky, enjoys reading and writing random musings and
+tries to use his copious amounts of free time with a conscience.

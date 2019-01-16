@@ -8,4 +8,3 @@ author: "Kim, Joohyun and Maddineni, Sharath and Jha, Shantenu"
 venue: "Concurrency and Computation: Practice and Experience"
 paperurl: http://dx.doi.org/10.1002/cpe.3013
 ---
-[Paper URL](http://dx.doi.org/10.1002/cpe.3013)

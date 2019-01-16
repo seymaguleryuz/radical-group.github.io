@@ -8,4 +8,3 @@ author: "Maddineni, Sharath, Kim, Joohyun, El-Khamra, Yaakoub and Jha, Shantenu"
 venue: "J. Grid Comput."
 paperurl: http://dx.doi.org/10.1007/s10723-012-9244-1
 ---
-[Paper URL](http://dx.doi.org/10.1007/s10723-012-9244-1)

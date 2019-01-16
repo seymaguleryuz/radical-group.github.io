@@ -8,4 +8,3 @@ author: "Soon-Heum Ko, Nayong Kim, Joohyun Kim, Abhinav Thota and Shantenu Jha"
 venue: "Proceedings of the 2010 10th IEEE/ACM International Conference on Cluster, Cloud and Grid Computing"
 paperurl: http://www.cct.lsu.edu/~sjha/select_publications/coupled_simulations_framework.pdf
 ---
-[Paper URL](http://www.cct.lsu.edu/~sjha/select_publications/coupled_simulations_framework.pdf)

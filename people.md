@@ -39,7 +39,7 @@ permalink: /people/
 
 <h3>Alumni</h3>
 
-<ul class="two-columns">
+<ul class="alumni-columns">
   <li>Ming Tai Ha</li>
   <li>Ole Weidner</li>
   <li>Franklin Bettencourt</li>
@@ -56,7 +56,7 @@ permalink: /people/
   <li>Sharath Maddineni</li>
   <li>Chris Miceli</li>
   <li>Michael Miceli</li>
-  <li>Hartmut Kaiser)</li>
+  <li>Hartmut Kaiser</li>
   <li>Ashley Zebrowski</li>
   <li>Aikaterina Stamou</li>
 </ul>

@@ -8,4 +8,3 @@ author: "Shantenu Jha and Daniel S. Katz and Andre Luckow and Andre Merzky and K
 venue: "Cloud Computing: Principles and Paradigms"
 paperurl: https://www.cct.lsu.edu/~sjha/select_publications/cloud_book_chapter.pdf
 ---
-[Paper URL](https://www.cct.lsu.edu/~sjha/select_publications/cloud_book_chapter.pdf)

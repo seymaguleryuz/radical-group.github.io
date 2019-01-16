@@ -1,7 +1,7 @@
 # Basic
-name:               "RADICAL lab"
-title:              "Research in Advanced Distributed Cyberinfrastructure and Applications Laboratory (RADICAL)"
-description:        "RADICAL lab website"
+name:               "RADICAL"
+title:              "Research in Advanced DIstributed Cyberinfrastructure and Applications Laboratory (RADICAL)"
+description:        "RADICAL website"
 
 # URL
 url:                http://radical-group.github.io
@@ -28,14 +28,14 @@ nav:
     href:           "/"
   - name:           "about"
     href:           "/about"
-  - name:           "news"
-    href:           "/news"
   - name:           "people"
     href:           "/people"
   - name:           "publications"
     href:           "/publications"
   - name:           "projects"
     href:           "/projects"
+  - name:           "Blog"
+    href:           "/blog"
 
 # Sass
 sass:
@@ -70,7 +70,7 @@ defaults:
   -
     scope:
       path:         ""
-      type:         "news"
+      type:         "blog"
     values:
       layout:       "post"
 
@@ -85,7 +85,7 @@ collections:
   publications:
     output: true
     permalink: /:collection/:title/index.html
-  news:
+  blog:
     output: true
     permalink: /:collection/:title/index.html
 

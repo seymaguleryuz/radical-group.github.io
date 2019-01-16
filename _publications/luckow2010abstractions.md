@@ -8,4 +8,3 @@ author: "Andre Luckow and Shantenu Jha"
 venue: "International IEEE Conference on Cloud Computing Technology and Science"
 paperurl: http://www.cct.lsu.edu/~sjha/dpa_publications/azure-abstractions-cloudcom10.pdf
 ---
-[Paper URL](http://www.cct.lsu.edu/~sjha/dpa_publications/azure-abstractions-cloudcom10.pdf)

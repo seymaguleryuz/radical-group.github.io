@@ -8,4 +8,3 @@ author: "Shantenu Jha, Daniel S. Katz, Matteo Turilli and Jon Weissman"
 venue: "White Paper Submitted to Advanced Scientific Computing and Research, DOE Office of Science"
 paperurl: https://zenodo.org/deposit/91947/
 ---
-[Paper URL](https://zenodo.org/deposit/91947/)

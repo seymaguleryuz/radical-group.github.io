@@ -8,4 +8,3 @@ author: "Andre Merzky"
 venue: 
 paperurl: http://ogf.org/documents/GFD.177.pdf
 ---
-[Paper URL](http://ogf.org/documents/GFD.177.pdf)

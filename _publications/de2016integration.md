@@ -8,4 +8,3 @@ author: "De, K., Jha, S., Klimentov, A., Maeno, T., Mashinistov, R., Nilsson, P.
 venue: "Physics of Particles and Nuclei Letters"
 paperurl: http://dx.doi.org/10.1134/S1547477116050150
 ---
-[Paper URL](http://dx.doi.org/10.1134/S1547477116050150)

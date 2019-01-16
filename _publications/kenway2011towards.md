@@ -8,4 +8,3 @@ author: "Owain Kenway, David W. Wright, Helmut Heller, Andre Merzky, Gavin Pring
 venue: "Proceedings of the 2011 TeraGrid Conference: Extreme Digital Discovery"
 paperurl: http://dl.acm.org/citation.cfm?id=2016746\&dl=ACM\&coll=DL\&CFID=137661901\&CFTOKEN=34365530
 ---
-[Paper URL](http://dl.acm.org/citation.cfm?id=2016746\&dl=ACM\&coll=DL\&CFID=137661901\&CFTOKEN=34365530)

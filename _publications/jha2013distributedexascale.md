@@ -8,4 +8,3 @@ author: "Shantenu Jha, Andre Merzky, Matteo Turilli, Daniel S. Katz and Jon Weis
 venue: "Workshop on Modeling & Simulation of Exascale Systems & Applications"
 paperurl: http://hpc.pnl.gov/modsim/2013/
 ---
-[Paper URL](http://hpc.pnl.gov/modsim/2013/)

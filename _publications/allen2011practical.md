@@ -8,5 +8,3 @@ author: "Gabrielle Allen, Werner Benger, Andrei Hutanu, Shantenu Jha, Frank Loff
 venue: "Procedia Computer Science"
 paperurl: http://www.sciencedirect.com/science/article/pii/S1877050911002687
 ---
-
-[Paper URL](http://www.sciencedirect.com/science/article/pii/S1877050911002687)

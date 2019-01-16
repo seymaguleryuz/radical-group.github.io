@@ -8,4 +8,3 @@ author: "Wei Huang, Joohyun Kim, Shantenu Jha and Fareed Aboul-ela"
 venue: "Journal of Molecular Biology"
 paperurl: http://www.sciencedirect.com/science/article/pii/S0022283612001763
 ---
-[Paper URL](http://www.sciencedirect.com/science/article/pii/S0022283612001763)
