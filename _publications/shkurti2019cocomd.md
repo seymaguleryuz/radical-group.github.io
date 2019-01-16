@@ -4,15 +4,10 @@ collection: publications
 permalink: /publications/shkurti2019cocomd
 type: pub
 date: 2019-01-08
-author: "Ardita Shkurti, Ioanna Danai Styliari, Vivek Balasubramanian, Iain
-Bethune, Conrado Pedebos, Shantenu Jha, and Charles A. Laughton"
+author: "Ardita Shkurti, Ioanna Danai Styliari, Vivek Balasubramanian, Iain Bethune, Conrado Pedebos, Shantenu Jha, and Charles A. Laughton"
 venue: "Journal of Chemical Theory and Computation, 2019"
 paperurl: https://pubs.acs.org/doi/pdf/10.1021/acs.jctc.8b00657
----
-
-## Abstract:
-
-CoCo (“Complementary Coordinates”) is a method for ensemble enrichment based on 
+abstract: "CoCo (“Complementary Coordinates”) is a method for ensemble enrichment based on 
 Principal Component Analysis (PCA) that was developed originally for the 
 investigation of NMR data. Here we investigate the potential of the CoCo method,
 in combination with molecular dynamics simulations (CoCo-MD), to be used more
@@ -32,7 +27,5 @@ binding. The PCA-based approach means that optimal collective variables to
 enhance sampling need not be defined in advance by the user, but are identified
 automatically and are adaptive, responding to the characteristics of the
 developing ensemble. In addition the approach does not require any adaptations 
-to the associated MD code, and is compatible with any conventional MDg.
-
-**Venue**: Journal of Chemical Theory and Computation, 2019,
-[Paper URL](https://pubs.acs.org/doi/pdf/10.1021/acs.jctc.8b00657)
+to the associated MD code, and is compatible with any conventional MDg."
+---
