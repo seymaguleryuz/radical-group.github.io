@@ -6,7 +6,7 @@ type: pub
 date: 2019-01-08
 author: "Ardita Shkurti, Ioanna Danai Styliari, Vivek Balasubramanian, Iain Bethune, Conrado Pedebos, Shantenu Jha, and Charles A. Laughton"
 venue: "Journal of Chemical Theory and Computation, 2019"
-paperurl: https://pubs.acs.org/doi/pdf/10.1021/acs.jctc.8b00657
+paperurl: https://pubs.acs.org/doi/abs/10.1021/acs.jctc.8b00657
 abstract: "CoCo (“Complementary Coordinates”) is a method for ensemble enrichment based on 
 Principal Component Analysis (PCA) that was developed originally for the 
 investigation of NMR data. Here we investigate the potential of the CoCo method,
