@@ -40,6 +40,7 @@ permalink: /people/
 <h3>Alumni</h3>
 
 <ul class="alumni-columns">
+  <li>Georgios Chantzialexiou</li>
   <li>Ming Tai Ha</li>
   <li>Ole Weidner</li>
   <li>Franklin Bettencourt</li>
