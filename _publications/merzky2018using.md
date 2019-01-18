@@ -2,7 +2,7 @@
 title: "Using Pilot Systems to Execute Many Task Workloads on Supercomputers"
 collection: publications
 permalink: publications/merzky2018jssp
-paperurl: http://jsspp.org/papers18/JSSPP_2018_paper_11.pdf
+paperurl: https://www.springer.com/us/book/9783030106317
 type: pub
 date: 2018-05-25
 author: "Andre Merzky, Matteo Turilli, Manuel Maldonado, Mark Santcroos and Shantenu Jha"
