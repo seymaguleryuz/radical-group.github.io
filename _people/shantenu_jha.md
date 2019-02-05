@@ -8,6 +8,7 @@ permalink: /people/shantenu-jha
 redirect_from:
   - "/shantenu.html"
   - "people/shantenu-jha.html"
+  - "people/shantenu-jha/index.html"
 contacts:
   email: "shantenu.jha@rutgers.edu"
   office: "CoRE 705"
