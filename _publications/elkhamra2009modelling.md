@@ -6,5 +6,5 @@ type: pub
 date: 2009-12-25
 author: "Yaakoub El-Khamra and Shantenu Jha"
 venue: "Microsoft Research eScience Workshop, Pittsburgh"
-paperurl: http://research.microsoft.com/en-us/UM/redmond/events/eScience2009/17863/lecture.htm
+paperurl: https://dl.acm.org/citation.cfm?id=1838580
 ---
