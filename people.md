@@ -4,7 +4,7 @@ permalink: /people/
 ---
 
 {%- assign people_sorted = site.people|sort: 'joined' -%}
-{%- assign people_array = "pi|researcher|phd|ms|undergrad|visiting" | split: "|" -%}
+{%- assign people_array = "pi|admin|researcher|phd|ms|undergrad|visiting" | split: "|" -%}
 
 
 <div class="content list people grid-container">
