@@ -4,7 +4,7 @@ collection: people
 position: admin
 avatar: jennifer_merlis.jpg
 joined: 2018
-title: ""
+title: "Administrative Assistant"
 permalink: /people/jennifer_merlis
 contacts:
   email: "jm1971@scarletmail.rutgers.edu"
