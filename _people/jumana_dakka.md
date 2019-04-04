@@ -3,15 +3,15 @@ name: "Jumana Dakka"
 collection: people
 joined: 2016
 avatar: jumana.jpg
-position: phd
-title: "PhD Student"
+position: ms
+title: "Master Student"
 permalink: /people/jdakka
 contacts:
   email: "jumana.dakka@rutgers.edu"
   office: "CoRE 707"
 ---
 
-Jumana is a third year graduate (PhD) student and is currently a member of the Research in Advanced Distributed Cyberinfrastructure and Application Laboratory.
+Jumana is a third year graduate student and is currently a member of the Research in Advanced Distributed Cyberinfrastructure and Application Laboratory.
 
 As an undergraduate, she majored in biomedical engineering at Rutgers University. In the past she has worked on hemodynamics at Rutgers and the University of Pennsylvania. 
 
