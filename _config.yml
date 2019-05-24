@@ -34,8 +34,8 @@ nav:
     href:           "/publications"
   - name:           "projects"
     href:           "/projects"
-  - name:           "Blog"
-    href:           "/blog"
+#  - name:           "Blog"
+#    href:           "/blog"
 
 # Sass
 sass:
@@ -67,12 +67,12 @@ defaults:
       type:         "publications"
     values:
       layout:       "publications"
-  -
-    scope:
-      path:         ""
-      type:         "blog"
-    values:
-      layout:       "post"
+#  -
+#    scope:
+#      path:         ""
+#      type:         "blog"
+#    values:
+#      layout:       "post"
 
 
 collections:
@@ -85,9 +85,9 @@ collections:
   publications:
     output: true
     permalink: /:collection/:title/index.html
-  blog:
-    output: true
-    permalink: /:collection/:title/index.html
+#  blog:
+#    output: true
+#    permalink: /:collection/:title/index.html
 
 # Travis bundles all gems in the vendor directory on its build servers, 
 # which Jekyll will mistakenly read and explode on.

@@ -2,7 +2,7 @@
 title: Blog
 permalink: /blog/
 ---
-
+{% comment %}
 {% assign blogs_sorted = site.blog | sort: 'date' | reverse %}
 
 ### **Blog Posts from the lab**
@@ -16,3 +16,4 @@ permalink: /blog/
     </div>
   {% endfor %}
 </div>
+{% endcomment %}

@@ -1,8 +1,7 @@
 ---
 layout: default
 ---
-
-{% assign blogs_sorted = site.blog | sort: 'date' | reverse %}
+{% comment %}{% assign blogs_sorted = site.blog | sort: 'date' | reverse %}{% endcomment %}
 
 <div class="container masthead text-center homepage">
 
@@ -73,7 +72,7 @@ layout: default
         </div>
     
         <!-- Blog -->
-        <div class="blog">
+       <!-- <div class="blog">
             <div class="icon">
                 <i class="fas fa-rss-square fa-3x"></i>
             </div>
@@ -93,7 +92,7 @@ layout: default
             <div>
                 <a href="{{ site.baseurl }}/blog/"><i class="fas fa-info-circle fa-lg"></i></a>
             </div>
-        </div>  
+        </div>  --> 
 
         <!-- Footer -->
         <!-- <div class="footer">
