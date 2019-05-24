@@ -13,6 +13,7 @@ contacts:
   github: "https://github.com/iparask"
   linkedin: "https://www.linkedin.com/in/iparask"
 publications:
+  - id: paraskevakos2019workflow
   - id: paraskevakos2018task
   - id: luckow2016hadoop
     cofirst: true
