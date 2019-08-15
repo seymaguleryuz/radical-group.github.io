@@ -40,6 +40,8 @@ permalink: /people/
 <h3>Alumni</h3>
 
 <ul class="alumni-columns">
+  <li>Dr. Vivek Balasubramanian</li>
+  <li>William Cheng</li>
   <li>Jumana Dakka</li>
   <li>Georgios Chantzialexiou</li>
   <li>Ming Tai Ha</li>
