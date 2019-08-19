@@ -13,7 +13,7 @@ contacts:
   github: https://github.com/aydinsaribudak
   linkedin: https://www.linkedin.com/in/aydin-saribudak-1113b927
   researchgate: https://www.researchgate.net/profile/Aydin_Saribudak
-[scholar]: https://scholar.google.com/citations?user=Cx_5JNoAAAAJ&hl=en&oi=ao
+  [scholar]: https://scholar.google.com/citations?user=Cx_5JNoAAAAJ&hl=en&oi=ao
 ---
 
 I am a PhD student at Rutgers ECE Department and a research assistant at Radical Lab. I am studying on high throughput computing for ensemble-based applications and to analyze complex biomolecular interactions under the supervision of Prof. Shantenu Jha.
