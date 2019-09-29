@@ -1,0 +1,250 @@
+I"Æ$
+<h2 id="projects">Projects</h2>
+
+<p style="text-align: justify; text-justify: inter-character;"> RADICAL engages in computing research to enable advances in cyberinfrastructure design and development. RADICAL contributes to address a diverse set of scientific problems at scale, ranging from biomolecular sciences to earth sciences and high-energy physics.</p>
+
+<div class="pos_header">
+ 
+<h3>Current</h3>
+ 
+</div>
+
+<div>
+	
+  	
+	
+  	
+	    <div class="list-item-projects">
+        
+        <img src="/images/projects/bigpanda_logo.jpg" alt="Project image" />
+        	    	
+	     	<span class="list-post-title" style="text-align: justify; text-justify: inter-character;">
+	     		<a href="/projects/bigpanda">Big PanDA workflow management on Titan for high energy and nuclear physics and for future extreme scale scientific applications: </a>Enabling the convergence of HPC and HTC paradigms for a range of application types and communities on the leadership-class HPC machine Titan.
+	     		<!-- <br> -->
+	      </span>
+	    </div>
+  	
+	
+  	
+	    <div class="list-item-projects">
+        
+        <img src="/images/projects/ccc_logo.jpg" alt="Project image" />
+        	    	
+	     	<span class="list-post-title" style="text-align: justify; text-justify: inter-character;">
+	     		<a href="/projects/CCC">Campus Compute Cooperative (CCC): </a>High-risk, novel, distributed computing exemplar project to demonstrate and investigate new ways of federating campus computing capabilities.
+	     		<!-- <br> -->
+	      </span>
+	    </div>
+  	
+	
+  	
+	
+  	
+	    <div class="list-item-projects">
+        
+        <img src="/images/projects/extasy_logo.jpg" alt="Project image" />
+        	    	
+	     	<span class="list-post-title" style="text-align: justify; text-justify: inter-character;">
+	     		<a href="/projects/extasy">Extensible Tools for Advanced Sampling and analYsis (ExTASY): </a>Executing iterative, coupled molecular simulation and analysis kernels on high performance computing systems.
+	     		<!-- <br> -->
+	      </span>
+	    </div>
+  	
+	
+  	
+	    <div class="list-item-projects">
+        
+        <img src="/images/projects/ffp_logo.png" alt="Project image" />
+        	    	
+	     	<span class="list-post-title" style="text-align: justify; text-justify: inter-character;">
+	     		<a href="/projects/ffp">Fast fingerprinting &amp; detection of materials using hand-held devices and high performance computing: </a>Providing an application for cutting-edge material analysis which uses machine learning algorithms and high performance computing to process data gathered from hand-held infrared sensors.
+	     		<!-- <br> -->
+	      </span>
+	    </div>
+  	
+	
+  	
+	    <div class="list-item-projects">
+        
+        <img src="/images/projects/htbac_logo.jpg" alt="Project image" />
+        	    	
+	     	<span class="list-post-title" style="text-align: justify; text-justify: inter-character;">
+	     		<a href="/projects/htbac">High-Throughput Binding Affinity Calculations (HTBAC): </a>Enabling rapid, accurate, scalable and reliable free energy-based binding affinity calculations.
+	     		<!-- <br> -->
+	      </span>
+	    </div>
+  	
+	
+  	
+	    <div class="list-item-projects">
+        
+        <img src="/images/projects/iceberg_logo.png" alt="Project image" />
+        	    	
+	     	<span class="list-post-title" style="text-align: justify; text-justify: inter-character;">
+	     		<a href="/projects/iceberg">Imagery Cyberinfrastructure and Extensible Building-Blocks to Enhance Research in the Geosciences (ICEBERG): </a>Coupling open-source image analysis tools with the use of high performance and distributed computing (HPDC) for imagery-enabled geoscience research.
+	     		<!-- <br> -->
+	      </span>
+	    </div>
+  	
+	
+  	
+	    <div class="list-item-projects">
+        
+        <img src="/images/projects/midas_logo.jpg" alt="Project image" />
+        	    	
+	     	<span class="list-post-title" style="text-align: justify; text-justify: inter-character;">
+	     		<a href="/projects/midas">MIddleware for Data-Intensive Analytics and Science (MIDAS): </a>Supporting new programming and execution models for data-intensive analysis in a wide range of science and engineering applications.
+	     		<!-- <br> -->
+	      </span>
+	    </div>
+  	
+	
+  	
+	    <div class="list-item-projects">
+        
+        <img src="/images/projects/molssi_logo.png" alt="Project image" />
+        	    	
+	     	<span class="list-post-title" style="text-align: justify; text-justify: inter-character;">
+	     		<a href="/projects/molssi">Molecular Sciences Sustainable Software Institute (MolSSI): </a>Enabling science, education, and cooperation to serve the worldwide community of computational molecular scientists.
+	     		<!-- <br> -->
+	      </span>
+	    </div>
+  	
+	
+  	
+	    <div class="list-item-projects">
+        
+        <img src="/images/projects/prcn_logo.jpg" alt="Project image" />
+        	    	
+	     	<span class="list-post-title" style="text-align: justify; text-justify: inter-character;">
+	     		<a href="/projects/polar-computing">Polar Computing Research Coordination Network: </a>Analyzing opportunities and barriers in the uptake of High-Performance and Distributed Computing methods and cyberinfrastructures for Polar Science.
+	     		<!-- <br> -->
+	      </span>
+	    </div>
+  	
+	
+  	
+	    <div class="list-item-projects">
+        
+        <img src="/images/projects/pom_logo.jpg" alt="Project image" />
+        	    	
+	     	<span class="list-post-title" style="text-align: justify; text-justify: inter-character;">
+	     		<a href="/projects/power_of_many">The Power of Many - Ensemble Toolkit for Earth Sciences: </a>Enabling ensemble programming for simulating and analyzing climatic models and seismic wave data.
+	     		<!-- <br> -->
+	      </span>
+	    </div>
+  	
+	
+  	
+	    <div class="list-item-projects">
+        
+        <img src="/images/projects/rct_logo.png" alt="Project image" />
+        	    	
+	     	<span class="list-post-title" style="text-align: justify; text-justify: inter-character;">
+	     		<a href="/projects/rct">RADICAL Cybertools (RCT) - Scalable, Interoperable and Sustainable Tools for Science: </a>Scalable, Interoperable and Sustainable Tools for Science: Supporting scalable, interoperable and sustainable science on a range of high-performance and distributed computing infrastructures.
+	     		<!-- <br> -->
+	      </span>
+	    </div>
+  	
+	
+  	
+	    <div class="list-item-projects">
+        
+        <img src="/images/projects/mgray_800x600.png" alt="Project image" />
+        	    	
+	     	<span class="list-post-title" style="text-align: justify; text-justify: inter-character;">
+	     		<a href="/projects/scalems">Scalable Adaptive Large Ensembles of Molecular Simulations (SCALE-MS): </a>Supporting algorithms that use large collections of molecular simulations to simulate the long timescales needed for scientific and industrial discovery.
+	     		<!-- <br> -->
+	      </span>
+	    </div>
+  	
+	
+  	
+	    <div class="list-item-projects">
+        
+        <img src="/images/projects/sea_level_rise_logo.jpg" alt="Project image" />
+        	    	
+	     	<span class="list-post-title" style="text-align: justify; text-justify: inter-character;">
+	     		<a href="/projects/sea_level_rise">Sea-Level Rise - Intergovernmental Panel on Climate Change (IPCC): </a>Developing a framework to explore scientific hypotheses pertaining to future sea-level change while reducing the amount of time and effort needed from the scientists and the amount of required computing resources.
+	     		<!-- <br> -->
+	      </span>
+	    </div>
+  	
+	
+  	
+	    <div class="list-item-projects">
+        
+        <img src="/images/projects/mgray_800x600.png" alt="Project image" />
+        	    	
+	     	<span class="list-post-title" style="text-align: justify; text-justify: inter-character;">
+	     		<a href="/projects/smart_decision">Smart Decision Making using Data and Advanced Modeling Approaches: </a>Enabling rapid, accurate, scalable and reliable free energy-based binding affinity calculations.
+	     		<!-- <br> -->
+	      </span>
+	    </div>
+  	
+	
+</div>
+
+<div class="pos_header">
+ 
+<h3>Past</h3>
+
+</div>
+
+<div>
+	
+  	
+	    <div class="list-item-projects">
+        
+        <img src="/images/projects/aimes_logo.jpg" alt="Project image" />
+        	    	
+	     	<span class="list-post-title" style="text-align: justify; text-justify: inter-character;">
+	     		<a href="/projects/aimes">Abstractions and Integrated Middleware for Extreme-Scale Science (AIMES): </a>Enabling extreme-scale distributed computing via dynamic federation of heterogeneous computing infrastructures.
+	     		<!-- <br> -->
+	      </span>
+	    </div>
+  	
+	
+  	
+	
+  	
+	
+  	
+	    <div class="list-item-projects">
+        
+        <img src="/images/projects/cybermanufacturing_logo.jpg" alt="Project image" />
+        	    	
+	     	<span class="list-post-title" style="text-align: justify; text-justify: inter-character;">
+	     		<a href="/projects/cybermanufacturing">Cybermanufacturing: Advanced Modeling and Information Management in Pharmaceutical Manufacturing: </a>Provide an cutting-edge material analysis application which uses machine learning (ML) algorithms leveraging HPC to process data gathered from handheld infrared sensors
+	     		<!-- <br> -->
+	      </span>
+	    </div>
+  	
+	
+  	
+	
+  	
+	
+  	
+	
+  	
+	
+  	
+	
+  	
+	
+  	
+	
+  	
+	
+  	
+	
+  	
+	
+  	
+	
+  	
+	
+</div>
+
+:ET
