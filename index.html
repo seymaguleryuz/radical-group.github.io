@@ -64,32 +64,44 @@ layout: default
         </div>
     
         <!-- Twitter feed -->
-        <!--<div class="twitter">
-            <p>
-            <a class="twitter-timeline" href="https://twitter.com/LabRadical" 
-                data-widget-id="695051708246941697"
-                data-height="425">
-            </a> 
-            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-        </p>
-        </div> -->
-        <!-- Blog -->
         <div class="twitter">
             <div class="icon">
                 <i class="fab fa-twitter fa-3x"></i>
             </div>
             <div>
-                    <a class="twitter-timeline" href="https://twitter.com/LabRadical" 
-                    data-widget-id="695051708246941697"
-                    data-height=225>
-                    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                <a class="twitter-timeline" href="https://twitter.com/LabRadical" 
+                   data-widget-id="695051708246941697"
+                   data-height=225>
+                   <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
                 </a> 
             </div>
             <div>
-                    <a href="https://twitter.com/LabRadical?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false"><i class="fas fa-info-circle fa-lg"></i></a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-                </div>
+                <a href="https://twitter.com/LabRadical?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false"><i class="fas fa-info-circle fa-lg"></i></a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            </div>
         </div>
-
+        <!-- Blog -->
+        <!-- <div class="blog">
+            <div class="icon">
+                <i class="fas fa-rss-square fa-3x"></i>
+            </div>
+            <h2>Blog</h2>
+            <div>
+                {%- for post in blogs_sorted -%}
+                {%- if forloop.index < 11 -%}
+                <div>
+                    <p>
+                        <a href="{{ site.baseurl }}{{ post.url }}">- {{ post.title }}</a>:
+                        {{ post.content | strip_html | truncatewords: 15 }}
+                    </p>
+                </div>
+                {%- endif -%}
+                {%- endfor -%}
+            </div>
+            <div>
+                <a href="{{ site.baseurl }}/blog/"><i class="fas fa-info-circle fa-lg"></i></a>
+            </div>
+        </div> -->
+        
         <!-- Footer -->
         <!-- <div class="footer">
             <span style="display: block;">
