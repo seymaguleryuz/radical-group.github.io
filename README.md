@@ -10,8 +10,7 @@ This site is based on a clone of [KordingLab.github.io](https://github.com/Kordi
 
 ## Run the website locally
 
-To run locally, follow Jekyll's installation instructions [here](https://jekyllrb.com/). 
-Then run `jekyll serve` and you will be able to see the page at `localhost:4000`. 
+To run locally, follow Jekyll's installation instructions [here](https://jekyllrb.com/). Clone this repository and `cd` in its root directory. Then run `jekyll serve` and you will be able to see the page at `localhost:4000`. 
 
 Here is install guidelines for Ubuntu.
 
