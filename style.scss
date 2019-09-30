@@ -775,7 +775,7 @@ tbody tr:nth-child(odd) th {
     grid-template-areas: 
       "spacer spacer spacer spacer"
       "photo photo welcome welcome"
-      "research development development blog"
+      "research development development twitter"
       "address address address address";
     font-size: 18px;
     line-height: 27px;
@@ -838,6 +838,13 @@ tbody tr:nth-child(odd) th {
     }
   }
   
+  .twitter {
+    grid-area: twitter;
+    p {
+      text-align: left;
+      margin-bottom: 0;
+    }
+  }
   .blog {
     grid-area: blog;    
     p {
@@ -869,7 +876,7 @@ tbody tr:nth-child(odd) th {
         "spacer spacer spacer spacer"
         "photo photo welcome welcome"
         "research research development development"
-        "blog blog blog blog"
+        "twitter twitter twitter twitter"
         "address address address address";
       font-size: 16px;
       line-height: 24px;
@@ -907,7 +914,7 @@ tbody tr:nth-child(odd) th {
         "photo photo photo photo"
         "research research research research"
         "development development development development"
-        "blog blog blog blog"
+        "twitter twitter twitter twitter"
         "address address address address";
       font-size: initial;
       line-height: initial;
