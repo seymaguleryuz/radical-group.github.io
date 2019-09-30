@@ -6,5 +6,5 @@ type: pub
 date: 2012-12-25
 author: "Wei Huang, Joohyun Kim, Shantenu Jha and Fareed Aboul-ela"
 venue: "Journal of Molecular Biology"
-paperurl: http://www.sciencedirect.com/science/article/pii/S0022283612001763
+paperurl: https://doi.org/10.1016/j.jmb.2012.02.019
 ---

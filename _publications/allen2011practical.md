@@ -6,5 +6,5 @@ type: pub
 date: 2011-12-25
 author: "Gabrielle Allen, Werner Benger, Andrei Hutanu, Shantenu Jha, Frank Loffler and Erik Schnetter"
 venue: "Procedia Computer Science"
-paperurl: http://www.sciencedirect.com/science/article/pii/S1877050911002687
+paperurl: https://doi.org/10.1016/j.procs.2011.04.210
 ---
