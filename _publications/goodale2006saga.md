@@ -6,5 +6,5 @@ type: pub
 date: 2006-12-25
 author: "Tom Goodale, Shantenu Jha, Harmut Kaiser, Thilo Kielmann, Pascal Kleijer, Gregor von Laszewski, Craig Lee, Andre Merzky, Hrabri Rajic and John Shalf"
 venue: "Computational Methods in Science and Technology"
-paperurl: http://www.cs.vu.nl/~kielmann/papers/saga-cmst.pdf
+paperurl: http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.133.885
 ---
