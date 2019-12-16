@@ -2,7 +2,7 @@
 title: "Pilot-Streaming: A Stream Processing Framework for High-Performance Computing"
 collection: publications
 permalink: /publications/luckow2018pilotstreaming
-type: draft
+type: pub
 date: 2018-01-26
 author: "Andre Luckow,  George Chantzialexiou and Shantenu Jha"
 paperurl: https://arxiv.org/pdf/1801.08648.pdf
