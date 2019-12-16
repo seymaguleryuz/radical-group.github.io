@@ -5,7 +5,8 @@ permalink: /publications/luckow2018pilotstreaming
 type: pub
 date: 2018-01-26
 author: "Andre Luckow,  George Chantzialexiou and Shantenu Jha"
-paperurl: https://arxiv.org/pdf/1801.08648.pdf
+paperurl: https://arxiv.org/abs/1801.08648
+venue: "Arxiv"
 abstract: "An increasing number of scientific applications rely on stream processing for generating timely insights from data feeds of scientific instruments, simulations, and Internet-of-Thing (IoT) sensors. The 
 development of streaming applications is a complex task and requires the integration of heterogeneous, distributed infrastructure, frameworks, middleware and application components. Different application components are often written in different languages
 using different abstractions and frameworks. Often, additional components, such as a message broker (e. g. Kafka), are required to decouple data production and consumptions and avoiding issues,
