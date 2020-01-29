@@ -4,7 +4,7 @@ collection: publications
 permalink: /publications/paraskevakos2019workflow
 date: 2019-05-24
 type: pub
-author: "Ioannis Paraskevakos, Matteo Turrili, Bento Collares Gonçalves, Heather J. Lynch and Shantenu Jha"
+author: "Ioannis Paraskevakos, Matteo Turilli, Bento Collares Gonçalves, Heather J. Lynch and Shantenu Jha"
 venue: "Arxiv"
 paperurl: https://arxiv.org/abs/1905.09766
 abstract: "Ecological sciences are using imagery from a variety of sources to 
