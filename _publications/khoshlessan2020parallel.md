@@ -1,5 +1,5 @@
 ---
-title: "Workflow Design Analysis for High Resolution Satellite Image Analysis"
+title: "Parallel Performance of Molecular Dynamics Trajectory Analysis"
 collection: publications
 permalink: /publications/khoshlessan2020parallel
 date: 2020-02-04
