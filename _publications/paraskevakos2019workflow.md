@@ -2,11 +2,11 @@
 title: "Workflow Design Analysis for High Resolution Satellite Image Analysis"
 collection: publications
 permalink: /publications/paraskevakos2019workflow
-date: 2019-05-24
+date: 2019-09-24
 type: pub
 author: "Ioannis Paraskevakos, Matteo Turilli, Bento Collares Gonçalves, Heather J. Lynch and Shantenu Jha"
-venue: "Arxiv"
-paperurl: https://arxiv.org/abs/1905.09766
+venue: " 2019 15th International Conference on eScience (eScience)"
+paperurl: https://ieeexplore.ieee.org/document/9041805
 abstract: "Ecological sciences are using imagery from a variety of sources to 
 monitor and survey populations and ecosystems. Very High Resolution (VHR) 
 satellite imagery provide an effective dataset for large scale surveys. 
