@@ -5,7 +5,7 @@ avatar: esraa.jpg
 position: ms
 title: "Masters Student"
 permalink: /people/esraa-abdelmotteleb
-redirect_from:
+joined: 2020
   - "/esraa.html"
   - "people/esraa-abdelmotteleb.html"
   - "people/esraa-abdelmotteleb/index.html"
