@@ -3,7 +3,7 @@ name: "Esraa Abdelmotteleb"
 collection: people
 avatar: esraa.jpg
 position: ms
-title: "Masters Student"
+title: "Master Student"
 permalink: /people/esraa-abdelmotteleb
 joined: 2020
   - "/esraa.html"
