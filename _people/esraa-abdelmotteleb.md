@@ -6,7 +6,6 @@ position: ms
 title: "Master Student"
 permalink: /people/esraa-abdelmotteleb
 joined: 2020
-  - "/esraa.html"
   - "people/esraa-abdelmotteleb/index.html"
 contacts:
   email: "eee29@scarletmail.rutgers.edu"
