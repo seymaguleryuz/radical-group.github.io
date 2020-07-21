@@ -12,7 +12,7 @@ This site is based on a clone of [KordingLab.github.io](https://github.com/Kordi
 
 To run locally, follow Jekyll's installation instructions [here](https://jekyllrb.com/). Clone this repository and `cd` in its root directory. Then run `jekyll serve` and you will be able to see the page at `localhost:4000`. 
 
-Here is install guidelines for Ubuntu.
+### Ubuntu
 
 ```bash
 sudo gem install jekyll
@@ -23,7 +23,7 @@ sudo gem install html-proofer
 jekyll serve
 ```
 
-For macOS:
+### macOS
 ```
 xcode-select --install
 brew install ruby
