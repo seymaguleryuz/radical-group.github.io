@@ -23,8 +23,24 @@ sudo gem install html-proofer
 jekyll serve
 ```
 
-For macOS follow these [instructions](https://jekyllrb.com/docs/installation/macos/) 
-and then run `jekyll serve`.
+For macOS:
+```
+xcode-select --install
+brew install ruby
+echo 'export PATH="/usr/local/opt/ruby/bin:$PATH"' >> ~/.bash_profile
+gem install --user-install bundler jekyll rouge jekyll-redirect-from html-proofer
+echo 'export PATH="/Users/$USER/.gem/ruby/2.7.0/bin:$PATH"' >> ~/.bash_profile
+. ~/.bash_profile
+jekyll serve
+```
+
+Check that the installation was successful:
+- `which ruby` should return `/usr/local/opt/ruby/bin/ruby` if it returns `/usr/bin/ruby` you are using the one shipped with macos and jekyll will likely not work.
+- `gem env` should show `/Users/$USER/.gem/ruby/2.7.0/bin:$PATH` under SHELL PATH.
+
+Note: this assumes that ruby 2.7.0 was installed. Change the last echo command if you have a different version.
+
+After issueing `jekyll serve` you should be able to see the website in your browser at `http://127.0.0.1:4000`.
 
 ## Add a publication
 
