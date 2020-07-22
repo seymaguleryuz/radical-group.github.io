@@ -215,37 +215,3 @@ When adding yourself to the website, create a branch named
 `people/<first-lastname>` and add your photo to `images/people`. Create a pull
 request towards master of this repo. As soon as the request is merged, GitHub
 will render the page on the official website.
-
-## Add a blog post
-
-All blog posts are located in the `_blog` folder. Each file contains a single
-post and has a [front matter](https://jekyllrb.com/docs/front-matter/) and a
-body in the [markdown](https://daringfireball.net/projects/markdown/) and HTML
-format. The front matter contains the following mandatory variables:
-
-| Variable     | Value                | Category  | Description              |
-|--------------|----------------------|-----------|--------------------------|
-| title        | string               | mandatory | Title of the blog post   |
-| categories   | `blog`               | mandatory | Jekyll-related, has always the same value |
-| date         | year-month-day       | mandatory | The date of the post.    |
-
-The body of file contains your blog post.
-
-The name of the file in `_blog` must follow the format: year_month_day_title. An
-example of a valid file name is: `2018_10_8_webpage.md`.
-
-For reference, see the following project front matter:
-
-```yaml
----
-title: New Look
-categories: news
-date: 2018-11-06
----
-
-Our site continues to ...
-```
-
-When adding post to website, create a branch named `people/<date-blogname>`.
-Create a pull request towards master of this repository. As soon as the request is
-merged, GitHub will render the page on the official website.
