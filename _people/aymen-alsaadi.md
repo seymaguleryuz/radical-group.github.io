@@ -13,4 +13,4 @@ contacts:
   linkedin: "https://www.linkedin.com/in/aymen-alsaadi/"
 ---
 
-Aymen Alsaadi is a PhD student and member of the RADICAL group. Before that he earned his master degree in Computer Engineering from Rutgers University. Aymen joined the RADICAL team in 2018.
+Aymen Alsaadi is a PhD student and member of the RADICAL group. Before that he earned his master degree in Computer Engineering from Rutgers University. Aymen joined the RADICAL group in 2018.
