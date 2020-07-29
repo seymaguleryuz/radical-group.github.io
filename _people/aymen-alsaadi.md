@@ -1,11 +1,16 @@
 ---
 name: "Aymen Alsaadi"
 collection: people
-position: ms
+position: phd
 avatar: aymen.jpg
 joined: 2018
 permalink: /people/aymen-alsaadi
-title: "Master Student"
+title: "PhD Student"
+contacts:
+  email: "aymen.alsaadi@rutgers.edu"
+  office: "CoRE 707"
+  github: "https://github.com/AymenFJA"
+  linkedin: "https://www.linkedin.com/in/aymen-alsaadi/"
 ---
 
-Aymen Alsaadi is a Second-year master student (May 2019). He is currently pursuing his degree at Rutgers University (New Brunswick) in Electrical and Computer Engineering (ECE). Aymen joined the RADICAL team in 2018.
+Aymen Alsaadi is a PhD student and member of the RADICAL group. Before that he earned his master degree in Computer Engineering from Rutgers University. Aymen joined the RADICAL team in 2018.
