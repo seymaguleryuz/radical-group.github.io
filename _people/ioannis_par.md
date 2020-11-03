@@ -7,7 +7,7 @@ joined: 2020
 title: "Research Software Engineer"
 permalink: /people/iparask
 contacts:
-  email: "i.paraskev@rutgers.edu"
+  email: "g.paraskev@rutgers.edu"
   office: "CoRE 707"
   scholar: "https://scholar.google.com/citations?user=vse6uzMAAAAJ&hl=en"
   github: "https://github.com/iparask"
