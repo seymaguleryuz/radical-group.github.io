@@ -1,10 +1,10 @@
 ---
 name: "Ioannis Paraskevakos"
 collection: people
-position: phd
+position: researcher
 avatar: ioannis_par.jpg
 joined: 2014
-title: "PhD Candidate"
+title: "Research Software Engineer"
 permalink: /people/iparask
 contacts:
   email: "i.paraskev@rutgers.edu"
@@ -27,7 +27,7 @@ projects:
     role: Research Assistant
 ---
 
-I am a fifth year PhD student at Rutgers University and a member at RADICAL
+I am I am a fifth year PhD student at Rutgers University and a member at RADICAL
 Lab.
 
 Before my PhD studies, I acquired an engineering diploma (5-year studies) in
